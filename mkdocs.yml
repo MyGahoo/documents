@@ -1,25 +1,77 @@
-site_name: iPhone Documentation
+site_name: MyGahoo Handbook
+theme:
+  name: material
+  language: en
+  features:
+    # - navigation.instant
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+    - toc.integrate
 
-# theme:
-#   name: material
-#   language: zh
-#   features:
-#     - navigation.instant
-#     - navigation.tracking
-#     - navigation.tabs
-#     - navigation.top
+
+plugins:
+  - search
+  - i18n:
+      docs_structure: folder
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: zh  
+          name: 简体中文
+          build: true
+          nav:
+            - 安装与设置: installation.md
+            - 模块信息: modules.md
+            - 布局与翻页: page.md
+            - 价格与激活: pricing.md
+            - 天气配置: weather.md
+            - 常见问题: faq.md
+        - locale: zh-TW
+          name: 繁體中文
+          build: true
+          nav:
+            - 安裝與設定: installation.md
+            - 模組資訊: modules.md
+            - 佈局與翻頁: page.md
+            - 價格與激活: pricing.md
+            - 天氣配置: weather.md
+            - 常見問題: faq.md
+        - locale: ja
+          name: 日本語
+          build: true
+          nav:
+            - インストールと設定: installation.md
+            - モジュール情報: modules.md
+            - ページとレイアウト: page.md
+            - 価格とアクティベーション: pricing.md
+            - 天気設定: weather.md
+            - よくある質問: faq.md
+        - locale: ko
+          name: 한국어
+          build: true
+          nav:
+            - 설치 및 설정: installation.md
+            - 모듈 소개: modules.md
+            - 레이아웃 및 페이지 전환: page.md
+            - 가격 책정: pricing.md
+            - 날씨 설정: weather.md
+            - 자주 묻는 질문: faq.md
 
 nav:
-  - 中文文档:
-    - 产品介绍: zh/index.md
-  - English Docs:
-    - Product Introduction: en/index.md
+  - Installation: installation.md
+  - Modules: modules.md
+  - Layout & Pages: page.md
+  - Pricing: pricing.md
+  - Weather: weather.md
+  - FAQ: faq.md
 
-extra:
-  alternate:
-    - name: 中文
-      link: /zh/
-      lang: zh
-    - name: English
-      link: /en/
-      lang: en
+markdown_extensions:
+  - toc:
+      permalink: true
+      toc_depth: 3  # 控制右侧页内导航显示到 H2（默认是 6）
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
