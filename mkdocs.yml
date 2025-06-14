@@ -24,9 +24,9 @@ plugins:
           build: true
           nav:
             - 安装与设置: installation.md
+            - 支付与激活: pricing.md
             - 模块信息: modules.md
             - 布局与翻页: page.md
-            - 价格与激活: pricing.md
             - 天气配置: weather.md
             - 常见问题: faq.md
         - locale: zh-TW
@@ -34,9 +34,9 @@ plugins:
           build: true
           nav:
             - 安裝與設定: installation.md
+            - 支付與激活: pricing.md
             - 模組資訊: modules.md
             - 佈局與翻頁: page.md
-            - 價格與激活: pricing.md
             - 天氣配置: weather.md
             - 常見問題: faq.md
         - locale: ja
@@ -44,9 +44,9 @@ plugins:
           build: true
           nav:
             - インストールと設定: installation.md
+            - 支払いとアクティベーション: pricing.md
             - モジュール情報: modules.md
-            - ページとレイアウト: page.md
-            - 価格とアクティベーション: pricing.md
+            - ページとレイアウト: page.md            
             - 天気設定: weather.md
             - よくある質問: faq.md
         - locale: ko
@@ -54,17 +54,70 @@ plugins:
           build: true
           nav:
             - 설치 및 설정: installation.md
+            - 결제: pricing.md
             - 모듈 소개: modules.md
-            - 레이아웃 및 페이지 전환: page.md
-            - 가격 책정: pricing.md
+            - 레이아웃 및 페이지 전환: page.md            
             - 날씨 설정: weather.md
             - 자주 묻는 질문: faq.md
+        - locale: fr
+          name: Français
+          build: true
+          nav:
+            - Guide d'installation: installation.md
+            - Paiement: pricing.md
+            - Informations sur les modules: modules.md
+            - Pages et mise en page: page.md            
+            - Paramètres météo: weather.md
+            - Questions fréquemment posées: faq.md
+        - locale: de
+          name: Deutsch
+          build: true
+          nav:
+            - Installationsanleitung: installation.md
+            - Zahlung: pricing.md
+            - Modul-Informationen: modules.md
+            - Seiten und Layout: page.md          
+            - Wetter-Einstellungen: weather.md
+            - Häufig gestellte Fragen: faq.md
 
+        - locale: nl
+          name: Nederlands
+          build: true
+          nav:
+            - Installatiegids: installation.md
+            - Betaling: pricing.md
+            - Module-informatie: modules.md
+            - Pagina's en lay-out: page.md            
+            - Weer-instellingen: weather.md
+            - Veelgestelde vragen: faq.md
+
+        - locale: es
+          name: Español
+          build: true
+          nav:
+            - Guía de instalación: installation.md
+            - Pago: pricing.md
+            - Información de módulos: modules.md
+            - Páginas y diseño: page.md            
+            - Configuración del clima: weather.md
+            - Preguntas frecuentes: faq.md
+
+        - locale: it
+          name: Italiano
+          build: true
+          nav:
+            - Guida di installazione: installation.md
+            - Pagamento: pricing.md
+            - Informazioni sui moduli: modules.md
+            - Pagine e layout: page.md          
+            - Impostazioni del tempo: weather.md
+            - Domande frequenti: faq.md
+           
 nav:
   - Installation: installation.md
+  - Payment: pricing.md
   - Modules: modules.md
-  - Layout & Pages: page.md
-  - Pricing: pricing.md
+  - Layout & Pages: page.md  
   - Weather: weather.md
   - FAQ: faq.md
 

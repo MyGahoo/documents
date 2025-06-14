@@ -10,16 +10,17 @@
 <br>
 ![Garmin ConnectIQ app 02](images/inst_02.jpg)
 <br>
-4. 安装完成后，点击“Settings”按钮进入设置界面
+4. 在Garmin Edge设备上添加MyGahoo字段。需要确保在整个页面中仅添加MyGahoo字段，即以单字段的布局添加。该页的字段数量设置应当如下图所示。
+<br>
+![Edge setting](images/one_field.jpg)
+<br>
+5. 再次进入 Connect IQ 应用商店的MyGahoo页面，点击“Settings”按钮进入设置界面
 <br>
 ![Garmin ConnectIQ app 03](images/inst_03.jpg)
 ![Garmin ConnectIQ app 04](images/inst_04.jpg)
 <br>
-5. 修改设置后，点击右上角“Save”按钮保存设置
+6. 修改设置后，点击右上角“Save”按钮保存设置
 <br>
-6. 完成手机端设置后，在Garmin Edge设备上添加MyGahoo字段。需要确保在整个页面中仅添加MyGahoo字段，即以单字段的布局添加。该页的字段数量设置应当如下图所示。
-
-![Edge setting](images/one_field.jpg)
 
 
 ## 问题排查

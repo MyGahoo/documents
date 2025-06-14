@@ -1,6 +1,7 @@
-# Installation 
+# Installation and Setup
+
 ## Installation and Setup
-1. Download the latest version of Garmin ConnectIQ app on your mobile phone
+1. Download the latest version of the Garmin ConnectIQ app on your phone
 <br>
 ![Garmin ConnectIQ app 01](images/inst_01.jpg)
 <br>
@@ -9,17 +10,17 @@
 <br>
 ![Garmin ConnectIQ app 02](images/inst_02.jpg)
 <br>
-4. After installation, click the "Settings" button to enter the settings interface
+4. Add the MyGahoo field on your Garmin Edge device. Make sure to add only the MyGahoo field on the entire page, i.e., use a single-field layout. The field count setting for this page should be as shown in the image below.
+<br>
+![Edge setting](images/one_field.jpg)
+<br>
+5. Re-enter the MyGahoo page in the Connect IQ Store and click the "Settings" button to enter the settings interface
 <br>
 ![Garmin ConnectIQ app 03](images/inst_03.jpg)
 ![Garmin ConnectIQ app 04](images/inst_04.jpg)
 <br>
-5. After modifying the settings, click the "Save" button in the upper right corner to save the settings
+6. After modifying the settings, click the "Save" button in the top right corner to save the settings
 <br>
-6. After completing the mobile setup, add the MyGahoo field on your Garmin Edge device. Make sure to add only the MyGahoo field in the entire page, i.e., add it with a single-field layout. The field number setting for this page should be as shown in the figure below.
-
-![Edge setting](images/one_field.jpg)
-
 
 ## Troubleshooting
 

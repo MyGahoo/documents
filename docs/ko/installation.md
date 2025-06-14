@@ -1,4 +1,5 @@
-# 설치 
+# 설치 및 설정
+
 ## 설치 및 설정
 1. 모바일 폰에서 최신 버전의 Garmin ConnectIQ 앱을 다운로드하세요
 <br>
@@ -9,17 +10,17 @@
 <br>
 ![Garmin ConnectIQ 앱 02](images/inst_02.jpg)
 <br>
-4. 설치 후, "설정" 버튼을 클릭하여 설정 인터페이스로 들어가세요
+4. Garmin Edge 기기에 MyGahoo 필드를 추가하세요. 전체 페이지에 MyGahoo 필드만 추가해야 합니다. 즉, 단일 필드 레이아웃으로 추가하세요. 이 페이지의 필드 설정은 아래 그림과 같아야 합니다.
+<br>
+![Edge 설정](images/one_field.jpg)
+<br>
+5. Connect IQ 스토어의 MyGahoo 페이지로 돌아가서 "설정" 버튼을 클릭하여 설정 인터페이스로 들어가세요
 <br>
 ![Garmin ConnectIQ 앱 03](images/inst_03.jpg)
 ![Garmin ConnectIQ 앱 04](images/inst_04.jpg)
 <br>
-5. 설정을 수정한 후, 오른쪽 상단의 "저장" 버튼을 클릭하여 설정을 저장하세요
+6. 설정을 수정한 후, 오른쪽 상단의 "저장" 버튼을 클릭하여 설정을 저장하세요
 <br>
-6. 모바일 설정을 완료한 후, Garmin Edge 기기에 MyGahoo 필드를 추가하세요. 전체 페이지에 MyGahoo 필드만 추가해야 합니다. 즉, 단일 필드 레이아웃으로 추가하세요. 이 페이지의 필드 번호 설정은 아래 그림과 같아야 합니다.
-
-![Edge 설정](images/one_field.jpg)
-
 
 ## 문제 해결
 

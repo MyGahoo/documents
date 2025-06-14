@@ -5,6 +5,13 @@
 - [繁體中文安裝指南](zh-TW/installation)
 - [インストールガイド（日本語）](ja/installation)
 - [설치 가이드 (한국어)](ko/installation)
+- [Installationsanleitung (Deutsch)](de/installation)
+- [Installatiegids (Nederlands)](nl/installation)
+- [Guía de instalación (Español)](es/installation)
+- [Guide d'installation (Français)](fr/installation)
+- [Guida all'Installazione (Italiano)](it/installation)
+
+
 
 <!-- For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
