@@ -1,0 +1,1446 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../pricing/">
+      
+      
+        <link rel="next" href="../page/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Modules - MyGahoo Handbook</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#module-introduction" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="MyGahoo Handbook" class="md-header__button md-logo" aria-label="MyGahoo Handbook" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            MyGahoo Handbook
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Modules
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Select language">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="./" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../zh/modules/" hreflang="zh" class="md-select__link">
+              简体中文
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../zh-TW/modules/" hreflang="zh-TW" class="md-select__link">
+              繁體中文
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../ja/modules/" hreflang="ja" class="md-select__link">
+              日本語
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../ko/modules/" hreflang="ko" class="md-select__link">
+              한국어
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../fr/modules/" hreflang="fr" class="md-select__link">
+              Français
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../de/modules/" hreflang="de" class="md-select__link">
+              Deutsch
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../nl/modules/" hreflang="nl" class="md-select__link">
+              Nederlands
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../es/modules/" hreflang="es" class="md-select__link">
+              Español
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../it/modules/" hreflang="it" class="md-select__link">
+              Italiano
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../installation/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Installation
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../pricing/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Payment
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Modules
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../page/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Layout & Pages
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../weather/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Weather
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../faq/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  FAQ
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="MyGahoo Handbook" class="md-nav__button md-logo" aria-label="MyGahoo Handbook" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    MyGahoo Handbook
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../installation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Installation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pricing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Payment
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Modules
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Modules
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#i-real-time-monitoring-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      I Real-time Monitoring Data
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="I Real-time Monitoring Data">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-current-power" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Current Power
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-current-speed" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Current Speed
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-current-heart-rate" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Current Heart Rate
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-current-cadence" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Current Cadence
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-current-altitude" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Current Altitude
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-current-grade" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Current Grade*
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ii-average-and-cumulative-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      II Average and Cumulative Data
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="II Average and Cumulative Data">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#7-3s-average-power" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. 3s Average Power*
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-5s-average-power" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. 5s Average Power*
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-10s-average-power" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. 10s Average Power*
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-lap-average-power" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Lap Average Power*
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11-average-speed" class="md-nav__link">
+    <span class="md-ellipsis">
+      11. Average Speed
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-activity-time" class="md-nav__link">
+    <span class="md-ellipsis">
+      12. Activity Time
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-lap-time" class="md-nav__link">
+    <span class="md-ellipsis">
+      13. Lap Time*
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14-distance" class="md-nav__link">
+    <span class="md-ellipsis">
+      14. Distance
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15-calories" class="md-nav__link">
+    <span class="md-ellipsis">
+      15. Calories
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#iii-training-metrics" class="md-nav__link">
+    <span class="md-ellipsis">
+      III Training Metrics
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="III Training Metrics">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#16-current-power-to-weight-ratio" class="md-nav__link">
+    <span class="md-ellipsis">
+      16. Current Power-to-Weight Ratio
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#17-3s-average-power-to-weight-ratio" class="md-nav__link">
+    <span class="md-ellipsis">
+      17. 3s Average Power-to-Weight Ratio*
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#18-10s-average-power-to-weight-ratio" class="md-nav__link">
+    <span class="md-ellipsis">
+      18. 10s Average Power-to-Weight Ratio*
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#19-lap-average-power-to-weight-ratio" class="md-nav__link">
+    <span class="md-ellipsis">
+      19. Lap Average Power-to-Weight Ratio*
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#20-nptm-normalized-power" class="md-nav__link">
+    <span class="md-ellipsis">
+      20. NP™ (Normalized Power)*
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#21-tsstm-training-stress-score" class="md-nav__link">
+    <span class="md-ellipsis">
+      21. TSS™ (Training Stress Score)*
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#iv-equipment-information" class="md-nav__link">
+    <span class="md-ellipsis">
+      IV Equipment Information
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="IV Equipment Information">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#22-gear-tooth" class="md-nav__link">
+    <span class="md-ellipsis">
+      22. Gear (Tooth)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-gear-index" class="md-nav__link">
+    <span class="md-ellipsis">
+      23. Gear (Index)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-gear-ratio" class="md-nav__link">
+    <span class="md-ellipsis">
+      24. Gear Ratio
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#25-gear-chart" class="md-nav__link">
+    <span class="md-ellipsis">
+      25. Gear Chart
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v-data-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      V Data Analysis
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="V Data Analysis">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#26-real-time-left-right-balance" class="md-nav__link">
+    <span class="md-ellipsis">
+      26. Real-time Left-Right Balance
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#27-3s-average-left-right-balance" class="md-nav__link">
+    <span class="md-ellipsis">
+      27. 3s Average Left-Right Balance*
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#28-power-zone-histogram" class="md-nav__link">
+    <span class="md-ellipsis">
+      28. Power Zone Histogram*
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#29-heart-rate-zone-histogram" class="md-nav__link">
+    <span class="md-ellipsis">
+      29. Heart Rate Zone Histogram*
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vi-environmental-information" class="md-nav__link">
+    <span class="md-ellipsis">
+      VI Environmental Information
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="VI Environmental Information">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#30-clock" class="md-nav__link">
+    <span class="md-ellipsis">
+      30. Clock
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#31-wind" class="md-nav__link">
+    <span class="md-ellipsis">
+      31. Wind*
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vii-virtual-led" class="md-nav__link">
+    <span class="md-ellipsis">
+      VII Virtual LED
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="VII Virtual LED">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#real-time-power" class="md-nav__link">
+    <span class="md-ellipsis">
+      Real-time Power
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3s-average-power" class="md-nav__link">
+    <span class="md-ellipsis">
+      3s Average Power
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#heart-rate-zones" class="md-nav__link">
+    <span class="md-ellipsis">
+      Heart Rate Zones
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#average-speed-indicator_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Average Speed Indicator
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#average-power-indicator" class="md-nav__link">
+    <span class="md-ellipsis">
+      Average Power Indicator
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#left-right-balance-indicator" class="md-nav__link">
+    <span class="md-ellipsis">
+      Left-Right Balance Indicator
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3s-left-right-balance-indicator" class="md-nav__link">
+    <span class="md-ellipsis">
+      3s Left-Right Balance Indicator
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../page/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Layout & Pages
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../weather/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Weather
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    FAQ
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="module-introduction">Module Introduction<a class="headerlink" href="#module-introduction" title="Permanent link">&para;</a></h1>
+<h2 id="i-real-time-monitoring-data"><strong>I Real-time Monitoring Data</strong><a class="headerlink" href="#i-real-time-monitoring-data" title="Permanent link">&para;</a></h2>
+<h3 id="1-current-power"><strong>1. Current Power</strong><a class="headerlink" href="#1-current-power" title="Permanent link">&para;</a></h3>
+<p>Displays real-time cycling power output.</p>
+<div class="admonition info">
+<p class="admonition-title">Colors</p>
+<p>This is a module that can display background colors. Color sequences can be chosen between two styles in the ConnectIQ app. However, users cannot customize individual colors or zone range.</p>
+<ul>
+<li>Garmin style: Gray-Blue-Green-Yellow-Orange-Red-Purple (Zone1~Zone7)</li>
+<li>Wahoo style: Gray-Dark Blue-Light Blue-Green-Yellow-Orange-Red (Zone1~Zone7)</li>
+</ul>
+</div>
+<p><br></p>
+<h3 id="2-current-speed"><strong>2. Current Speed</strong><a class="headerlink" href="#2-current-speed" title="Permanent link">&para;</a></h3>
+<p>Displays current cycling speed. The unit will be consistent with the user's settings in Garmin Connect (kph/mph).</p>
+<h4 id="average-speed-indicator">Average Speed Indicator<a class="headerlink" href="#average-speed-indicator" title="Permanent link">&para;</a></h4>
+<p>This is a setting that can be turned on/off to compare current speed with average speed inside current speed module. It can be set in the ConnectIQ app. There are two display modes: "Arrow" and "Background".</p>
+<ul>
+<li>"Arrow"
+<br>
+<img alt="avg_arrow" src="../images/avg_arrow.jpg" /><ul>
+<li>Up: Above average speed</li>
+<li>Down: Below average speed</li>
+<li>Not shown: Equal to average speed or ride not started</li>
+</ul>
+</li>
+<li>"Background"<ul>
+<li>Red: Below average speed</li>
+<li>Green: Above average speed</li>
+</ul>
+</li>
+</ul>
+<p><br></p>
+<h3 id="3-current-heart-rate"><strong>3. Current Heart Rate</strong><a class="headerlink" href="#3-current-heart-rate" title="Permanent link">&para;</a></h3>
+<p>Displays real-time heart rate data.</p>
+<div class="admonition info">
+<p class="admonition-title">Colors</p>
+<p>This is a module that can set background colors. Color sequences can be chosen between two styles in the ConnectIQ app. However, users cannot customize individual colors or zone range.</p>
+<ul>
+<li>Garmin style: Gray-Gray-Blue-Green-Yellow-Red (&lt;Zone1, Zone1~Zone5)</li>
+<li>Wahoo style: Gray-Blue-Green-Yellow-Orange-Red (&lt;Zone1, Zone1~Zone5)</li>
+</ul>
+</div>
+<p><br></p>
+<h3 id="4-current-cadence"><strong>4. Current Cadence</strong><a class="headerlink" href="#4-current-cadence" title="Permanent link">&para;</a></h3>
+<p>Displays real-time cadence value.</p>
+<p><br></p>
+<h3 id="5-current-altitude"><strong>5. Current Altitude</strong><a class="headerlink" href="#5-current-altitude" title="Permanent link">&para;</a></h3>
+<p>Displays current altitude. The unit will be consistent with the user's settings in Garmin Connect (m/ft).</p>
+<p><br></p>
+<h3 id="6-current-grade"><strong>6. Current Grade<sup>*</sup></strong><a class="headerlink" href="#6-current-grade" title="Permanent link">&para;</a></h3>
+<p>Displays current grade.
+<br>
+<span style="font-size: 0.7em; color: gray;">*Garmin official does not provide data interface, so calculated data may have inaccuracy or errors</span>
+<br></p>
+<div class="admonition info">
+<p class="admonition-title">Colors</p>
+<p>This is a module that can display background colors. Colors change according to corresponding grade, but users cannot customize colors or grade range.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Example</th>
+<th style="text-align: center;"><img alt="gd01" src="../images/gd_01.jpg" /></th>
+<th style="text-align: center;"><img alt="gd02" src="../images/gd_02.jpg" /></th>
+<th style="text-align: center;"><img alt="gd03" src="../images/gd_03.jpg" /></th>
+<th style="text-align: center;"><img alt="gd04" src="../images/gd_04.jpg" /></th>
+<th style="text-align: center;"><img alt="gd05" src="../images/gd_05.jpg" /></th>
+<th style="text-align: center;"><img alt="gd06" src="../images/gd_06.jpg" /></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Grade Range</td>
+<td style="text-align: center;">&lt; 0.5%</td>
+<td style="text-align: center;">0.5%~3.99%</td>
+<td style="text-align: center;">4%~7.99%</td>
+<td style="text-align: center;">8%~11.99%</td>
+<td style="text-align: center;">12%~19.99%</td>
+<td style="text-align: center;">&gt; 20%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr />
+<h2 id="ii-average-and-cumulative-data"><strong>II Average and Cumulative Data</strong><a class="headerlink" href="#ii-average-and-cumulative-data" title="Permanent link">&para;</a></h2>
+<h3 id="7-3s-average-power"><strong>7. 3s Average Power<sup>*</sup></strong><a class="headerlink" href="#7-3s-average-power" title="Permanent link">&para;</a></h3>
+<p>Displays average power for the last 3 seconds. Color display same as real-time power.</p>
+<p><span style="font-size: 0.7em; color: gray;">*Garmin official does not provide data interface, so calculated data may have inaccuracy or errors</span>
+<br>
+<br></p>
+<h3 id="8-5s-average-power"><strong>8. 5s Average Power<sup>*</sup></strong><a class="headerlink" href="#8-5s-average-power" title="Permanent link">&para;</a></h3>
+<p>Displays average power for the last 5 seconds. Color display same as real-time power.</p>
+<p><span style="font-size: 0.7em; color: gray;">*Garmin official does not provide data interface, so calculated data may have inaccuracy or errors</span>
+<br></p>
+<p><br></p>
+<h3 id="9-10s-average-power"><strong>9. 10s Average Power<sup>*</sup></strong><a class="headerlink" href="#9-10s-average-power" title="Permanent link">&para;</a></h3>
+<p>Displays average power for the last 10 seconds. Color display same as real-time power.</p>
+<p><span style="font-size: 0.7em; color: gray;">*Garmin official does not provide data interface, so calculated data may have inaccuracy or errors</span>
+<br>
+<br></p>
+<h3 id="10-lap-average-power"><strong>10. Lap Average Power<sup>*</sup></strong><a class="headerlink" href="#10-lap-average-power" title="Permanent link">&para;</a></h3>
+<p>Displays average power for the current lap.</p>
+<p><span style="font-size: 0.7em; color: gray;">*Garmin official does not provide data interface, so calculated data may have inaccuracy or errors</span>
+<br></p>
+<p><br></p>
+<h3 id="11-average-speed"><strong>11. Average Speed</strong><a class="headerlink" href="#11-average-speed" title="Permanent link">&para;</a></h3>
+<p>Displays average speed for the current activity.
+<br></p>
+<p><br></p>
+<h3 id="12-activity-time"><strong>12. Activity Time</strong><a class="headerlink" href="#12-activity-time" title="Permanent link">&para;</a></h3>
+<p>Displays duration of the current activity.
+<br></p>
+<p><br></p>
+<h3 id="13-lap-time"><strong>13. Lap Time<sup>*</sup></strong><a class="headerlink" href="#13-lap-time" title="Permanent link">&para;</a></h3>
+<p>Displays duration of the current lap.</p>
+<p><span style="font-size: 0.7em; color: gray;">*Garmin official does not provide data interface, so calculated data may have inaccuracy or errors</span>
+<br></p>
+<p><br></p>
+<h3 id="14-distance"><strong>14. Distance</strong><a class="headerlink" href="#14-distance" title="Permanent link">&para;</a></h3>
+<p>Displays cumulative riding distance for the current activity.
+<br></p>
+<p><br></p>
+<h3 id="15-calories"><strong>15. Calories</strong><a class="headerlink" href="#15-calories" title="Permanent link">&para;</a></h3>
+<p>Displays calories burned in the current activity.
+<br></p>
+<hr />
+<h2 id="iii-training-metrics"><strong>III Training Metrics</strong><a class="headerlink" href="#iii-training-metrics" title="Permanent link">&para;</a></h2>
+<h3 id="16-current-power-to-weight-ratio"><strong>16. Current Power-to-Weight Ratio</strong><a class="headerlink" href="#16-current-power-to-weight-ratio" title="Permanent link">&para;</a></h3>
+<p>Displays real-time power-to-weight ratio for the current activity in W/Kg. Power comes from the MyGahoo setting page input, and weight comes from the Garmin personal profile page configuration.
+<br></p>
+<p><br></p>
+<h3 id="17-3s-average-power-to-weight-ratio"><strong>17. 3s Average Power-to-Weight Ratio<sup>*</sup></strong><a class="headerlink" href="#17-3s-average-power-to-weight-ratio" title="Permanent link">&para;</a></h3>
+<p>Displays average power-to-weight ratio for the last 3 seconds in W/Kg.</p>
+<p><span style="font-size: 0.7em; color: gray;">*Garmin official does not provide data interface, so calculated data may have inaccuracy or errors</span>
+<br></p>
+<p><br></p>
+<h3 id="18-10s-average-power-to-weight-ratio"><strong>18. 10s Average Power-to-Weight Ratio<sup>*</sup></strong><a class="headerlink" href="#18-10s-average-power-to-weight-ratio" title="Permanent link">&para;</a></h3>
+<p>Displays average power-to-weight ratio for the last 10 seconds in W/Kg.</p>
+<p><span style="font-size: 0.7em; color: gray;">*Garmin official does not provide data interface, so calculated data may have inaccuracy or errors</span>
+<br></p>
+<p><br></p>
+<h3 id="19-lap-average-power-to-weight-ratio"><strong>19. Lap Average Power-to-Weight Ratio<sup>*</sup></strong><a class="headerlink" href="#19-lap-average-power-to-weight-ratio" title="Permanent link">&para;</a></h3>
+<p>Displays average power-to-weight ratio for the current lap in W/Kg.</p>
+<p><span style="font-size: 0.7em; color: gray;">*Garmin official does not provide data interface, so calculated data may have inaccuracy or errors</span>
+<br></p>
+<p><br></p>
+<h3 id="20-nptm-normalized-power"><strong>20. NP™ (Normalized Power)<sup>*</sup></strong><a class="headerlink" href="#20-nptm-normalized-power" title="Permanent link">&para;</a></h3>
+<p>Displays normalized power for the current activity.</p>
+<div class="admonition warning">
+<p class="admonition-title">Risk of Data Loss</p>
+<p>If you "re-add" the MyGahoo field during the activity, or entering other riding modes, the data in this module will be cleared. (However, the activity recorded by Garmin itself will not be affected, only MyGahoo will start accumulating these data from zero again).</p>
+</div>
+<p><span style="font-size: 0.7em; color: gray;">™Normalized Power (NP) and Training Stress Score (TSS) are registered trademarks of Peaksware, LLC.</span>
+<br>
+<span style="font-size: 0.7em; color: gray;">*Garmin official does not provide data interface, so calculated data may have inaccuracy or errors</span>
+<br></p>
+<p><br></p>
+<h3 id="21-tsstm-training-stress-score"><strong>21. TSS™ (Training Stress Score)<sup>*</sup></strong><a class="headerlink" href="#21-tsstm-training-stress-score" title="Permanent link">&para;</a></h3>
+<p>Displays training stress score for the current activity.</p>
+<div class="admonition warning">
+<p class="admonition-title">Risk of Data Loss</p>
+<p>If you "re-add" the MyGahoo field during the activity, or return to the current mode after entering other riding modes, the data in this module will be cleared. (However, the activity recorded by Garmin itself will not be affected, only MyGahoo will start accumulating these data from zero again).</p>
+</div>
+<p><span style="font-size: 0.7em; color: gray;">™Normalized Power (NP) and Training Stress Score (TSS) are registered trademarks of Peaksware, LLC.</span>
+<br>
+<span style="font-size: 0.7em; color: gray;">*Garmin official does not provide data interface, so calculated data may have inaccuracy or errors</span>
+<br></p>
+<hr />
+<h2 id="iv-equipment-information"><strong>IV Equipment Information</strong><a class="headerlink" href="#iv-equipment-information" title="Permanent link">&para;</a></h2>
+<h3 id="22-gear-tooth"><strong>22. Gear (Tooth)</strong><a class="headerlink" href="#22-gear-tooth" title="Permanent link">&para;</a></h3>
+<p>Displays the number of tooth for current chainring/cassette. E.g. 52/13
+<br></p>
+<p><br></p>
+<h3 id="23-gear-index"><strong>23. Gear (Index)</strong><a class="headerlink" href="#23-gear-index" title="Permanent link">&para;</a></h3>
+<p>Displays the current chainring/cassette index number. E.g. 1/7
+<br></p>
+<p><br></p>
+<h3 id="24-gear-ratio"><strong>24. Gear Ratio</strong><a class="headerlink" href="#24-gear-ratio" title="Permanent link">&para;</a></h3>
+<p>Displays the current transmission ratio of chainring divided by cassette tooth. For example: 4.02
+<br></p>
+<p><br></p>
+<h3 id="25-gear-chart"><strong>25. Gear Chart</strong><a class="headerlink" href="#25-gear-chart" title="Permanent link">&para;</a></h3>
+<p>Graphically displays gear information.
+<br></p>
+<hr />
+<h2 id="v-data-analysis"><strong>V Data Analysis</strong><a class="headerlink" href="#v-data-analysis" title="Permanent link">&para;</a></h2>
+<h3 id="26-real-time-left-right-balance"><strong>26. Real-time Left-Right Balance</strong><a class="headerlink" href="#26-real-time-left-right-balance" title="Permanent link">&para;</a></h3>
+<p>Displays current left-right power balance. Shown as percentage without the % symbol, for example: 52-48
+<br></p>
+<p><br></p>
+<h3 id="27-3s-average-left-right-balance"><strong>27. 3s Average Left-Right Balance<sup>*</sup></strong><a class="headerlink" href="#27-3s-average-left-right-balance" title="Permanent link">&para;</a></h3>
+<p>Displays average left-right power balance ratio over 3 seconds.</p>
+<p><span style="font-size: 0.7em; color: gray;">*Garmin official does not provide data interface, so calculated data may have inaccuracy or errors</span>
+<br></p>
+<p><br></p>
+<h3 id="28-power-zone-histogram"><strong>28. Power Zone Histogram<sup>*</sup></strong><a class="headerlink" href="#28-power-zone-histogram" title="Permanent link">&para;</a></h3>
+<p>Displays time distribution across different power zones.</p>
+<div class="admonition warning">
+<p class="admonition-title">Risk of Data Loss</p>
+<p>If you "re-add" the MyGahoo field during the activity, or return to the current mode after entering other riding modes, the data in this module will be cleared. (However, the activity recorded by Garmin itself will not be affected, only MyGahoo will start accumulating these data from zero again).</p>
+</div>
+<p><span style="font-size: 0.7em; color: gray;">*Garmin official does not provide data interface, so calculated data may have inaccuracy or errors</span>
+<br></p>
+<p><br></p>
+<h3 id="29-heart-rate-zone-histogram"><strong>29. Heart Rate Zone Histogram<sup>*</sup></strong><a class="headerlink" href="#29-heart-rate-zone-histogram" title="Permanent link">&para;</a></h3>
+<p>Displays time distribution across different heart rate zones.</p>
+<div class="admonition warning">
+<p class="admonition-title">Risk of Data Loss</p>
+<p>If you "re-add" the MyGahoo field during the activity, or return to the current mode after entering other riding modes, the data in this module will be cleared. (However, the activity recorded by Garmin itself will not be affected, only MyGahoo will start accumulating these data from zero again).</p>
+</div>
+<p><span style="font-size: 0.7em; color: gray;">*Garmin official does not provide data interface, so calculated data may have inaccuracy or errors</span>
+<br>
+<br></p>
+<hr />
+<h2 id="vi-environmental-information"><strong>VI Environmental Information</strong><a class="headerlink" href="#vi-environmental-information" title="Permanent link">&para;</a></h2>
+<h3 id="30-clock"><strong>30. Clock</strong><a class="headerlink" href="#30-clock" title="Permanent link">&para;</a></h3>
+<p>Displays current time.
+<br></p>
+<p><br></p>
+<h3 id="31-wind"><strong>31. Wind<sup>*</sup></strong><a class="headerlink" href="#31-wind" title="Permanent link">&para;</a></h3>
+<p>Displays current wind speed and relative/absolute wind direction.</p>
+<p><span style="font-size: 0.7em; color: gray;">*Garmin official does not provide data interface, so calculated data may have inaccuracy or errors</span>
+<br>
+<br></p>
+<h4 id="wind-speed-units">Wind Speed Units<a class="headerlink" href="#wind-speed-units" title="Permanent link">&para;</a></h4>
+<ul>
+<li>m/s: meters per second</li>
+<li>KPH: kilometers per hour</li>
+<li>MPH: miles per hour</li>
+<li>Beaufort scale: wind force scale, 0~12 levels</li>
+</ul>
+<h4 id="wind-speed-level">Wind Speed Level<a class="headerlink" href="#wind-speed-level" title="Permanent link">&para;</a></h4>
+<p>Wind speed level is indicated by the number of arrows, with different numbers corresponding to wind speed as shown in the figure below. When the selected wind speed unit is not m/s, the arrow number will still be calculated based on the correct wind speed rather than the displayed number.
+<br>
+<img alt="wind speed" src="../images/wd_speed.jpg" /></p>
+<h4 id="absoluterelative-wind-direction">Absolute/Relative Wind Direction<a class="headerlink" href="#absoluterelative-wind-direction" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Absolute Direction: Wind direction given in weather forecast, irrelevant to riding direction</li>
+<li>Relative Direction: The relative angle between current riding direction and wind direction. For example, if going west with absolute wind direction from north to south, the relative wind direction is from right to left.</li>
+</ul>
+<h4 id="wind-direction-colors">Wind Direction Colors<a class="headerlink" href="#wind-direction-colors" title="Permanent link">&para;</a></h4>
+<p>When displaying relative wind direction, arrows are colored based on wind angle. Red indicates headwind (relative wind from 45° left front to 45° right front); green indicates tailwind (relative wind from 45° left rear to 45° right rear); black indicates crosswind.
+<br>
+<img alt="wind direction" src="../images/wd_dir.jpg" />
+<br></p>
+<h4 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Permanent link">&para;</a></h4>
+<p>The wind module needs to be configured in the ConnectIQ app for optimal display. Please refer to the <a href="../weather/">Weather Configuration</a> module for details.</p>
+<hr />
+<h2 id="vii-virtual-led"><strong>VII Virtual LED</strong><a class="headerlink" href="#vii-virtual-led" title="Permanent link">&para;</a></h2>
+<p>Virtual LEDs can be configured around the screen edges. Users can use LEDs in different positions to display different information.
+<br>
+<img alt="led example" src="../images/led.jpg" /></p>
+<h3 id="real-time-power">Real-time Power<a class="headerlink" href="#real-time-power" title="Permanent link">&para;</a></h3>
+<p>Virtual LEDs display the quantity and color for each Zone (color style set to Garmin style in example below)
+<br>
+<img alt="power led" src="../images/pw_led.jpg" /></p>
+<h3 id="3s-average-power">3s Average Power<a class="headerlink" href="#3s-average-power" title="Permanent link">&para;</a></h3>
+<p>Same as above.</p>
+<h3 id="heart-rate-zones">Heart Rate Zones<a class="headerlink" href="#heart-rate-zones" title="Permanent link">&para;</a></h3>
+<p>Virtual LEDs display the quantity and color for each Zone (color style set to Garmin style in example below)
+<br>
+<img alt="hr led" src="../images/hr_led.jpg" /></p>
+<h3 id="average-speed-indicator_1">Average Speed Indicator<a class="headerlink" href="#average-speed-indicator_1" title="Permanent link">&para;</a></h3>
+<p>Virtual LEDs display the relationship between current speed and average speed, with red indicating falling behind (less than average) and blue indicating leading (greater than average).
+<br>
+<img alt="led avg" src="../images/led_avg.jpg" />
+<br>
+Each LED represents a 10% lead or lag, as shown in the table below. The table uses leading as an example; lagging follows the same principle.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Example</th>
+<th style="text-align: center;">Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><img alt="led_avg_b0" src="../images/led_avg_b0.jpg" /></td>
+<td style="text-align: center;">Equal to average speed</td>
+</tr>
+<tr>
+<td style="text-align: center;"><img alt="led_avg_b1" src="../images/led_avg_b1.jpg" /></td>
+<td style="text-align: center;">Current lead &lt; 10%</td>
+</tr>
+<tr>
+<td style="text-align: center;"><img alt="led_avg_b2" src="../images/led_avg_b2.jpg" /></td>
+<td style="text-align: center;">10% &lt; Current lead &lt; 20%</td>
+</tr>
+<tr>
+<td style="text-align: center;"><img alt="led_avg_b3" src="../images/led_avg_b3.jpg" /></td>
+<td style="text-align: center;">Current lead &gt; 20%</td>
+</tr>
+</tbody>
+</table>
+<h3 id="average-power-indicator">Average Power Indicator<a class="headerlink" href="#average-power-indicator" title="Permanent link">&para;</a></h3>
+<p>Virtual LEDs display the relationship between current power and average power, with colors meaning the same as above, but each LED represents a 20% lead or lag. The table uses leading as an example; lagging follows the same principle.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Example</th>
+<th style="text-align: center;">Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><img alt="led_avg_b0" src="../images/led_avg_b0.jpg" /></td>
+<td style="text-align: center;">Equal to average power</td>
+</tr>
+<tr>
+<td style="text-align: center;"><img alt="led_avg_b1" src="../images/led_avg_b1.jpg" /></td>
+<td style="text-align: center;">Current lead &lt; 20%</td>
+</tr>
+<tr>
+<td style="text-align: center;"><img alt="led_avg_b2" src="../images/led_avg_b2.jpg" /></td>
+<td style="text-align: center;">20% &lt; Current lead &lt; 40%</td>
+</tr>
+<tr>
+<td style="text-align: center;"><img alt="led_avg_b3" src="../images/led_avg_b3.jpg" /></td>
+<td style="text-align: center;">Current lead &gt; 40%</td>
+</tr>
+</tbody>
+</table>
+<h3 id="left-right-balance-indicator">Left-Right Balance Indicator<a class="headerlink" href="#left-right-balance-indicator" title="Permanent link">&para;</a></h3>
+<p>Virtual LEDs display the left-right balance of current pedaling power. Each LED represents a 5% offset for one side. The table uses right-shifted pedaling as an example; the opposite follows the same principle.</p>
+<p>Additionally, if the received left-right balance values are 100-0 or 0-100, an error state will be displayed. This situation usually occurs due to disconnection of one side of the dual-sided power meter or momentary force during first pedaling.</p>
+<table>
+<thead>
+<tr>
+<th>Example</th>
+<th>L - R</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="lr_01" src="../images/lr_01.jpg" /></td>
+<td>50% - 50%</td>
+</tr>
+<tr>
+<td><img alt="lr_02" src="../images/lr_02.jpg" /></td>
+<td>45~50% - 50~55% (not including 55%)</td>
+</tr>
+<tr>
+<td><img alt="lr_03" src="../images/lr_03.jpg" /></td>
+<td>40~45% - 55~60% (not including 60%)</td>
+</tr>
+<tr>
+<td><img alt="lr_04" src="../images/lr_04.jpg" /></td>
+<td>≤40% - ≥60%</td>
+</tr>
+<tr>
+<td><img alt="lr_err" src="../images/lr_err.jpg" /></td>
+<td>0%-100% (or 100%-0%)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="3s-left-right-balance-indicator">3s Left-Right Balance Indicator<a class="headerlink" href="#3s-left-right-balance-indicator" title="Permanent link">&para;</a></h3>
+<p>Same as above.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.top", "navigation.tracking", "toc.integrate"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>
