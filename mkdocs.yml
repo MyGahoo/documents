@@ -8,6 +8,8 @@ theme:
     - navigation.top
     - navigation.tracking
     - toc.integrate
+    - navigation.footer
+
 
 
 plugins:
