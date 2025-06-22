@@ -16,7 +16,7 @@ MyGahoo is a free data field, while MyGahoo Pro is a paid field. The Pro version
 
 ## Pricing
 
-Currently, MyGahoo Pro supports payment via Ko-fi. The price for MyGahoo Pro is €6. This is an one-time payment. And each payment code is tied to a specific device, so if you are using multiple Edge devices or have changed new Edge devices, you will need to make a new purchase for each device. 
+Currently, MyGahoo Pro supports payment via Ko-fi. The price for MyGahoo Pro is €12. This is an one-time payment. And each payment code is tied to a specific device, so if you are using multiple Edge devices or have changed new Edge devices, you will need to make a new purchase for each device. 
 
 But updating or re-installing datafield will not change the activation code. When uninstall & install datafield, the activation status will be cleaned, but you can use the same activation code. So please keep your activation code or email safe. 
 

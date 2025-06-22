@@ -16,7 +16,7 @@ MyGahoo ist ein kostenloses Datenfeld, während MyGahoo Pro ein kostenpflichtige
 
 ## Preisgestaltung
 
-Derzeit unterstützt MyGahoo Pro Zahlungen über Ko-fi. Der Preis für MyGahoo Pro beträgt €6. Dies ist eine einmalige Zahlung. Jeder Zahlungscode ist an ein bestimmtes Gerät gebunden. Wenn Sie mehrere Edge-Geräte verwenden oder neue Edge-Geräte verwenden, müssen Sie für jedes Gerät einen neuen Kauf tätigen.
+Derzeit unterstützt MyGahoo Pro Zahlungen über Ko-fi. Der Preis für MyGahoo Pro beträgt €12. Dies ist eine einmalige Zahlung. Jeder Zahlungscode ist an ein bestimmtes Gerät gebunden. Wenn Sie mehrere Edge-Geräte verwenden oder neue Edge-Geräte verwenden, müssen Sie für jedes Gerät einen neuen Kauf tätigen.
 
 Ein Update oder eine Neuinstallation des Datenfelds ändert den Aktivierungscode jedoch nicht. Beim Deinstallieren und Installieren des Datenfelds wird der Aktivierungsstatus gelöscht, Sie können jedoch denselben Aktivierungscode verwenden. Bewahren Sie daher Ihren Aktivierungscode und Ihre E-Mail-Adresse sicher auf.
 

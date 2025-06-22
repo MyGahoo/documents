@@ -15,3 +15,6 @@ This installation failure is usually caused by Garmin servers. You can try:
 
 ## 3. The setting page doesn't show payment code, and version code shows as 0.0.0
 Please make sure you have added MyGahoo Pro on Garmin Edge first, and try to open Connect IQ setting page again.
+
+## 4. After first install, the app crashed and shows CIQ icon
+Please restart Edge device, the crash issue is now under fixing.

@@ -16,7 +16,7 @@ MyGahoo est un champ de données gratuit, tandis que MyGahoo Pro est un champ pa
 
 ## Tarification
 
-Actuellement, MyGahoo Pro prend en charge les paiements via Ko-fi. Le prix de MyGahoo Pro est de 6 €. Il s'agit d'un paiement unique. Chaque code de paiement est lié à un appareil spécifique. Si vous utilisez plusieurs appareils Edge ou si vous avez changé d'appareil Edge, vous devrez effectuer un nouvel achat pour chaque appareil.
+Actuellement, MyGahoo Pro prend en charge les paiements via Ko-fi. Le prix de MyGahoo Pro est de 12 €. Il s'agit d'un paiement unique. Chaque code de paiement est lié à un appareil spécifique. Si vous utilisez plusieurs appareils Edge ou si vous avez changé d'appareil Edge, vous devrez effectuer un nouvel achat pour chaque appareil.
 
 Mais la mise à jour ou la réinstallation du champ de données ne modifiera pas le code d'activation. Lors de la désinstallation et de la réinstallation du champ de données, l'état d'activation sera réinitialisé, mais vous pourrez utiliser le même code d'activation. Veuillez donc conserver votre code d'activation ou votre adresse e-mail en lieu sûr.
 

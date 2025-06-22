@@ -15,7 +15,7 @@ MyGahoo is een gratis dataveld, terwijl MyGahoo Pro een betaald veld is. De Pro-
 
 ## Prijzen
 
-Momenteel ondersteunt MyGahoo Pro betaling via Ko-fi. De prijs voor MyGahoo Pro is €6. Dit is een eenmalige betaling. En elke betaalcode is gekoppeld aan een specifiek apparaat, dus als je meerdere Edge-apparaten gebruikt of nieuwe Edge-apparaten hebt vervangen, moet je voor elk apparaat een nieuwe aankoop doen.
+Momenteel ondersteunt MyGahoo Pro betaling via Ko-fi. De prijs voor MyGahoo Pro is €12. Dit is een eenmalige betaling. En elke betaalcode is gekoppeld aan een specifiek apparaat, dus als je meerdere Edge-apparaten gebruikt of nieuwe Edge-apparaten hebt vervangen, moet je voor elk apparaat een nieuwe aankoop doen.
 
 Het bijwerken of opnieuw installeren van het dataveld verandert de activeringscode echter niet. Bij het verwijderen en installeren van het dataveld wordt de activeringsstatus gewist, maar je kunt dezelfde activeringscode gebruiken. Bewaar daarom je activeringscode of e-mailadres goed.
 
