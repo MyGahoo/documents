@@ -8,9 +8,14 @@ Le module vent peut fonctionner dans trois états : mis à jour via Internet, ut
 |-------|-------------------------------------------|----------------------------|----------------------------------------|---------------------------------------------|
 | 🟢 | Mise à jour réussie via OpenWeather | Chaque minute | Infos météo aux coordonnées actuelles | 540 / 840 / 1040 / 1050 / explore2 |
 | ⭕ | Échec OpenWeather, utilise météo interne Garmin | Incertain, selon Garmin | Données météo de l’aéroport/station météo le plus proche | 530 / 830 / 1030 et modèles plus récents |
-| 🔴 | Impossible d’obtenir des données | - | - | 520 Plus / 820 / explore et modèles ultérieurs |
+| 🔴 | Impossible d'obtenir des données | - | - | 520 Plus / 820 / explore et modèles ultérieurs |
 
-Exemples d’icônes d’état :
+**🟢 Prérequis :**
+- Clé API OpenWeather valide
+- Données de localisation disponibles (GPS activé)
+- Connexion réseau active (WiFi ou données mobiles via smartphone connecté)
+
+Exemples d'icônes d'état :
 <br>
 ![wind example](images/wd_example.jpg)
 

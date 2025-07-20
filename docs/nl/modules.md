@@ -111,32 +111,113 @@ Toont de cumulatieve afgelegde afstand voor de huidige activiteit.
 Toont het aantal verbrande calorieën tijdens de huidige activiteit.
 <br>
 
+<br>
+### **16. Gemiddeld Vermogen 5s<sup>*</sup>**
+Geeft het gemiddelde vermogen van de afgelopen 5 seconden weer. Kleurweergave hetzelfde als realtime vermogen.
+
+<span style="font-size: 0.7em; color: gray;">*Garmin levert geen officiële data-interface, waardoor berekende gegevens onnauwkeurigheden of fouten kunnen bevatten</span>
+<br>
+
+<br>
+### **17. Gemiddelde Hartslag**
+Toont de gemiddelde hartslag voor de huidige activiteit.
+<br>
+
+<br>
+### **18. Totale Stijging<sup>*</sup>**
+Toont de totale stijgingshoogte voor de huidige activiteit.
+
+<span style="font-size: 0.7em; color: gray;">*Garmin levert geen officiële data-interface, waardoor berekende gegevens onnauwkeurigheden of fouten kunnen bevatten</span>
+<br>
+
+<br>
+### **19. Totale Daling<sup>*</sup>**
+Toont de totale dalingshoogte voor de huidige activiteit.
+
+<span style="font-size: 0.7em; color: gray;">*Garmin levert geen officiële data-interface, waardoor berekende gegevens onnauwkeurigheden of fouten kunnen bevatten</span>
+<br>
+
+<br>
+### **20. Ronde Gemiddelde Hartslag<sup>*</sup>**
+Toont de gemiddelde hartslag voor de huidige ronde.
+
+<span style="font-size: 0.7em; color: gray;">*Garmin levert geen officiële data-interface, waardoor berekende gegevens onnauwkeurigheden of fouten kunnen bevatten</span>
+<br>
+
+<br>
+### **21. Totaal Werk (KJ)<sup>*</sup>**
+Toont het totale werk voor de huidige activiteit in kilojoules (KJ).
+
+<span style="font-size: 0.7em; color: gray;">*Garmin levert geen officiële data-interface, waardoor berekende gegevens onnauwkeurigheden of fouten kunnen bevatten</span>
+<br>
+
+<br>
+### **22. Ronde Afstand<sup>*</sup>**
+Toont de afstand voor de huidige ronde.
+
+<span style="font-size: 0.7em; color: gray;">*Garmin levert geen officiële data-interface, waardoor berekende gegevens onnauwkeurigheden of fouten kunnen bevatten</span>
+<br>
+
+<br>
+### **23. Gemiddelde Cadans**
+Toont de gemiddelde cadans voor de huidige activiteit.
+<br>
+
+<br>
+### **24. Ronde Gemiddelde Snelheid<sup>*</sup>**
+Toont de gemiddelde snelheid voor de huidige ronde.
+
+<span style="font-size: 0.7em; color: gray;">*Garmin levert geen officiële data-interface, waardoor berekende gegevens onnauwkeurigheden of fouten kunnen bevatten</span>
+<br>
+
 ***
 
-## **III Trainingsgegevens**
-### **16. Huidige vermogen-gewicht verhouding**
+## **III Maximumwaarden**
+### **25. Maximum Vermogen**
+Toont het maximum vermogen voor de huidige activiteit.
+<br>
+
+<br>
+### **26. Maximum Hartslag**
+Toont de maximum hartslag voor de huidige activiteit.
+<br>
+
+<br>
+### **27. Maximum Snelheid**
+Toont de maximum snelheid voor de huidige activiteit.
+<br>
+
+<br>
+### **28. Maximum Cadans**
+Toont de maximum cadans voor de huidige activiteit.
+<br>
+
+***
+
+## **IV Trainingsgegevens**
+### **29. Huidige vermogen-gewicht verhouding**
 Toont de realtime vermogen-gewicht verhouding voor de huidige activiteit in W/kg. Het vermogen komt van de MyGahoo instellingenpagina, en het gewicht van de Garmin persoonlijke profiel configuratie.
 <br>
 
-### **17. Gemiddeld vermogen-gewichtsverhouding (3s)<sup>*</sup>**
+### **30. Gemiddeld vermogen-gewichtsverhouding (3s)<sup>*</sup>**
 Geeft de gemiddelde vermogen-gewichtsverhouding van de afgelopen 3 seconden weer in W/kg.
 
 <span style="font-size: 0.7em; color: gray;">*Garmin biedt geen officiële data-interface, dus berekende gegevens kunnen onnauwkeurigheden of fouten bevatten</span>
 <br>
 
-### **18. Gemiddeld vermogen-gewichtsverhouding (10s)<sup>*</sup>**
+### **31. Gemiddeld vermogen-gewichtsverhouding (10s)<sup>*</sup>**
 Geeft de gemiddelde vermogen-gewichtsverhouding van de afgelopen 10 seconden weer in W/kg.
 
 <span style="font-size: 0.7em; color: gray;">*Garmin biedt geen officiële data-interface, dus berekende gegevens kunnen onnauwkeurigheden of fouten bevatten</span>
 <br>
 
-### **19. Gemiddeld vermogen-gewichtsverhouding (ronde)<sup>*</sup>**
+### **32. Gemiddeld vermogen-gewichtsverhouding (ronde)<sup>*</sup>**
 Geeft de gemiddelde vermogen-gewichtsverhouding van de huidige ronde weer in W/kg.
 
 <span style="font-size: 0.7em; color: gray;">*Garmin biedt geen officiële data-interface, dus berekende gegevens kunnen onnauwkeurigheden of fouten bevatten</span>
 <br>
 
-### **20. NP™ (Genormaliseerd vermogen)<sup>*</sup>**
+### **33. NP™ (Genormaliseerd vermogen)<sup>*</sup>**
 Geeft het genormaliseerde vermogen voor de huidige activiteit weer.
 
 !!! warning "Risico op gegevensverlies"
@@ -147,7 +228,7 @@ Geeft het genormaliseerde vermogen voor de huidige activiteit weer.
 <span style="font-size: 0.7em; color: gray;">*Garmin biedt geen officiële data-interface, dus berekende gegevens kunnen onnauwkeurigheden of fouten bevatten</span>
 <br>
 
-### **21. TSS™ (Training Stress Score)<sup>*</sup>**
+### **34. TSS™ (Training Stress Score)<sup>*</sup>**
 Toont de trainingsbelastingscore voor de huidige activiteit.
 
 !!! waarschuwing "Risico op gegevensverlies"
@@ -158,44 +239,83 @@ Toont de trainingsbelastingscore voor de huidige activiteit.
 <span style="font-size: 0.7em; color: gray;">*Garmin biedt geen officiële data-interface, dus berekende gegevens kunnen onnauwkeurigheden of fouten bevatten.</span>
 <br>
 
+<br>
+### **35. W'Balance<sup>*</sup>**
+Toont realtime W'Balance die de resterende anaerobe capaciteit weergeeft.
+
+W'Balance wordt berekend met de volgende formule:
+```
+W'Balance = W' - ∫(P(t) - CP)dt (wanneer P(t) > CP)
+W'Balance = W' + ∫(CP - P(t))dt × (W' - W'Balance)/W' (wanneer P(t) ≤ CP)
+```
+
+Waar:
+- W' = Anaerobe werkcapaciteit (J)
+- CP = Kritiek vermogen (W)
+- P(t) = Vermogen op tijd t (W)
+
+<span style="font-size: 0.7em; color: gray;">*Garmin levert geen officiële data-interface, waardoor berekende gegevens onnauwkeurigheden of fouten kunnen bevatten</span>
+<br>
+
 ***
 
-## **IV Uitrustingsinformatie**
-### **22. Versnelling (Tanden)**
+## **V Navigatie-informatie**
+### **36. Afstand tot bestemming**
+Toont de resterende afstand tot de navigatiebestemming.
+<br>
+
+<br>
+### **37. Geschatte tijd tot bestemming<sup>*</sup>**
+Toont de geschatte tijd om de navigatiebestemming te bereiken.
+
+<span style="font-size: 0.7em; color: gray;">*Garmin levert geen officiële data-interface, waardoor berekende gegevens onnauwkeurigheden of fouten kunnen bevatten</span>
+<br>
+
+<br>
+### **38. Geschatte aankomsttijd<sup>*</sup>**
+Toont de geschatte aankomsttijd voor de navigatiebestemming.
+
+<span style="font-size: 0.7em; color: gray;">*Garmin levert geen officiële data-interface, waardoor berekende gegevens onnauwkeurigheden of fouten kunnen bevatten</span>
+<br>
+
+***
+
+## **VI Uitrustingsinformatie**
+### **39. Versnelling (Tanden)**
 Toont het aantal tanden van het huidige kettingblad/cassette. Bijv. 52/13
 <br>
 
 <br>
-### **23. Versnelling (Index)**
+### **40. Versnelling (Index)**
 Toont het huidige kettingblad/cassette indexnummer. Bijv. 1/7
 <br>
 
 <br>
-### **24. Versnellingsverhouding**
+### **41. Versnellingsverhouding**
 Toont de huidige overbrengingsverhouding van kettingblad gedeeld door cassette tanden. Bijvoorbeeld: 4.02
 <br>
 
 <br>
-### **25. Versnellingsgrafiek**
+### **42. Versnellingsgrafiek**
 Geeft grafisch versnellingsinformatie weer.
 <br>
 
 ***
 
-## **V Gegevensanalyse**
-### **26. Realtime Links-Rechts Balans**
+## **VII Gegevensanalyse**
+### **43. Realtime Links-Rechts Balans**
 Toont de huidige links-rechts vermogensbalans. Wordt weergegeven als percentage zonder het % symbool, bijvoorbeeld: 52-48
 <br>
 
 <br>
-### **27. Gemiddelde Links-Rechts Balans (3s)<sup>*</sup>**
+### **44. Gemiddelde Links-Rechts Balans (3s)<sup>*</sup>**
 Toont de gemiddelde links-rechts vermogensbalansverhouding over 3 seconden.
 
 <span style="font-size: 0.7em; color: gray;">*Garmin biedt geen officiële data-interface, dus berekende gegevens kunnen onnauwkeurigheden of fouten bevatten</span>
 <br>
 
 <br>
-### **28. Vermogenzone Histogram<sup>*</sup>**
+### **45. Vermogenzone Histogram<sup>*</sup>**
 Toont de tijdsverdeling over verschillende vermogenszones.
 
 !!! warning "Gegevensverlies"
@@ -205,7 +325,7 @@ Toont de tijdsverdeling over verschillende vermogenszones.
 <br>
 
 <br>
-### **29. Hartritmezone Histogram<sup>*</sup>**
+### **46. Hartritmezone Histogram<sup>*</sup>**
 Toont de tijdsverdeling over verschillende hartritmezones.
 
 !!! warning "Gegevensverlies"
@@ -217,13 +337,13 @@ Toont de tijdsverdeling over verschillende hartritmezones.
 
 ***
 
-## **VI Omgevingsinformatie**
-### **30. Klok**
+## **VIII Omgevingsinformatie**
+### **47. Klok**
 Toont de huidige tijd.
 <br>
 
 <br>
-### **31. Wind<sup>*</sup>**
+### **48. Wind<sup>*</sup>**
 Toont de huidige windsnelheid en de relatieve/absolute windrichting.
 
 <span style="font-size: 0.7em; color: gray;">*Garmin levert geen officiële data-interface, dus berekende gegevens kunnen onnauwkeurigheden of fouten bevatten</span>
@@ -254,26 +374,46 @@ Bij het weergeven van de relatieve windrichting worden pijlen gekleurd op basis 
 #### Configuratie
 De windmodule moet in de ConnectIQ app worden geconfigureerd voor optimale weergave. Raadpleeg de [Weerconfiguratie](en/weather.md) module voor meer details.
 
-## VII Virtuele LED's
+***
+
+## **IX Batterij**
+### **49. Batterij**
+Toont het huidige batterijniveau van het apparaat.
+<br>
+
+<br>
+
+***
+
+## **X Temperatuur**
+### **50. Temperatuur**
+Toont de huidige omgevingstemperatuur.
+<br>
+
+<br>
+
+***
+
+## **XI Virtuele LED's**
 
 Virtuele LED's kunnen rond de schermranden worden geconfigureerd. Gebruikers kunnen LED's op verschillende posities gebruiken om verschillende informatie weer te geven.
 <br>
 ![led example](images/led.jpg)
 
-### Echttijd Vermogen
+### **51. Echttijd Vermogen**
 Virtuele LED's tonen de hoeveelheid en kleur voor elke zone (kleurstijl ingesteld op Garmin-stijl in het onderstaande voorbeeld).
 <br>
 ![power led](images/pw_led.jpg)
 
-### Gemiddeld Vermogen (3s)
+### **52. Gemiddeld Vermogen (3s)**
 Hetzelfde als hierboven.
 
-### Hartritme Zones
+### **53. Hartritme Zones**
 Virtuele LED's tonen de hoeveelheid en kleur voor elke zone (kleurstijl ingesteld op Garmin-stijl in het onderstaande voorbeeld).
 <br>
 ![hr led](images/hr_led.jpg)
 
-### Gemiddelde Snelheidsindicator
+### **54. Gemiddelde Snelheidsindicator**
 Virtuele LED's tonen de relatie tussen de huidige snelheid en de gemiddelde snelheid, waarbij rood aangeeft dat u achterloopt (minder dan gemiddeld) en blauw aangeeft dat u voorloopt (meer dan gemiddeld).
 <br>
 ![led avg](images/led_avg.jpg)
@@ -287,7 +427,7 @@ Elke LED vertegenwoordigt een voorsprong of achterstand van 10%, zoals weergegev
 | ![led_avg_b2](images/led_avg_b2.jpg) | 10% < Huidige voorsprong < 20% |
 | ![led_avg_b3](images/led_avg_b3.jpg) | Huidige voorsprong > 20% |
 
-### Gemiddeld Vermogen Indicator
+### **55. Gemiddeld Vermogen Indicator**
 Virtuele LED's tonen de relatie tussen het huidige vermogen en het gemiddelde vermogen, waarbij de kleuren dezelfde betekenis hebben als hierboven, maar elke LED een voorsprong of achterstand van 20% vertegenwoordigt. De tabel gebruikt een voorsprong als voorbeeld; een achterstand volgt hetzelfde principe.
 
 | Voorbeeld | Betekenis |
@@ -297,7 +437,7 @@ Virtuele LED's tonen de relatie tussen het huidige vermogen en het gemiddelde ve
 | ![led_avg_b2](images/led_avg_b2.jpg) | 20% < Huidige voorsprong < 40% |
 | ![led_avg_b3](images/led_avg_b3.jpg) | Huidige voorsprong > 40% |
 
-### Links-Rechts Balans Indicator
+### **56. Links-Rechts Balans Indicator**
 Virtuele LEDs tonen de links-rechts balans van het huidige trapvermogen. Elke LED vertegenwoordigt een offset van 5% voor één zijde. De tabel gebruikt rechtsverschoven trappen als voorbeeld; het tegenovergestelde volgt hetzelfde principe.
 
 Daarnaast, als de ontvangen links-rechts balanswaarden 100-0 of 0-100 zijn, wordt een foutstatus weergegeven. Deze situatie treedt meestal op door het loskoppelen van één zijde van de dubbelzijdige vermogensmeter of een momentane kracht tijdens het eerste trappen.
@@ -310,5 +450,5 @@ Daarnaast, als de ontvangen links-rechts balanswaarden 100-0 of 0-100 zijn, word
 | ![lr_04](images/lr_04.jpg) | ≤40% - ≥60% |
 | ![lr_err](images/lr_err.jpg) | 0%-100% (of 100%-0%) |
 
-### 3s Links-Rechts Balans Indicator
+### **57. 3s Links-Rechts Balans Indicator**
 Hetzelfde als hierboven.

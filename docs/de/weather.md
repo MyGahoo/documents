@@ -10,6 +10,12 @@ Die Windanzeige kann Daten in drei Zuständen anzeigen: über das Internet aktua
 | ⭕ | OpenWeather-Update fehlgeschlagen, verwendet Garmin-Wetter | Unklar, durch Garmin bestimmt | Wetterdaten vom nächstgelegenen Flughafen/Wetterstation | 530 / 830 / 1030 und neuere Modelle |
 | 🔴 | Keine Daten verfügbar | - | - | 520 Plus / 820 / explore und neuere Modelle |
 
+### Voraussetzungen für 🟢
+Um OpenWeather-Updates zu erhalten, müssen folgende Bedingungen erfüllt sein:
+1. **API-Schlüssel**: Ein gültiger OpenWeather API-Schlüssel muss in den MyGahoo-Einstellungen konfiguriert sein
+2. **Standortdaten**: Das Gerät muss GPS-Koordinaten erfolgreich abrufen können
+3. **Netzwerkverbindung**: Das Gerät muss über eine aktive Internetverbindung verfügen (über gekoppeltes Smartphone oder WLAN)
+
 Beispiele für Statussymbole:
 <br>
 ![wind example](images/wd_example.jpg)

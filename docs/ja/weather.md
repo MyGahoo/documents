@@ -14,6 +14,13 @@
 <br>
 ![wind example](images/wd_example.jpg)
 
+### OpenWeather更新の前提条件
+OpenWeatherからの天気データを正常に更新するには、以下の条件を満たす必要があります：
+- 有効なOpenWeather API Key
+- 正確な位置データ（GPS信号）
+- インターネット接続（WiFiまたはモバイルデータ）
+- サポートされるデバイス（上記の表を参照）
+
 ## OpenWeather APIの登録と取得
 1. OpenWeather公式ウェブサイト [OpenWeather Map](https://openweathermap.org/) にアクセスします
 2. 個人アカウント（ビジネス用ではない）を登録し、ログインを完了します

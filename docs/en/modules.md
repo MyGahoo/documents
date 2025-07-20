@@ -76,55 +76,128 @@ Displays average power for the last 5 seconds. Color display same as real-time p
 <span style="font-size: 0.7em; color: gray;">*Garmin official does not provide data interface, so calculated data may have inaccuracy or errors</span>
 <br>
 
+
 <br>
-### **9. 10s Average Power<sup>*</sup>**
+### **10. 10s Average Power<sup>*</sup>**
 Displays average power for the last 10 seconds. Color display same as real-time power.
 
 <span style="font-size: 0.7em; color: gray;">*Garmin official does not provide data interface, so calculated data may have inaccuracy or errors</span>
 <br>
 <br>
-### **10. Lap Average Power<sup>*</sup>**
+### **11. Lap Average Power<sup>*</sup>**
 Displays average power for the current lap.
 
 <span style="font-size: 0.7em; color: gray;">*Garmin official does not provide data interface, so calculated data may have inaccuracy or errors</span>
 <br>
 
 <br>
-### **11. Average Speed**
+### **12. Average Heart Rate**
+Displays average heart rate for the current activity.
+<br>
+
+<br>
+### **13. Average Speed**
 Displays average speed for the current activity.
 <br>
 
 <br>
-### **12. Activity Time**
+### **14. Activity Time**
 Displays duration of the current activity.
 <br>
 
 <br>
-### **13. Lap Time<sup>*</sup>**
+### **15. Lap Time<sup>*</sup>**
 Displays duration of the current lap.
 
 <span style="font-size: 0.7em; color: gray;">*Garmin official does not provide data interface, so calculated data may have inaccuracy or errors</span>
 <br>
 
 <br>
-### **14. Distance**
+### **16. Distance**
 Displays cumulative riding distance for the current activity.
 <br>
 
 <br>
-### **15. Calories**
+### **17. Total Ascent**
+Displays total elevation gained during the current activity.
+<br>
+
+<br>
+### **18. Total Descent**
+Displays total elevation lost during the current activity.
+<br>
+
+<br>
+### **19. Lap Average Heart Rate<sup>*</sup>**
+Displays average heart rate for the current lap.
+
+<span style="font-size: 0.7em; color: gray;">*Garmin official does not provide data interface, so calculated data may have inaccuracy or errors</span>
+<br>
+
+<br>
+### **20. Total Work (KJ)<sup>*</sup>**
+Displays total work performed during the current activity in kilojoules (kJ). This measurement is from power meter, so it needs a power meter to work.
+
+<span style="font-size: 0.7em; color: gray;">*Garmin official does not provide data interface, so calculated data may have inaccuracy or errors</span>
+<br>
+
+<br>
+### **21. Lap Distance<sup>*</sup>**
+Displays distance covered in the current lap.
+
+<span style="font-size: 0.7em; color: gray;">*Garmin official does not provide data interface, so calculated data may have inaccuracy or errors</span>
+<br>
+
+<br>
+### **22. Average Cadence**
+Displays average cadence for the current activity.
+<br>
+
+<br>
+### **23. Lap Average Speed<sup>*</sup>**
+Displays average speed for the current lap.
+
+<span style="font-size: 0.7em; color: gray;">*Garmin official does not provide data interface, so calculated data may have inaccuracy or errors</span>
+<br>
+
+<br>
+### **24. Calories**
 Displays calories burned in the current activity.
 <br>
 
 ***
 
-## **III Training Metrics**
-### **16. Current Power-to-Weight Ratio**
+***
+
+## **III Maximum Values**
+### **25. Maximum Power**
+Displays maximum power achieved during the current activity.
+<br>
+
+<br>
+### **26. Maximum Heart Rate**
+Displays maximum heart rate achieved during the current activity.
+<br>
+
+<br>
+### **27. Maximum Speed**
+Displays maximum speed achieved during the current activity.
+<br>
+
+<br>
+### **28. Maximum Cadence**
+Displays maximum cadence achieved during the current activity.
+<br>
+
+***
+
+## **IV Training Metrics**
+### **29. Current Power-to-Weight Ratio**
 Displays real-time power-to-weight ratio for the current activity in W/Kg. Power comes from the MyGahoo setting page input, and weight comes from the Garmin personal profile page configuration.
 <br>
 
 <br>
-### **17. 3s Average Power-to-Weight Ratio<sup>*</sup>**
+### **30. 3s Average Power-to-Weight Ratio<sup>*</sup>**
 Displays average power-to-weight ratio for the last 3 seconds in W/Kg.
 
 <span style="font-size: 0.7em; color: gray;">*Garmin official does not provide data interface, so calculated data may have inaccuracy or errors</span>
@@ -132,7 +205,7 @@ Displays average power-to-weight ratio for the last 3 seconds in W/Kg.
 
 
 <br>
-### **18. 10s Average Power-to-Weight Ratio<sup>*</sup>**
+### **31. 10s Average Power-to-Weight Ratio<sup>*</sup>**
 Displays average power-to-weight ratio for the last 10 seconds in W/Kg.
 
 <span style="font-size: 0.7em; color: gray;">*Garmin official does not provide data interface, so calculated data may have inaccuracy or errors</span>
@@ -140,14 +213,14 @@ Displays average power-to-weight ratio for the last 10 seconds in W/Kg.
 
 
 <br>
-### **19. Lap Average Power-to-Weight Ratio<sup>*</sup>**
+### **32. Lap Average Power-to-Weight Ratio<sup>*</sup>**
 Displays average power-to-weight ratio for the current lap in W/Kg.
 
 <span style="font-size: 0.7em; color: gray;">*Garmin official does not provide data interface, so calculated data may have inaccuracy or errors</span>
 <br>
 
 <br>
-### **20. NP™ (Normalized Power)<sup>*</sup>**
+### **33. NP™ (Normalized Power)<sup>*</sup>**
 Displays normalized power for the current activity.
 
 !!! warning "Risk of Data Loss"
@@ -160,7 +233,7 @@ Displays normalized power for the current activity.
 <br>
 
 <br>
-### **21. TSS™ (Training Stress Score)<sup>*</sup>**
+### **34. TSS™ (Training Stress Score)<sup>*</sup>**
 Displays training stress score for the current activity.
 
 !!! warning "Risk of Data Loss"
@@ -175,42 +248,82 @@ Displays training stress score for the current activity.
 
 ***
 
-## **IV Equipment Information**
-### **22. Gear (Tooth)**
+### **35. W'Balance<sup>*</sup>**
+Displays W'Balance (W prime balance) for the current activity. This needs to pre-define CP (critical power) and W' (W Prime) to work. For scientific explainations, there will be plenty of article or videos to explain what it is. 
+
+During activity, this field can be green or red. When in green, it means your current power is under CP, in other words, you are 'recovering'. Vice versa, when in red, it means you are consuming.
+
+The current mathematical model is using differential model from Froncioni / Clarke:
+
+
+`W′bal = W′bal + (CP - P) * (W′ - W′bal) / W′` when `P > CP`
+
+`W′bal = W′bal + (CP - P)` when `P < CP`
+
+<span style="font-size: 0.7em; color: gray;">*Garmin official does not provide data interface, so calculated data may have inaccuracy or errors</span>
+<br>
+
+***
+
+## **V Equipment Information**
+### **36. Gear (Tooth)**
 Displays the number of tooth for current chainring/cassette. E.g. 52/13
 <br>
 
 <br>
-### **23. Gear (Index)**
+### **37. Gear (Index)**
 Displays the current chainring/cassette index number. E.g. 1/7
 <br>
 
 <br>
-### **24. Gear Ratio**
+### **38. Gear Ratio**
 Displays the current transmission ratio of chainring divided by cassette tooth. For example: 4.02
 <br>
 
 <br>
-### **25. Gear Chart**
+### **39. Gear Chart**
 Graphically displays gear information.
 <br>
 
 ***
 
-## **V Data Analysis**
-### **26. Real-time Left-Right Balance**
+***
+
+## **VI Navigation Information**
+### **40. Distance to Destination**
+Displays remaining distance to the destination.
+<br>
+
+<br>
+### **41. Estimated time to Destination<sup>*</sup>**
+Displays estimated time remaining to reach the destination. This is estimated by the average speed so far, and the number will show 10s after activity started, to avoid the sharp fluctuation at the beginning.
+
+<span style="font-size: 0.7em; color: gray;">*Garmin official does not provide data interface, so calculated data may have inaccuracy or errors</span>
+<br>
+
+<br>
+### **42. Estimated time of Arrival<sup>*</sup>**
+Displays estimated time of arrival at the destination. This is estimated by the average speed so far, and the number will show 10s after activity started, to avoid the sharp fluctuation at the beginning.
+
+<span style="font-size: 0.7em; color: gray;">*Garmin official does not provide data interface, so calculated data may have inaccuracy or errors</span>
+<br>
+
+***
+
+## **VII Data Analysis**
+### **43. Real-time Left-Right Balance**
 Displays current left-right power balance. Shown as percentage without the % symbol, for example: 52-48
 <br>
 
 <br>
-### **27. 3s Average Left-Right Balance<sup>*</sup>**
+### **44. 3s Average Left-Right Balance<sup>*</sup>**
 Displays average left-right power balance ratio over 3 seconds.
 
 <span style="font-size: 0.7em; color: gray;">*Garmin official does not provide data interface, so calculated data may have inaccuracy or errors</span>
 <br>
 
 <br>
-### **28. Power Zone Histogram<sup>*</sup>**
+### **45. Power Zone Histogram<sup>*</sup>**
 Displays time distribution across different power zones.
 
 !!! warning "Risk of Data Loss"
@@ -220,7 +333,7 @@ Displays time distribution across different power zones.
 <br>
 
 <br>
-### **29. Heart Rate Zone Histogram<sup>*</sup>**
+### **46. Heart Rate Zone Histogram<sup>*</sup>**
 Displays time distribution across different heart rate zones.
 
 !!! warning "Risk of Data Loss"
@@ -232,13 +345,25 @@ Displays time distribution across different heart rate zones.
 
 ***
 
-## **VI Environmental Information**
-### **30. Clock**
+***
+
+## **VIII Environmental Information**
+### **47. Clock**
 Displays current time.
 <br>
 
 <br>
-### **31. Wind<sup>*</sup>**
+### **48. Battery**
+Displays current battery level. Displayed in percentage.
+<br>
+
+<br>
+### **49. Temperature**
+Displays current temperature, shown in Celcius or Fahrenheit. Updated every 5 minutes. The frequency is Garmin constraint so can't be any higher. 
+<br>
+ 
+<br>
+### **50. Wind<sup>*</sup>**
 Displays current wind speed and relative/absolute wind direction.
 
 <span style="font-size: 0.7em; color: gray;">*Garmin official does not provide data interface, so calculated data may have inaccuracy or errors</span>
@@ -271,7 +396,8 @@ The wind module needs to be configured in the ConnectIQ app for optimal display.
 
 ***
 
-## **VII Virtual LED**
+
+## **IX Virtual LED**
 Virtual LEDs can be configured around the screen edges. Users can use LEDs in different positions to display different information.
 <br>
 ![led example](images/led.jpg)

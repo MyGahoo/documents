@@ -25,4 +25,12 @@ Voorbeelden van statusiconen:
 <br>
 ![OpenWeather Register](images/opw_rig_2.jpg)  
 <br>
-5. Klik op “Save” om op te slaan
+5. Klik op "Save" om op te slaan
+
+## Vereisten voor OpenWeather-updates
+Voor een succesvolle OpenWeather-update moeten de volgende voorwaarden worden vervuld:
+
+- **API-sleutel**: Een geldige OpenWeather API-sleutel moet worden ingevoerd in de ConnectIQ-app-instellingen
+- **Locatiegegevens**: Het apparaat moet toegang hebben tot GPS-locatiegegevens
+- **Internetverbinding**: Het apparaat moet verbonden zijn met internet (via smartphone of Wi-Fi)
+- **Ondersteund apparaat**: Het apparaat moet OpenWeather-updates ondersteunen (zie compatibiliteitstabel hierboven)

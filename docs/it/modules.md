@@ -111,32 +111,109 @@ Visualizza la distanza percorsa cumulativamente per l'attività corrente.
 Visualizza le calorie bruciate nell'attività corrente.
 <br>
 
+<br>
+### **16. Potenza Media 5s<sup>*</sup>**
+Visualizza la potenza media degli ultimi 5 secondi.
+
+<span style="font-size: 0.7em; color: gray;">*Garmin non fornisce un'interfaccia dati ufficiale, quindi i dati calcolati potrebbero presentare imprecisioni o errori</span>
+<br>
+
+<br>
+### **17. Frequenza Cardiaca Media**
+Visualizza la frequenza cardiaca media dell'attività corrente.
+<br>
+
+<br>
+### **18. Salita Totale**
+Visualizza la salita totale cumulativa dell'attività corrente.
+<br>
+
+<br>
+### **19. Discesa Totale**
+Visualizza la discesa totale cumulativa dell'attività corrente.
+<br>
+
+<br>
+### **20. Frequenza Cardiaca Media del Giro<sup>*</sup>**
+Visualizza la frequenza cardiaca media del giro corrente.
+
+<span style="font-size: 0.7em; color: gray;">*Garmin non fornisce un'interfaccia dati ufficiale, quindi i dati calcolati potrebbero presentare imprecisioni o errori</span>
+<br>
+
+<br>
+### **21. Lavoro Totale (KJ)**
+Visualizza il lavoro totale cumulativo dell'attività corrente in kilojoule.
+<br>
+
+<br>
+### **22. Distanza del Giro<sup>*</sup>**
+Visualizza la distanza del giro corrente.
+
+<span style="font-size: 0.7em; color: gray;">*Garmin non fornisce un'interfaccia dati ufficiale, quindi i dati calcolati potrebbero presentare imprecisioni o errori</span>
+<br>
+
+<br>
+### **23. Cadenza Media<sup>*</sup>**
+Visualizza la cadenza media dell'attività corrente.
+
+<span style="font-size: 0.7em; color: gray;">*Garmin non fornisce un'interfaccia dati ufficiale, quindi i dati calcolati potrebbero presentare imprecisioni o errori</span>
+<br>
+
+<br>
+### **24. Velocità Media del Giro<sup>*</sup>**
+Visualizza la velocità media del giro corrente.
+
+<span style="font-size: 0.7em; color: gray;">*Garmin non fornisce un'interfaccia dati ufficiale, quindi i dati calcolati potrebbero presentare imprecisioni o errori</span>
+<br>
+
 ***
 
-## **III Metriche di Allenamento**
-### **16. Rapporto Potenza/Peso Corrente**
+## **III Valori Massimi**
+### **25. Potenza Massima**
+Visualizza la potenza massima dell'attività corrente.
+<br>
+
+<br>
+### **26. Frequenza Cardiaca Massima**
+Visualizza la frequenza cardiaca massima dell'attività corrente.
+<br>
+
+<br>
+### **27. Velocità Massima**
+Visualizza la velocità massima dell'attività corrente.
+<br>
+
+<br>
+### **28. Cadenza Massima**
+Visualizza la cadenza massima dell'attività corrente.
+<br>
+
+***
+
+## **IV Metriche di Allenamento**
+### **29. Rapporto Potenza/Peso Corrente**
 Visualizza il rapporto potenza/peso in tempo reale per l'attività corrente in W/Kg. La potenza proviene dall'immissione nella pagina delle impostazioni di MyGahoo, mentre il peso proviene dalla configurazione della pagina del profilo personale di Garmin.
 <br>
 
-### **17. Rapporto Peso-Potenza Medio su 3s<sup>*</sup>**
+### **30. Rapporto Peso-Potenza Medio su 3s<sup>*</sup>**
 Mostra il rapporto peso-potenza medio degli ultimi 3 secondi in W/Kg.
 
 <span style="font-size: 0.7em; color: gray;">*Garmin non fornisce un'interfaccia dati ufficiale, quindi i dati calcolati potrebbero presentare imprecisioni o errori</span>
 <br>
 
-### **18. Rapporto Peso-Potenza Medio su 10s<sup>*</sup>**
+### **31. Rapporto Peso-Potenza Medio su 10s<sup>*</sup>**
 Mostra il rapporto peso-potenza medio degli ultimi 10 secondi in W/Kg.
 
 <span style="font-size: 0.7em; color: gray;">*Garmin non fornisce un'interfaccia dati ufficiale, quindi i dati calcolati potrebbero presentare imprecisioni o errori</span>
 <br>
 
-### **19. Rapporto Peso-Potenza Medio a Giro<sup>*</sup>**
+### **32. Rapporto Peso-Potenza Medio a Giro<sup>*</sup>**
 Mostra il rapporto peso-potenza medio del giro corrente in W/Kg.
 
 <span style="font-size: 0.7em; color: gray;">*Garmin non fornisce un'interfaccia dati ufficiale, quindi i dati calcolati potrebbero presentare imprecisioni o errori</span>
 <br>
 
-### **20. NP™ (Potenza Normalizzata)<sup>*</sup>**
+### **33. NP™ (Potenza Normalizzata)<sup>*</sup>**
 Mostra la potenza normalizzata per l'attività corrente.
 
 !!! warning "Rischio di Perdita Dati"
@@ -147,7 +224,7 @@ Mostra la potenza normalizzata per l'attività corrente.
 <span style="font-size: 0.7em; color: gray;">*Garmin non fornisce un'interfaccia dati ufficiale, quindi i dati calcolati potrebbero presentare imprecisioni o errori</span>
 <br>
 
-### **21. TSS™ (Training Stress Score)<sup>*</sup>**
+### **34. TSS™ (Training Stress Score)<sup>*</sup>**
 Visualizza il Training Stress Score per l'attività corrente.
 
 !!! warning "Rischio di perdita dati"
@@ -158,44 +235,83 @@ Visualizza il Training Stress Score per l'attività corrente.
 <span style="font-size: 0.7em; color: gray;">*Garmin non fornisce un'interfaccia dati ufficiale, quindi i dati calcolati potrebbero presentare imprecisioni o errori</span>
 <br>
 
+<br>
+### **35. W'Balance<sup>*</sup>**
+Visualizza il W'Balance in tempo reale, che rappresenta la capacità anaerobica rimanente.
+
+Il W'Balance è calcolato utilizzando la formula:
+```
+W'Balance = W' - ∫(P(t) - CP)dt (quando P(t) > CP)
+W'Balance = W' + ∫(CP - P(t))dt × (W' - W'Balance)/W' (quando P(t) ≤ CP)
+```
+
+Dove:
+- W' = Capacità di lavoro anaerobico (J)
+- CP = Potenza critica (W)
+- P(t) = Potenza al tempo t (W)
+
+<span style="font-size: 0.7em; color: gray;">*Garmin non fornisce un'interfaccia dati ufficiale, quindi i dati calcolati potrebbero presentare imprecisioni o errori</span>
+<br>
+
 ***
 
-## **IV Informazioni sull'Equipaggiamento**
-### **22. Rapporto (Denti)**
+## **V Informazioni di Navigazione**
+### **36. Distanza alla Destinazione**
+Visualizza la distanza rimanente alla destinazione di navigazione.
+<br>
+
+<br>
+### **37. Tempo Stimato alla Destinazione<sup>*</sup>**
+Visualizza il tempo stimato per raggiungere la destinazione di navigazione.
+
+<span style="font-size: 0.7em; color: gray;">*Garmin non fornisce un'interfaccia dati ufficiale, quindi i dati calcolati potrebbero presentare imprecisioni o errori</span>
+<br>
+
+<br>
+### **38. Orario di Arrivo Stimato<sup>*</sup>**
+Visualizza l'orario di arrivo stimato alla destinazione di navigazione.
+
+<span style="font-size: 0.7em; color: gray;">*Garmin non fornisce un'interfaccia dati ufficiale, quindi i dati calcolati potrebbero presentare imprecisioni o errori</span>
+<br>
+
+***
+
+## **VI Informazioni sull'Equipaggiamento**
+### **39. Rapporto (Denti)**
 Visualizza il numero di denti della corona/cassetta corrente. Esempio: 52/13
 <br>
 
 <br>
-### **23. Rapporto (Indice)**
+### **40. Rapporto (Indice)**
 Visualizza l'indice numerico corrente della corona/cassetta. Esempio: 1/7
 <br>
 
 <br>
-### **24. Rapporto di trasmissione**
+### **41. Rapporto di trasmissione**
 Visualizza il rapporto di trasmissione corrente, dato dal rapporto tra i denti della corona e quelli della cassetta.  Esempio: 4.02
 <br>
 
 <br>
-### **25. Grafico rapporti**
+### **42. Grafico rapporti**
 Visualizza graficamente le informazioni sui rapporti.
 <br>
 
 ***
 
-## **V Analisi Dati**
-### **26. Bilanciamento Destro-Sinistro in tempo reale**
+## **VII Analisi Dati**
+### **43. Bilanciamento Destro-Sinistro in tempo reale**
 Visualizza il bilanciamento potenza destro-sinistro corrente. Mostrato come percentuale senza il simbolo %, ad esempio: 52-48
 <br>
 
 <br>
-### **27. Bilanciamento Destro-Sinistro medio su 3s<sup>*</sup>**
+### **44. Bilanciamento Destro-Sinistro medio su 3s<sup>*</sup>**
 Visualizza il rapporto medio di bilanciamento potenza destro-sinistro su 3 secondi.
 
 <span style="font-size: 0.7em; color: gray;">*Garmin non fornisce un'interfaccia dati ufficiale, quindi i dati calcolati potrebbero essere imprecisi o contenere errori</span>
 <br>
 
 <br>
-### **28. Istogramma delle Zone di Potenza<sup>*</sup>**
+### **45. Istogramma delle Zone di Potenza<sup>*</sup>**
 Mostra la distribuzione del tempo tra le diverse zone di potenza.
 
 !!! warning "Rischio di Perdita Dati"
@@ -205,7 +321,7 @@ Mostra la distribuzione del tempo tra le diverse zone di potenza.
 <br>
 
 <br>
-### **29. Istogramma delle Zone di Frequenza Cardiaca<sup>*</sup>**
+### **46. Istogramma delle Zone di Frequenza Cardiaca<sup>*</sup>**
 Mostra la distribuzione del tempo tra le diverse zone di frequenza cardiaca.
 
 !!! warning "Rischio di Perdita Dati"
@@ -217,13 +333,13 @@ Mostra la distribuzione del tempo tra le diverse zone di frequenza cardiaca.
 
 ***
 
-## **VI Informazioni Ambientali**
-### **30. Orologio**
+## **VIII Informazioni Ambientali**
+### **47. Orologio**
 Mostra l'ora corrente.
 <br>
 
 <br>
-### **31. Vento<sup>*</sup>**
+### **48. Vento<sup>*</sup>**
 Mostra la velocità del vento corrente e la direzione del vento relativa/assoluta.
 
 <span style="font-size: 0.7em; color: gray;">*Garmin non fornisce un'interfaccia dati ufficiale, quindi i dati calcolati potrebbero presentare imprecisioni o errori</span>
@@ -254,26 +370,38 @@ Quando si visualizza la direzione del vento relativa, le frecce sono colorate in
 #### Configurazione
 Il modulo vento deve essere configurato nell'app ConnectIQ per una visualizzazione ottimale. Per maggiori dettagli, consultare il modulo [Configurazione Meteo](en/weather.md).
 
-## **VII LED Virtuali**
+<br>
+### **49. Batteria**
+Visualizza il livello di batteria corrente del dispositivo in percentuale.
+<br>
+
+<br>
+### **50. Temperatura**
+Visualizza la temperatura ambiente corrente.
+<br>
+
+***
+
+## **IX LED Virtuali**
 
 I LED virtuali possono essere configurati lungo i bordi dello schermo. Gli utenti possono utilizzare i LED in posizioni diverse per visualizzare informazioni diverse.
 <br>
 ![led example](images/led.jpg)
 
-### Potenza in Tempo Reale
+### **51. Potenza in Tempo Reale**
 I LED virtuali mostrano la quantità e il colore per ogni Zona (stile colore impostato su stile Garmin nell'esempio sottostante)
 <br>
 ![power led](images/pw_led.jpg)
 
-### Potenza Media su 3s
+### **52. Potenza Media su 3s**
 Come sopra.
 
-### Zone Frequenza Cardiaca
+### **53. Zone Frequenza Cardiaca**
 I LED virtuali mostrano la quantità e il colore per ogni Zona (stile colore impostato su stile Garmin nell'esempio sottostante)
 <br>
 ![hr led](images/hr_led.jpg)
 
-### Indicatore Velocità Media
+### **54. Indicatore Velocità Media**
 I LED virtuali mostrano la relazione tra la velocità corrente e la velocità media, con il rosso che indica un ritardo (inferiore alla media) e il blu che indica un vantaggio (superiore alla media).
 <br>
 ![led avg](images/led_avg.jpg)
@@ -287,7 +415,7 @@ Ogni LED rappresenta un vantaggio o un ritardo del 10%, come mostrato nella tabe
 | ![led_avg_b2](images/led_avg_b2.jpg) | 10% < Vantaggio corrente < 20% |
 | ![led_avg_b3](images/led_avg_b3.jpg) | Vantaggio corrente > 20% |
 
-### Indicatore Potenza Media
+### **55. Indicatore Potenza Media**
 I LED virtuali mostrano la relazione tra la potenza corrente e la potenza media, con i colori che hanno lo stesso significato di sopra, ma ogni LED rappresenta un vantaggio o un ritardo del 20%. La tabella usa il vantaggio come esempio; il ritardo segue lo stesso principio.
 
 | Esempio | Significato |
@@ -297,7 +425,7 @@ I LED virtuali mostrano la relazione tra la potenza corrente e la potenza media,
 | ![led_avg_b2](images/led_avg_b2.jpg) | 20% < Potenza in vantaggio < 40% |
 | ![led_avg_b3](images/led_avg_b3.jpg) | Potenza in vantaggio > 40% |
 
-### Indicatore di Bilanciamento Sinistro-Destro
+### **56. Indicatore di Bilanciamento Sinistro-Destro**
 I LED virtuali mostrano il bilanciamento sinistro-destro della potenza di pedalata attuale. Ogni LED rappresenta uno scostamento del 5% per un lato. La tabella usa la pedalata spostata a destra come esempio; l'opposto segue lo stesso principio.
 
 Inoltre, se i valori di bilanciamento sinistro-destro ricevuti sono 100-0 o 0-100, verrà visualizzato uno stato di errore. Questa situazione si verifica solitamente a causa della disconnessione di un lato del misuratore di potenza a doppio lato o di una forza momentanea durante la prima pedalata.
@@ -310,5 +438,5 @@ Inoltre, se i valori di bilanciamento sinistro-destro ricevuti sono 100-0 o 0-10
 | ![lr_04](images/lr_04.jpg) | ≤40% - ≥60% |
 | ![lr_err](images/lr_err.jpg) | 0%-100% (o 100%-0%) |
 
-### Indicatore di Bilanciamento Sinistro-Destro 3s
+### **57. Indicatore di Bilanciamento Sinistro-Destro 3s**
 Come sopra.

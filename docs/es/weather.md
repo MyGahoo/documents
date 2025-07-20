@@ -10,6 +10,12 @@ El módulo de viento puede tener tres estados: actualizado por internet, usando 
 | ⭕ | Fallo en OpenWeather, usa datos internos de Garmin | Variable, depende de Garmin | Clima desde estación meteorológica cercana | 530 / 830 / 1030 y modelos más nuevos |
 | 🔴 | No se pudieron obtener datos | - | - | 520 Plus / 820 / explore y modelos posteriores |
 
+### Requisitos previos para 🟢
+Para recibir actualizaciones de OpenWeather, se deben cumplir las siguientes condiciones:
+1. **Clave API**: Debe configurarse una clave API válida de OpenWeather en la configuración de MyGahoo
+2. **Datos de ubicación**: El dispositivo debe poder obtener coordenadas GPS exitosamente
+3. **Conexión de red**: El dispositivo debe tener una conexión a internet activa (a través del smartphone emparejado o WiFi)
+
 Ejemplos de iconos de estado:
 <br>
 ![wind example](images/wd_example.jpg)

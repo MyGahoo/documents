@@ -599,7 +599,7 @@
 <h1 id="weather-configuration">Weather Configuration<a class="headerlink" href="#weather-configuration" title="Permanent link">&para;</a></h1>
 <p>This section explains how to configure weather settings in the ConnectIQ app to display correct data in the wind module.</p>
 <h2 id="device-compatibility">Device Compatibility<a class="headerlink" href="#device-compatibility" title="Permanent link">&para;</a></h2>
-<p>The wind module's data source has 3 states: Internet updated, using Garmin's built-in weather information, and no data. Due to different support for different APIs in new and old devices (this is a limitation from Garmin), different devices can support some or all of the modes. For older devices, even after updating the OpenWeather API as described below, weather data still won't be displayed correctly. See the table below for support details.</p>
+<p>The wind module's data source has 3 states: Internet updated, using Garmin's built-in weather information, and no data. Due to different support for different APIs in new and old devices (this is a limitation from Garmin), different devices can support some or all of the modes. For older devices, the OpenWeather API is available (since V2.2.0) but will be updated in a lower frequency. See the table below for support details.</p>
 <table>
 <thead>
 <tr>
@@ -614,9 +614,9 @@
 <tr>
 <td>🟢</td>
 <td>Successfully updated through OpenWeather</td>
-<td>Every minute</td>
+<td>- Every minute (x40 / x50 / explorer2) <br> - Every 5 minute (x20 / x30 / explorer1)</td>
 <td>Weather information at current latitude and longitude</td>
-<td>540 / 840 / 1040 / 1050 / explore2</td>
+<td>ALL</td>
 </tr>
 <tr>
 <td>⭕</td>
@@ -630,10 +630,20 @@
 <td>Unable to obtain any data</td>
 <td>-</td>
 <td>-</td>
-<td>520 Plus / 820 / explore and newer models</td>
+<td>ALL</td>
 </tr>
 </tbody>
 </table>
+<div class="admonition info">
+<p class="admonition-title">Pre-requisite for 🟢</p>
+<p>There are several conditions to be met before you can see green dot:</p>
+<ul>
+<li>API key itself can work properly (you've verified your email in Open Weather etc.)</li>
+<li>API key is saved in CIQ setting</li>
+<li>Latitude and longitude are obtained (so indoor environment is likely to fail)</li>
+<li>Mobile phone is connected and able to connect to Internet (as long as phone is nearby and has signal, this should be fine)</li>
+</ul>
+</div>
 <p>Examples of update status icons:
 <br>
 <img alt="wind example" src="../images/wd_example.jpg" /></p>
@@ -749,6 +759,8 @@
     
     
       <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       
     
   </body>

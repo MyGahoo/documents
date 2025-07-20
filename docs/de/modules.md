@@ -62,23 +62,23 @@ Zeigt die durchschnittliche Leistung der letzten 3 Sekunden an. Farbdisplay wie 
 
 <span style="font-size: 0.7em; color: gray;">*Garmin stellt keine offizielle Datenschnittstelle zur Verfügung, daher können berechnete Daten ungenau oder fehlerhaft sein.</span>
 
-### **8. Durchschnittliche Leistung 5s<sup>*</sup>**
+### **8. 5s Durchschnittsleistung<sup>*</sup>**
 Zeigt die durchschnittliche Leistung der letzten 5 Sekunden an. Farbdisplay wie Echtzeitleistung.
 
-<span style="font-size: 0.7em; color: gray;">*Garmin gibt keine Daten-Schnittstelle frei, daher können berechnete Daten Ungenauigkeiten oder Fehler aufweisen*</span>
+<span style="font-size: 0.7em; color: gray;">*Garmin stellt keine offizielle Datenschnittstelle zur Verfügung, daher können berechnete Daten ungenau oder fehlerhaft sein</span>
 <br>
 
 <br>
 ### **9. Durchschnittliche Leistung (10 Sek.)<sup>*</sup>**
 Zeigt die durchschnittliche Leistung der letzten 10 Sekunden an. Farbliche Anzeige wie Echtzeit-Leistung.
 
-<span style="font-size: 0.7em; color: gray;">*Garmin gibt keine Daten-Schnittstelle frei, daher können berechnete Daten Ungenauigkeiten oder Fehler aufweisen*</span>
+<span style="font-size: 0.7em; color: gray;">*Garmin stellt keine offizielle Datenschnittstelle zur Verfügung, daher können berechnete Daten ungenau oder fehlerhaft sein</span>
 <br>
 <br>
 ### **10. Durchschnittliche Leistung (Runde)<sup>*</sup>**
 Zeigt die durchschnittliche Leistung der aktuellen Runde an.
 
-<span style="font-size: 0.7em; color: gray;">*Garmin gibt keine Daten-Schnittstelle frei, daher können berechnete Daten Ungenauigkeiten oder Fehler aufweisen*</span>
+<span style="font-size: 0.7em; color: gray;">*Garmin stellt keine offizielle Datenschnittstelle zur Verfügung, daher können berechnete Daten ungenau oder fehlerhaft sein</span>
 <br>
 
 <br>
@@ -87,53 +87,125 @@ Zeigt die Durchschnittsgeschwindigkeit der aktuellen Aktivität an.
 <br>
 
 <br>
-### **12. Aktivitätsdauer**
+### **12. Durchschnittliche Herzfrequenz**
+Zeigt die durchschnittliche Herzfrequenz der aktuellen Aktivität an.
+<br>
+
+<br>
+### **13. Aktivitätsdauer**
 Zeigt die Dauer der aktuellen Aktivität an.
 <br>
 
 <br>
-### **13. Rundendauer<sup>*</sup>**
+### **14. Rundendauer<sup>*</sup>**
 Zeigt die Dauer der aktuellen Runde an.
 
-<span style="font-size: 0.7em; color: gray;">*Garmin gibt keine Daten-Schnittstelle frei, daher können berechnete Daten Ungenauigkeiten oder Fehler aufweisen*</span>
+<span style="font-size: 0.7em; color: gray;">*Garmin stellt keine offizielle Datenschnittstelle zur Verfügung, daher können berechnete Daten ungenau oder fehlerhaft sein</span>
 <br>
 
 <br>
-### **14. Distanz**
+### **15. Distanz**
 Zeigt die zurückgelegte Gesamtdistanz der aktuellen Aktivität an.
 <br>
 
 <br>
-### **15. Kalorien**
+### **16. Gesamtanstieg**
+Zeigt den gesamten Höhenanstieg der aktuellen Aktivität an.
+<br>
+
+<br>
+### **17. Gesamtabstieg**
+Zeigt den gesamten Höhenabstieg der aktuellen Aktivität an.
+<br>
+
+<br>
+### **18. Durchschnittliche Herzfrequenz (Runde)<sup>*</sup>**
+Zeigt die durchschnittliche Herzfrequenz der aktuellen Runde an.
+
+<span style="font-size: 0.7em; color: gray;">*Garmin stellt keine offizielle Datenschnittstelle zur Verfügung, daher können berechnete Daten ungenau oder fehlerhaft sein</span>
+<br>
+
+<br>
+### **19. Gesamtarbeit (KJ)<sup>*</sup>**
+Zeigt die Gesamtarbeit der aktuellen Aktivität in Kilojoule an.
+
+<span style="font-size: 0.7em; color: gray;">*Garmin stellt keine offizielle Datenschnittstelle zur Verfügung, daher können berechnete Daten ungenau oder fehlerhaft sein</span>
+<br>
+
+<br>
+### **20. Rundendistanz<sup>*</sup>**
+Zeigt die Distanz der aktuellen Runde an.
+
+<span style="font-size: 0.7em; color: gray;">*Garmin stellt keine offizielle Datenschnittstelle zur Verfügung, daher können berechnete Daten ungenau oder fehlerhaft sein</span>
+<br>
+
+<br>
+### **21. Durchschnittliche Trittfrequenz<sup>*</sup>**
+Zeigt die durchschnittliche Trittfrequenz der aktuellen Aktivität an.
+
+<span style="font-size: 0.7em; color: gray;">*Garmin stellt keine offizielle Datenschnittstelle zur Verfügung, daher können berechnete Daten ungenau oder fehlerhaft sein</span>
+<br>
+
+<br>
+### **22. Durchschnittsgeschwindigkeit (Runde)**
+Zeigt die Durchschnittsgeschwindigkeit der aktuellen Runde an.
+<br>
+
+<br>
+### **23. Kalorien<sup>*</sup>**
 Zeigt die während der aktuellen Aktivität verbrauchten Kalorien an.
+
+<span style="font-size: 0.7em; color: gray;">*Garmin stellt keine offizielle Datenschnittstelle zur Verfügung, daher können berechnete Daten ungenau oder fehlerhaft sein</span>
 <br>
 
 ***
 
-## **III Trainingsmetriken**
-### **16. Aktuelles Leistungsgewicht**
+## **III Maximalwerte**
+### **24. Maximale Leistung**
+Zeigt die maximale Leistung der aktuellen Aktivität an.
+<br>
+
+<br>
+### **25. Maximale Herzfrequenz**
+Zeigt die maximale Herzfrequenz der aktuellen Aktivität an.
+<br>
+
+<br>
+### **26. Maximale Geschwindigkeit**
+Zeigt die maximale Geschwindigkeit der aktuellen Aktivität an.
+<br>
+
+<br>
+### **27. Maximale Trittfrequenz**
+Zeigt die maximale Trittfrequenz der aktuellen Aktivität an.
+<br>
+
+***
+
+## **IV Trainingsmetriken**
+### **28. Aktuelles Leistungsgewicht**
 Zeigt das Echtzeit-Leistungsgewicht der aktuellen Aktivität in W/kg an. Die Leistung stammt von der Eingabe auf der MyGahoo-Einstellungsseite, das Gewicht von der Konfiguration auf der Garmin-Profilseite.
 <br>
 
-### **17. Durchschnittliche Leistungsgewicht-Ratio (3s)<sup>*</sup>**
+### **29. Durchschnittliche Leistungsgewicht-Ratio (3s)<sup>*</sup>**
 Zeigt die durchschnittliche Leistungsgewicht-Ratio der letzten 3 Sekunden in W/kg an.
 
 <span style="font-size: 0.7em; color: gray;">*Garmin stellt keine offizielle Datenschnittstelle bereit, daher können die berechneten Daten Ungenauigkeiten oder Fehler enthalten.</span>
 <br>
 
-### **18. Durchschnittliche Leistungsgewicht-Ratio (10s)<sup>*</sup>**
+### **30. Durchschnittliche Leistungsgewicht-Ratio (10s)<sup>*</sup>**
 Zeigt die durchschnittliche Leistungsgewicht-Ratio der letzten 10 Sekunden in W/kg an.
 
 <span style="font-size: 0.7em; color: gray;">*Garmin stellt keine offizielle Datenschnittstelle bereit, daher können die berechneten Daten Ungenauigkeiten oder Fehler enthalten.</span>
 <br>
 
-### **19. Durchschnittliche Leistungsgewicht-Ratio (Runde)<sup>*</sup>**
+### **31. Durchschnittliche Leistungsgewicht-Ratio (Runde)<sup>*</sup>**
 Zeigt die durchschnittliche Leistungsgewicht-Ratio der aktuellen Runde in W/kg an.
 
 <span style="font-size: 0.7em; color: gray;">*Garmin stellt keine offizielle Datenschnittstelle bereit, daher können die berechneten Daten Ungenauigkeiten oder Fehler enthalten.</span>
 <br>
 
-### **20. NP™ (Normalisierte Leistung)<sup>*</sup>**
+### **32. NP™ (Normalisierte Leistung)<sup>*</sup>**
 Zeigt die normalisierte Leistung für die aktuelle Aktivität an.
 
 !!! warning "Datenverlustgefahr"
@@ -144,7 +216,7 @@ Zeigt die normalisierte Leistung für die aktuelle Aktivität an.
 <span style="font-size: 0.7em; color: gray;">*Garmin stellt keine offizielle Datenschnittstelle bereit, daher können die berechneten Daten Ungenauigkeiten oder Fehler enthalten.</span>
 <br>
 
-### **21. TSS™ (Training Stress Score)<sup>*</sup>**
+### **33. TSS™ (Training Stress Score)<sup>*</sup>**
 Zeigt den Training Stress Score für die aktuelle Aktivität an.
 
 !!! warning "Datenverlustgefahr"
@@ -155,42 +227,81 @@ Zeigt den Training Stress Score für die aktuelle Aktivität an.
 <span style="font-size: 0.7em; color: gray;">*Garmin stellt keine offizielle Datenschnittstelle bereit, daher können die berechneten Daten Ungenauigkeiten oder Fehler aufweisen.</span>
 <br>
 
+<br>
+### **34. W'Balance<sup>*</sup>**
+Zeigt W'Balance (W prime balance) für die aktuelle Aktivität an. Dies erfordert eine Vordefinition von CP (Critical Power) und W' (W Prime). Für wissenschaftliche Erklärungen gibt es viele Artikel oder Videos, die erklären, was es ist.
+
+Während der Aktivität kann dieses Feld grün oder rot sein. Wenn es grün ist, bedeutet das, dass Ihre aktuelle Leistung unter CP liegt, mit anderen Worten, Sie "erholen" sich. Umgekehrt, wenn es rot ist, bedeutet das, dass Sie verbrauchen.
+
+Das aktuelle mathematische Modell verwendet das Differentialmodell von Froncioni / Clarke:
+
+
+`W′bal = W′bal + (CP - P) * (W′ - W′bal) / W′` wenn `P > CP`
+
+`W′bal = W′bal + (CP - P)` wenn `P < CP`
+
+<span style="font-size: 0.7em; color: gray;">*Garmin stellt keine offizielle Datenschnittstelle zur Verfügung, daher können berechnete Daten ungenau oder fehlerhaft sein</span>
+<br>
+
 ***
 
-## **IV Geräteinformationen**
-### **22. Gang (Zähne)**
+## **V Geräteinformationen**
+### **35. Gang (Zähne)**
 Zeigt die Anzahl der Zähne des aktuellen Kettenblatts/der aktuellen Kassette an. Z. B. 52/13
 <br>
 
 <br>
-### **23. Gang (Index)**
+### **36. Gang (Index)**
 Zeigt die aktuelle Kettenblatt-/Kassettenindexnummer an. Z. B. 1/7
 <br>
 
 <br>
-### **24. Übersetzungsverhältnis**
+### **37. Übersetzungsverhältnis**
 Zeigt das aktuelle Übersetzungsverhältnis von Kettenblatt geteilt durch Kassettenzähne an. Beispiel: 4,02
 <br>
 
 <br>
-### **25. Gang-Diagramm**
+### **38. Gang-Diagramm**
 Stellt Ganginformationen grafisch dar.
 <br>
 
 ***
 
-## **V Datenanalyse**
-### **26. Echtzeit-Links-Rechts-Balance**
+***
+
+## **VI Navigationsinformationen**
+### **39. Entfernung zum Ziel**
+Zeigt die verbleibende Entfernung zum Ziel an.
+<br>
+
+<br>
+### **40. Geschätzte Zeit zum Ziel<sup>*</sup>**
+Zeigt die geschätzte verbleibende Zeit bis zum Erreichen des Ziels an. Dies wird anhand der bisherigen Durchschnittsgeschwindigkeit geschätzt, und die Zahl wird 10 Sekunden nach Aktivitätsbeginn angezeigt, um starke Schwankungen am Anfang zu vermeiden.
+
+<span style="font-size: 0.7em; color: gray;">*Garmin stellt keine offizielle Datenschnittstelle zur Verfügung, daher können berechnete Daten ungenau oder fehlerhaft sein</span>
+<br>
+
+<br>
+### **41. Geschätzte Ankunftszeit<sup>*</sup>**
+Zeigt die geschätzte Ankunftszeit am Ziel an. Dies wird anhand der bisherigen Durchschnittsgeschwindigkeit geschätzt, und die Zahl wird 10 Sekunden nach Aktivitätsbeginn angezeigt, um starke Schwankungen am Anfang zu vermeiden.
+
+<span style="font-size: 0.7em; color: gray;">*Garmin stellt keine offizielle Datenschnittstelle zur Verfügung, daher können berechnete Daten ungenau oder fehlerhaft sein</span>
+<br>
+
+***
+
+## **VII Datenanalyse**
+### **42. Echtzeit-Links-Rechts-Balance**
 Zeigt die aktuelle Links-Rechts-Leistungsbalance an. Wird als Prozentwert ohne % Zeichen angezeigt, z. B.: 52-48
 <br>
 
 <br>
-### **27. 3s Durchschnitt Links-Rechts-Balance<sup>*</sup>**
+### **43. 3s Durchschnitt Links-Rechts-Balance<sup>*</sup>**
 Zeigt das durchschnittliche Links-Rechts-Leistungsverhältnis über 3 Sekunden an.
 
 *<span style="font-size: 0.7em; color: gray;">Garmin bietet keine offizielle Datenschnittstelle, daher können die berechneten Daten Ungenauigkeiten oder Fehler enthalten.</span>
 
-### **28. Leistungszonen-Histogramm<sup>*</sup>**
+### **44. Leistungszonen-Histogramm<sup>*</sup>**
 Zeigt die Zeitverteilung über verschiedene Leistungszonen an.
 
 !!! warning "Datenverlustgefahr"
@@ -198,7 +309,7 @@ Zeigt die Zeitverteilung über verschiedene Leistungszonen an.
 
 *<span style="font-size: 0.7em; color: gray;">Garmin bietet keine offizielle Datenschnittstelle, daher können die berechneten Daten Ungenauigkeiten oder Fehler enthalten.</span>
 
-### **29. Herzfrequenzzonen-Histogramm<sup>*</sup>**
+### **45. Herzfrequenzzonen-Histogramm<sup>*</sup>**
 Zeigt die Zeitverteilung über verschiedene Herzfrequenzzonen an.
 
 !!! warning "Datenverlustgefahr"
@@ -210,10 +321,22 @@ Zeigt die Zeitverteilung über verschiedene Herzfrequenzzonen an.
 ***
 
 ## **VI Umweltinformationen**
-### **30. Uhr**
+### **46. Batterie<sup>*</sup>**
+Zeigt den Batteriestand des Geräts an.
+
+<span style="font-size: 0.7em; color: gray;">*Garmin stellt keine offizielle Datenschnittstelle zur Verfügung, daher können berechnete Daten ungenau oder fehlerhaft sein</span>
+<br>
+
+<br>
+### **47. Temperatur**
+Zeigt die aktuelle Umgebungstemperatur an.
+<br>
+
+<br>
+### **48. Uhr**
 Zeigt die aktuelle Uhrzeit an.
 
-### **31. Wind<sup>*</sup>**
+### **49. Wind<sup>*</sup>**
 Zeigt die aktuelle Windgeschwindigkeit und die relative/absolute Windrichtung an.
 
 <span style="font-size: 0.7em; color: gray;">*Garmin bietet keine offizielle Datenschnittstelle, daher können die berechneten Daten Ungenauigkeiten oder Fehler enthalten.</span>
@@ -244,26 +367,26 @@ Bei der Anzeige der relativen Windrichtung werden die Pfeile je nach Windwinkel 
 #### Konfiguration
 Für eine optimale Anzeige muss das Windmodul in der ConnectIQ App konfiguriert werden. Weitere Informationen finden Sie im Modul [Wetterkonfiguration](en/weather.md).
 
-## VII Virtuelle LEDs
+## **VII Virtuelle LEDs**
 
 Virtuelle LEDs können an den Bildschirmrändern konfiguriert werden. Benutzer können LEDs an verschiedenen Positionen verwenden, um unterschiedliche Informationen anzuzeigen.
 <br>
 ![led example](images/led.jpg)
 
-### Echtzeit-Leistung
+### **50. Echtzeit-Leistung**
 Virtuelle LEDs zeigen die Menge und Farbe für jede Zone an (Farbstil im Beispiel unten auf Garmin-Stil eingestellt).
 <br>
 ![power led](images/pw_led.jpg)
 
-### Durchschnittliche Leistung (3s)
+### **51. Durchschnittliche Leistung (3s)**
 Wie oben.
 
-### Herzfrequenz-Zonen
+### **52. Herzfrequenz-Zonen**
 Virtuelle LEDs zeigen die Menge und Farbe für jede Zone an (Farbstil im Beispiel unten auf Garmin-Stil eingestellt).
 <br>
 ![hr led](images/hr_led.jpg)
 
-### Durchschnittliche Geschwindigkeitsanzeige
+### **53. Durchschnittliche Geschwindigkeitsanzeige**
 Virtuelle LEDs zeigen das Verhältnis zwischen aktueller und durchschnittlicher Geschwindigkeit an. Rot zeigt an, dass man hinterherhinkt (unter dem Durchschnitt), Blau, dass man führt (über dem Durchschnitt).
 <br>
 ![led avg](images/led_avg.jpg)
@@ -277,7 +400,7 @@ Jede LED repräsentiert eine Vor- oder Rücklage von 10%, wie in der Tabelle unt
 | ![led_avg_b2](images/led_avg_b2.jpg) | 10% < Aktueller Vorsprung < 20% |
 | ![led_avg_b3](images/led_avg_b3.jpg) | Aktueller Vorsprung > 20% |
 
-### Durchschnittliche Leistungsanzeige
+### **54. Durchschnittliche Leistungsanzeige**
 Virtuelle LEDs zeigen das Verhältnis zwischen aktueller und durchschnittlicher Leistung an. Die Farben haben die gleiche Bedeutung wie oben, aber jede LED repräsentiert eine Vor- oder Rücklage von 20%. Die Tabelle verwendet die Führung als Beispiel; die Rücklage folgt dem gleichen Prinzip.
 
 | Beispiel | Bedeutung |
@@ -287,7 +410,7 @@ Virtuelle LEDs zeigen das Verhältnis zwischen aktueller und durchschnittlicher 
 | ![led_avg_b2](images/led_avg_b2.jpg) | 20% < Aktuelle Führung < 40% |
 | ![led_avg_b3](images/led_avg_b3.jpg) | Aktuelle Führung > 40% |
 
-### Anzeige für die Links-Rechts-Balance
+### **55. Anzeige für die Links-Rechts-Balance**
 Virtuelle LEDs zeigen die Links-Rechts-Balance der aktuellen Pedalleistung an. Jede LED repräsentiert einen Offset von 5% für eine Seite. Die Tabelle verwendet rechtslastiges Treten als Beispiel; das Gegenteil folgt dem gleichen Prinzip.
 
 Zusätzlich wird bei empfangenen Links-Rechts-Balancewerten von 100-0 oder 0-100 ein Fehlerzustand angezeigt. Diese Situation tritt in der Regel aufgrund einer Trennung einer Seite des doppelseitigen Leistungsmessers oder einer momentanen Krafteinwirkung beim ersten Treten auf.
@@ -300,5 +423,5 @@ Zusätzlich wird bei empfangenen Links-Rechts-Balancewerten von 100-0 oder 0-100
 | ![lr_04](images/lr_04.jpg) | ≤40% - ≥60% |
 | ![lr_err](images/lr_err.jpg) | 0%-100% (oder 100%-0%) |
 
-### 3s Links-Rechts-Balanceanzeige
+### **56. 3s Links-Rechts-Balanceanzeige**
 Wie oben.

@@ -10,6 +10,11 @@ La sorgente dei dati del modulo del vento ha 3 stati: aggiornamento tramite Inte
 | ⭕ | Aggiornamento OpenWeather fallito, utilizzo dei dati meteo integrati Garmin | Incerta, determinata da Garmin | Informazioni meteo dall'aeroporto o stazione meteo più vicini | 530 / 830 / 1030 e modelli successivi |
 | 🔴 | Impossibile ottenere dati | - | - | 520 Plus / 820 / explore e modelli successivi |
 
+**🟢 Prerequisiti:**
+- Chiave API OpenWeather valida
+- Dati di posizione disponibili (GPS attivato)
+- Connessione di rete attiva (WiFi o dati mobili tramite smartphone connesso)
+
 Esempi di icone di stato dell'aggiornamento:
 <br>
 ![esempio vento](images/wd_example.jpg)

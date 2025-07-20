@@ -14,6 +14,13 @@
 <br>
 ![wind example](images/wd_example.jpg)
 
+### OpenWeather 업데이트 전제 조건
+OpenWeather에서 날씨 데이터를 성공적으로 업데이트하려면 다음 조건을 충족해야 합니다:
+- 유효한 OpenWeather API Key
+- 정확한 위치 데이터 (GPS 신호)
+- 인터넷 연결 (WiFi 또는 모바일 데이터)
+- 지원되는 기기 (위 표 참조)
+
 ## OpenWeather API 등록 및 획득
 1. OpenWeather 공식 웹사이트 [OpenWeather Map](https://openweathermap.org/)를 방문하세요
 2. 개인 계정(비즈니스용 아님)을 등록하고 로그인을 완료하세요

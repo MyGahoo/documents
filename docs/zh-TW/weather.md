@@ -33,3 +33,11 @@
 ![OpenWeather Register](images/opw_rig_2.jpg)
 <br>
 5. 點擊Save按鈕保存設置
+
+## OpenWeather更新的前提條件
+為了成功進行OpenWeather更新，需要滿足以下條件：
+
+- **API密鑰**：必須在ConnectIQ app設置中輸入有效的OpenWeather API密鑰
+- **位置數據**：設備必須能夠獲取GPS位置數據
+- **網路連接**：設備必須連接到網路（通過智慧型手機或Wi-Fi）
+- **支援設備**：設備必須支援OpenWeather更新（請參考上方相容性表格）

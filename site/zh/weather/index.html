@@ -535,7 +535,7 @@
         <li class="md-nav__item">
   <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
-      设备适配性
+      设备兼容性
     </span>
   </a>
   
@@ -598,48 +598,52 @@
 
 <h1 id="_1">天气配置<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
 <p>本章节介绍如何在ConnectIQ app中进行天气配置，以便在风力模块中显示正确的数据。</p>
-<h2 id="_2">设备适配性<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
-<p>风力模块的数据来源有3种状态，分别是联网更新、使用佳明内置的天气信息、无数据。由于新老设备对不同API的支持程度不同(这是来自佳明层面的限制)，因此不同设备能支持的模式也会有所不同。对于旧版本设备，即使按照后文教程更新OpenWeather API后也无法正确显示天气数据。具体支持情况见下表。</p>
-<!-- | 图标        | Meaning                                      | Update frequency | Location precision                   | Support device                          |
-|------------|----------------------------------------------|------------------|--------------------------------------|-----------------------------------------|
-| 🟢          | OpenWeather request successful               | Every 60s        | By precise Latitude and longitude    | 540 / 840 / 1040 / 1050 / explore2      |
-| ⭕            | OpenWeather fail, using Garmin Weather data | Uncertain, decided by Garmin | By nearest airport or weather station | 530 / 830 / 1030 * and above   |
-| 🔴          | No data                                      | -                | -                                    | 520P / 820 / explore * and above        | -->
-
+<h2 id="_2">设备兼容性<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<p>风力模块的数据来源有3种状态：联网更新、使用Garmin内置天气信息、无数据。由于新老设备对不同API的支持程度不同（这是来自Garmin层面的限制），不同设备可以支持部分或全部模式。对于较旧的设备，OpenWeather API可用（自V2.2.0起），但更新频率较低。具体支持详情见下表。</p>
 <table>
 <thead>
 <tr>
 <th>图标</th>
 <th>含义</th>
 <th>更新频率</th>
-<th>位置准确性</th>
+<th>位置精度</th>
 <th>支持设备</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>🟢</td>
-<td>通过 OpenWeather 联网更新成功</td>
-<td>每分钟</td>
-<td>当前的经纬度下的天气信息</td>
-<td>540 / 840 / 1040 / 1050 / explore2</td>
+<td>通过OpenWeather成功更新</td>
+<td>- 每分钟（x40 / x50 / explorer2）<br> - 每5分钟（x20 / x30 / explorer1）</td>
+<td>当前经纬度的天气信息</td>
+<td>全部</td>
 </tr>
 <tr>
 <td>⭕</td>
-<td>通过 OpenWeather 更新失败，使用Garmin内置天气数据</td>
-<td>不确定，由佳明决定</td>
-<td>距离当前位置最近的机场或气象站的天气信息</td>
-<td>530 / 830 / 1030 及更新型号</td>
+<td>OpenWeather更新失败，使用Garmin内置天气数据</td>
+<td>不确定，由Garmin决定</td>
+<td>最近机场或气象站的天气信息</td>
+<td>530 / 830 / 1030及更新型号</td>
 </tr>
 <tr>
 <td>🔴</td>
 <td>无法获取任何数据</td>
 <td>-</td>
 <td>-</td>
-<td>520 Plus / 820 / explore  及更新型号</td>
+<td>全部</td>
 </tr>
 </tbody>
 </table>
+<div class="admonition info">
+<p class="admonition-title">🟢的前提条件</p>
+<p>在您看到绿点之前，需要满足几个条件：</p>
+<ul>
+<li>API密钥本身可以正常工作（您已在Open Weather等中验证了您的电子邮件）</li>
+<li>API密钥已保存在CIQ设置中</li>
+<li>已获取经纬度（因此室内环境可能会失败）</li>
+<li>手机已连接并能够连接到互联网（只要手机在附近并有信号就行）</li>
+</ul>
+</div>
 <p>天气更新状态图标的示例如下：
 <br>
 <img alt="wind example" src="../../images/wd_example.jpg" /></p>
@@ -755,6 +759,8 @@
     
     
       <script src="../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       
     
   </body>

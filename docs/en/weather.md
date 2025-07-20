@@ -2,13 +2,23 @@
 This section explains how to configure weather settings in the ConnectIQ app to display correct data in the wind module.
 
 ## Device Compatibility
-The wind module's data source has 3 states: Internet updated, using Garmin's built-in weather information, and no data. Due to different support for different APIs in new and old devices (this is a limitation from Garmin), different devices can support some or all of the modes. For older devices, even after updating the OpenWeather API as described below, weather data still won't be displayed correctly. See the table below for support details.
+The wind module's data source has 3 states: Internet updated, using Garmin's built-in weather information, and no data. Due to different support for different APIs in new and old devices (this is a limitation from Garmin), different devices can support some or all of the modes. For older devices, the OpenWeather API is available (since V2.2.0) but will be updated in a lower frequency. See the table below for support details.
 
 | Icon | Meaning | Update Frequency | Location Precision | Supported Devices |
 |------------|-------------------------------------------|------------------|--------------------------------------|-----------------------------------------|
-| 🟢 | Successfully updated through OpenWeather | Every minute | Weather information at current latitude and longitude | 540 / 840 / 1040 / 1050 / explore2 |
+| 🟢 | Successfully updated through OpenWeather | - Every minute (x40 / x50 / explorer2) <br> - Every 5 minute (x20 / x30 / explorer1) | Weather information at current latitude and longitude | ALL |
 | ⭕ | OpenWeather update failed, using Garmin built-in weather data | Uncertain, determined by Garmin | Weather information from nearest airport or weather station | 530 / 830 / 1030 and newer models |
-| 🔴 | Unable to obtain any data | - | - | 520 Plus / 820 / explore and newer models |
+| 🔴 | Unable to obtain any data | - | - | ALL |
+
+!!! info "Pre-requisite for 🟢"
+    There are several conditions to be met before you can see green dot:
+
+    - API key itself can work properly (you've verified your email in Open Weather etc.)
+    - API key is saved in CIQ setting
+    - Latitude and longitude are obtained (so indoor environment is likely to fail)
+    - Mobile phone is connected and able to connect to Internet (as long as phone is nearby and has signal, this should be fine)
+
+
 
 Examples of update status icons:
 <br>

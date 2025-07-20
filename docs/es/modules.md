@@ -111,32 +111,109 @@ Muestra la distancia recorrida acumulada para la actividad actual.
 Muestra las calorías quemadas en la actividad actual.
 <br>
 
+<br>
+### **16. Potencia Promedio 5s<sup>*</sup>**
+Muestra la potencia promedio de los últimos 5 segundos.
+
+<span style="font-size: 0.7em; color: gray;">*Garmin no proporciona una interfaz de datos oficial, por lo que los datos calculados pueden tener imprecisiones o errores</span>
+<br>
+
+<br>
+### **17. Frecuencia Cardíaca Promedio**
+Muestra la frecuencia cardíaca promedio de la actividad actual.
+<br>
+
+<br>
+### **18. Ascenso Total**
+Muestra el ascenso total acumulado de la actividad actual.
+<br>
+
+<br>
+### **19. Descenso Total**
+Muestra el descenso total acumulado de la actividad actual.
+<br>
+
+<br>
+### **20. Frecuencia Cardíaca Promedio de Vuelta<sup>*</sup>**
+Muestra la frecuencia cardíaca promedio de la vuelta actual.
+
+<span style="font-size: 0.7em; color: gray;">*Garmin no proporciona una interfaz de datos oficial, por lo que los datos calculados pueden tener imprecisiones o errores</span>
+<br>
+
+<br>
+### **21. Trabajo Total (KJ)**
+Muestra el trabajo total acumulado de la actividad actual en kilojulios.
+<br>
+
+<br>
+### **22. Distancia de Vuelta<sup>*</sup>**
+Muestra la distancia de la vuelta actual.
+
+<span style="font-size: 0.7em; color: gray;">*Garmin no proporciona una interfaz de datos oficial, por lo que los datos calculados pueden tener imprecisiones o errores</span>
+<br>
+
+<br>
+### **23. Cadencia Promedio<sup>*</sup>**
+Muestra la cadencia promedio de la actividad actual.
+
+<span style="font-size: 0.7em; color: gray;">*Garmin no proporciona una interfaz de datos oficial, por lo que los datos calculados pueden tener imprecisiones o errores</span>
+<br>
+
+<br>
+### **24. Velocidad Promedio de Vuelta<sup>*</sup>**
+Muestra la velocidad promedio de la vuelta actual.
+
+<span style="font-size: 0.7em; color: gray;">*Garmin no proporciona una interfaz de datos oficial, por lo que los datos calculados pueden tener imprecisiones o errores</span>
+<br>
+
 ***
 
-## **III Métricas de Entrenamiento**
-### **16. Relación Potencia-Peso Actual**
+## **III Valores Máximos**
+### **25. Potencia Máxima**
+Muestra la potencia máxima de la actividad actual.
+<br>
+
+<br>
+### **26. Frecuencia Cardíaca Máxima**
+Muestra la frecuencia cardíaca máxima de la actividad actual.
+<br>
+
+<br>
+### **27. Velocidad Máxima**
+Muestra la velocidad máxima de la actividad actual.
+<br>
+
+<br>
+### **28. Cadencia Máxima**
+Muestra la cadencia máxima de la actividad actual.
+<br>
+
+***
+
+## **IV Métricas de Entrenamiento**
+### **29. Relación Potencia-Peso Actual**
 Muestra la relación potencia-peso en tiempo real para la actividad actual en W/Kg. La potencia proviene de la configuración de la página de MyGahoo, y el peso de la configuración de la página de perfil personal de Garmin.
 <br>
 
-### **17. Relación Potencia-Peso Media 3s<sup>*</sup>**
+### **30. Relación Potencia-Peso Media 3s<sup>*</sup>**
 Muestra la relación potencia-peso media de los últimos 3 segundos en W/Kg.
 
 <span style="font-size: 0.7em; color: gray;">*Garmin no proporciona una interfaz de datos oficial, por lo que los datos calculados pueden tener imprecisiones o errores</span>
 <br>
 
-### **18. Relación Potencia-Peso Media 10s<sup>*</sup>**
+### **31. Relación Potencia-Peso Media 10s<sup>*</sup>**
 Muestra la relación potencia-peso media de los últimos 10 segundos en W/Kg.
 
 <span style="font-size: 0.7em; color: gray;">*Garmin no proporciona una interfaz de datos oficial, por lo que los datos calculados pueden tener imprecisiones o errores</span>
 <br>
 
-### **19. Relación Potencia-Peso Media de Vuelta<sup>*</sup>**
+### **32. Relación Potencia-Peso Media de Vuelta<sup>*</sup>**
 Muestra la relación potencia-peso media de la vuelta actual en W/Kg.
 
 <span style="font-size: 0.7em; color: gray;">*Garmin no proporciona una interfaz de datos oficial, por lo que los datos calculados pueden tener imprecisiones o errores</span>
 <br>
 
-### **20. NP™ (Potencia Normalizada)<sup>*</sup>**
+### **33. NP™ (Potencia Normalizada)<sup>*</sup>**
 Muestra la potencia normalizada para la actividad actual.
 
 !!! warning "Riesgo de Pérdida de Datos"
@@ -147,7 +224,7 @@ Muestra la potencia normalizada para la actividad actual.
 <span style="font-size: 0.7em; color: gray;">*Garmin no proporciona una interfaz de datos oficial, por lo que los datos calculados pueden tener imprecisiones o errores</span>
 <br>
 
-### **21. TSS™ (Training Stress Score)<sup>*</sup>**
+### **34. TSS™ (Training Stress Score)<sup>*</sup>**
 Muestra la puntuación de estrés de entrenamiento para la actividad actual.
 
 !!! warning "Riesgo de pérdida de datos"
@@ -158,44 +235,81 @@ Muestra la puntuación de estrés de entrenamiento para la actividad actual.
 <span style="font-size: 0.7em; color: gray;">*Garmin oficial no proporciona interfaz de datos, por lo que los datos calculados pueden tener imprecisiones o errores</span>
 <br>
 
+<br>
+### **35. W'Balance<sup>*</sup>**
+Muestra W'Balance (W prime balance) para la actividad actual. Esto requiere una predefinición de CP (Critical Power) y W' (W Prime). Para explicaciones científicas, hay muchos artículos o videos que explican qué es.
+
+Durante la actividad, este campo puede ser verde o rojo. Si es verde, significa que tu potencia actual está por debajo de CP, en otras palabras, te estás "recuperando". Por el contrario, si es rojo, significa que estás consumiendo.
+
+El modelo matemático actual utiliza el modelo diferencial de Froncioni / Clarke:
+
+
+`W′bal = W′bal + (CP - P) * (W′ - W′bal) / W′` cuando `P > CP`
+
+`W′bal = W′bal + (CP - P)` cuando `P < CP`
+
+<span style="font-size: 0.7em; color: gray;">*Garmin no proporciona una interfaz de datos oficial, por lo que los datos calculados pueden tener imprecisiones o errores</span>
+<br>
+
 ***
 
-## **IV Información del Equipo**
-### **22. Piñón (Dientes)**
+## **V Información del Equipo**
+### **36. Piñón (Dientes)**
 Muestra el número de dientes del plato/piñón actual.  Ej. 52/13
 <br>
 
 <br>
-### **23. Piñón (Índice)**
+### **37. Piñón (Índice)**
 Muestra el número de índice actual del plato/piñón. Ej. 1/7
 <br>
 
 <br>
-### **24. Relación de engranajes**
+### **38. Relación de engranajes**
 Muestra la relación de transmisión actual del plato dividido por los dientes del piñón. Por ejemplo: 4.02
 <br>
 
 <br>
-### **25. Gráfico de marchas**
+### **39. Gráfico de marchas**
 Muestra gráficamente la información de las marchas.
 <br>
 
 ***
 
-## **V Análisis de Datos**
-### **26. Balance Izquierda-Derecha en tiempo real**
+## **VI Información de Navegación**
+### **40. Distancia al Destino**
+Muestra la distancia restante al destino.
+<br>
+
+<br>
+### **41. Tiempo Estimado al Destino<sup>*</sup>**
+Muestra el tiempo restante estimado para llegar al destino. Esto se estima basándose en la velocidad promedio hasta el momento, y el número se mostrará 10 segundos después del inicio de la actividad para evitar fluctuaciones fuertes al principio.
+
+<span style="font-size: 0.7em; color: gray;">*Garmin no proporciona una interfaz de datos oficial, por lo que los datos calculados pueden tener imprecisiones o errores</span>
+<br>
+
+<br>
+### **42. Hora de Llegada Estimada<sup>*</sup>**
+Muestra la hora de llegada estimada al destino. Esto se estima basándose en la velocidad promedio hasta el momento, y el número se mostrará 10 segundos después del inicio de la actividad para evitar fluctuaciones fuertes al principio.
+
+<span style="font-size: 0.7em; color: gray;">*Garmin no proporciona una interfaz de datos oficial, por lo que los datos calculados pueden tener imprecisiones o errores</span>
+<br>
+
+***
+
+## **VII Análisis de Datos**
+### **43. Balance Izquierda-Derecha en tiempo real**
 Muestra el balance de potencia izquierda-derecha actual. Se muestra como porcentaje sin el símbolo %, por ejemplo: 52-48
 <br>
 
 <br>
-### **27. Balance Izquierda-Derecha promedio de 3s<sup>*</sup>**
+### **44. Balance Izquierda-Derecha promedio de 3s<sup>*</sup>**
 Muestra la relación de balance de potencia izquierda-derecha promedio durante 3 segundos.
 
 <span style="font-size: 0.7em; color: gray;">*Garmin no proporciona una interfaz de datos oficial, por lo que los datos calculados pueden tener imprecisiones o errores</span>
 <br>
 
 <br>
-### **28. Histograma de Zonas de Potencia<sup>*</sup>**
+### **45. Histograma de Zonas de Potencia<sup>*</sup>**
 Muestra la distribución del tiempo en diferentes zonas de potencia.
 
 !!! warning "Riesgo de Pérdida de Datos"
@@ -205,7 +319,7 @@ Muestra la distribución del tiempo en diferentes zonas de potencia.
 <br>
 
 <br>
-### **29. Histograma de Zonas de Frecuencia Cardíaca<sup>*</sup>**
+### **46. Histograma de Zonas de Frecuencia Cardíaca<sup>*</sup>**
 Muestra la distribución del tiempo en diferentes zonas de frecuencia cardíaca.
 
 !!! warning "Riesgo de Pérdida de Datos"
@@ -215,15 +329,27 @@ Muestra la distribución del tiempo en diferentes zonas de frecuencia cardíaca.
 <br>
 <br>
 
+<br>
+### **47. Batería<sup>*</sup>**
+Muestra el nivel de batería del dispositivo.
+
+<span style="font-size: 0.7em; color: gray;">*Garmin no proporciona una interfaz de datos oficial, por lo que los datos calculados pueden tener imprecisiones o errores</span>
+<br>
+
+<br>
+### **48. Temperatura**
+Muestra la temperatura ambiente actual.
+<br>
+
 ***
 
-## **VI Información Ambiental**
-### **30. Reloj**
+## **VIII Información Ambiental**
+### **49. Reloj**
 Muestra la hora actual.
 <br>
 
 <br>
-### **31. Viento<sup>*</sup>**
+### **50. Viento<sup>*</sup>**
 Muestra la velocidad del viento actual y la dirección del viento relativa/absoluta.
 
 <span style="font-size: 0.7em; color: gray;">*Garmin no proporciona una interfaz de datos oficial, por lo que los datos calculados pueden tener imprecisiones o errores</span>
@@ -255,26 +381,26 @@ Al mostrar la dirección del viento relativa, las flechas se colorean según el 
 El módulo de viento debe configurarse en la aplicación ConnectIQ para una visualización óptima. Consulte el módulo [Configuración del Tiempo](en/weather.md) para obtener más detalles.
 
 es
-## **VII LED Virtual**
+## **IX LED Virtual**
 
 Los LED virtuales se pueden configurar en los bordes de la pantalla. Los usuarios pueden usar los LED en diferentes posiciones para mostrar información diferente.
 <br>
 ![led example](images/led.jpg)
 
-### Potencia en tiempo real
+### **51. Potencia en tiempo real**
 Los LED virtuales muestran la cantidad y el color para cada zona (el estilo de color se establece en estilo Garmin en el ejemplo a continuación)
 <br>
 ![power led](images/pw_led.jpg)
 
-### Potencia media de 3 segundos
+### **52. Potencia media de 3 segundos**
 Igual que el anterior.
 
-### Zonas de frecuencia cardíaca
+### **53. Zonas de frecuencia cardíaca**
 Los LED virtuales muestran la cantidad y el color para cada zona (el estilo de color se establece en estilo Garmin en el ejemplo a continuación)
 <br>
 ![hr led](images/hr_led.jpg)
 
-### Indicador de velocidad media
+### **54. Indicador de velocidad media**
 Los LED virtuales muestran la relación entre la velocidad actual y la velocidad media, siendo rojo si se va por detrás (menos que la media) y azul si se va por delante (más que la media).
 <br>
 ![led avg](images/led_avg.jpg)
@@ -288,7 +414,7 @@ Cada LED representa un 10% de ventaja o desventaja, como se muestra en la tabla 
 | ![led_avg_b2](images/led_avg_b2.jpg) | 10% < Ventaja actual < 20% |
 | ![led_avg_b3](images/led_avg_b3.jpg) | Ventaja actual > 20% |
 
-### Indicador de potencia media
+### **55. Indicador de potencia media**
 Los LED virtuales muestran la relación entre la potencia actual y la potencia media, con los colores teniendo el mismo significado que antes, pero cada LED representa un 20% de ventaja o desventaja. La tabla utiliza la ventaja como ejemplo; la desventaja sigue el mismo principio.
 ```
 
@@ -299,7 +425,7 @@ Los LED virtuales muestran la relación entre la potencia actual y la potencia m
 | ![led_avg_b2](images/led_avg_b2.jpg) | 20% < Liderazgo de corriente < 40% |
 | ![led_avg_b3](images/led_avg_b3.jpg) | Liderazgo de corriente > 40% |
 
-### Indicador de Equilibrio Izquierda-Derecha
+### **56. Indicador de Equilibrio Izquierda-Derecha**
 Los LEDs virtuales muestran el equilibrio izquierda-derecha de la potencia de pedaleo actual. Cada LED representa un desfase del 5% para un lado. La tabla utiliza el pedaleo desplazado hacia la derecha como ejemplo; lo opuesto sigue el mismo principio.
 
 Además, si los valores de equilibrio izquierda-derecha recibidos son 100-0 o 0-100, se mostrará un estado de error. Esta situación suele ocurrir debido a la desconexión de un lado del medidor de potencia de doble cara o a una fuerza momentánea durante el primer pedaleo.
@@ -312,5 +438,5 @@ Además, si los valores de equilibrio izquierda-derecha recibidos son 100-0 o 0-
 | ![lr_04](images/lr_04.jpg) | ≤40% - ≥60% |
 | ![lr_err](images/lr_err.jpg) | 0%-100% (o 100%-0%) |
 
-### Indicador de Equilibrio Izquierda-Derecha 3s
+### **57. Indicador de Equilibrio Izquierda-Derecha 3s**
 Igual que el anterior.
