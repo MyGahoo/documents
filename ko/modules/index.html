@@ -43,6 +43,8 @@
       
     
     
+      <link rel="stylesheet" href="../../css/designer.css">
+    
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -606,7 +608,7 @@
           <li class="md-nav__item">
   <a href="#11" class="md-nav__link">
     <span class="md-ellipsis">
-      11. 평균 심박수
+      11. 평균 파워
     </span>
   </a>
   
@@ -615,7 +617,7 @@
           <li class="md-nav__item">
   <a href="#12" class="md-nav__link">
     <span class="md-ellipsis">
-      12. 평균 속도
+      12. 평균 심박수
     </span>
   </a>
   
@@ -624,7 +626,7 @@
           <li class="md-nav__item">
   <a href="#13" class="md-nav__link">
     <span class="md-ellipsis">
-      13. 활동 시간
+      13. 평균 속도
     </span>
   </a>
   
@@ -633,7 +635,7 @@
           <li class="md-nav__item">
   <a href="#14" class="md-nav__link">
     <span class="md-ellipsis">
-      14. 랩 시간*
+      14. 활동 시간
     </span>
   </a>
   
@@ -642,7 +644,7 @@
           <li class="md-nav__item">
   <a href="#15" class="md-nav__link">
     <span class="md-ellipsis">
-      15. 거리
+      15. 경과 시간(총 시간)
     </span>
   </a>
   
@@ -651,7 +653,7 @@
           <li class="md-nav__item">
   <a href="#16" class="md-nav__link">
     <span class="md-ellipsis">
-      16. 총 상승
+      16. 랩 시간*
     </span>
   </a>
   
@@ -660,7 +662,7 @@
           <li class="md-nav__item">
   <a href="#17" class="md-nav__link">
     <span class="md-ellipsis">
-      17. 총 하강
+      17. 거리
     </span>
   </a>
   
@@ -669,16 +671,16 @@
           <li class="md-nav__item">
   <a href="#18" class="md-nav__link">
     <span class="md-ellipsis">
-      18. 랩 평균 심박수*
+      18. 총 상승
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#19-kj" class="md-nav__link">
+  <a href="#19" class="md-nav__link">
     <span class="md-ellipsis">
-      19. 총 작업량 (KJ)*
+      19. 총 하강
     </span>
   </a>
   
@@ -687,16 +689,16 @@
           <li class="md-nav__item">
   <a href="#20" class="md-nav__link">
     <span class="md-ellipsis">
-      20. 랩 거리*
+      20. 랩 평균 심박수*
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#21" class="md-nav__link">
+  <a href="#21-kj" class="md-nav__link">
     <span class="md-ellipsis">
-      21. 평균 케이던스
+      21. 총 작업량 (kJ)*
     </span>
   </a>
   
@@ -705,7 +707,7 @@
           <li class="md-nav__item">
   <a href="#22" class="md-nav__link">
     <span class="md-ellipsis">
-      22. 랩 평균 속도*
+      22. 랩 거리*
     </span>
   </a>
   
@@ -714,7 +716,25 @@
           <li class="md-nav__item">
   <a href="#23" class="md-nav__link">
     <span class="md-ellipsis">
-      23. 칼로리
+      23. 평균 케이던스
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24" class="md-nav__link">
+    <span class="md-ellipsis">
+      24. 랩 평균 속도*
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#25" class="md-nav__link">
+    <span class="md-ellipsis">
+      25. 칼로리
     </span>
   </a>
   
@@ -736,27 +756,9 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#24" class="md-nav__link">
-    <span class="md-ellipsis">
-      24. 최대 파워
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#25" class="md-nav__link">
-    <span class="md-ellipsis">
-      25. 최대 심박수
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#26" class="md-nav__link">
     <span class="md-ellipsis">
-      26. 최대 속도
+      26. 최대 파워
     </span>
   </a>
   
@@ -765,7 +767,7 @@
           <li class="md-nav__item">
   <a href="#27" class="md-nav__link">
     <span class="md-ellipsis">
-      27. 최대 케이던스
+      27. 최대 심박수
     </span>
   </a>
   
@@ -774,7 +776,25 @@
           <li class="md-nav__item">
   <a href="#28" class="md-nav__link">
     <span class="md-ellipsis">
-      28. 랩 수
+      28. 최대 속도
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#29" class="md-nav__link">
+    <span class="md-ellipsis">
+      29. 최대 케이던스
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#30" class="md-nav__link">
+    <span class="md-ellipsis">
+      30. 랩 수
     </span>
   </a>
   
@@ -796,63 +816,81 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#29" class="md-nav__link">
+  <a href="#31" class="md-nav__link">
     <span class="md-ellipsis">
-      29. 현재 파워 대 체중 비율
+      31. 현재 파워 대 체중 비율
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#30-3" class="md-nav__link">
+  <a href="#32-3" class="md-nav__link">
     <span class="md-ellipsis">
-      30. 3초 평균 파워 대 체중 비율*
+      32. 3초 평균 파워 대 체중 비율*
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#31-10" class="md-nav__link">
+  <a href="#33-10" class="md-nav__link">
     <span class="md-ellipsis">
-      31. 10초 평균 파워 대 체중 비율*
+      33. 10초 평균 파워 대 체중 비율*
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#32" class="md-nav__link">
+  <a href="#34" class="md-nav__link">
     <span class="md-ellipsis">
-      32. 랩 평균 파워 대 체중 비율*
+      34. 랩 평균 파워 대 체중 비율*
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#33-nptm" class="md-nav__link">
+  <a href="#35-nptm" class="md-nav__link">
     <span class="md-ellipsis">
-      33. NP™ (정규화 파워)*
+      35. NP™ (정규화 파워)*
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#34-tsstm" class="md-nav__link">
+  <a href="#36-tsstm" class="md-nav__link">
     <span class="md-ellipsis">
-      34. TSS™ (훈련 스트레스 점수)*
+      36. TSS™ (훈련 스트레스 점수)*
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#35-wbalance" class="md-nav__link">
+  <a href="#37-wbalance" class="md-nav__link">
     <span class="md-ellipsis">
-      35. W'Balance*
+      37. W'Balance*
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#38" class="md-nav__link">
+    <span class="md-ellipsis">
+      38. 현재 훈련 단계 남은 시간
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#39-iftm" class="md-nav__link">
+    <span class="md-ellipsis">
+      39. IF™ (강도 계수)*
     </span>
   </a>
   
@@ -874,36 +912,36 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#36" class="md-nav__link">
+  <a href="#40" class="md-nav__link">
     <span class="md-ellipsis">
-      36. 기어 표시
+      40. 기어 표시
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#37" class="md-nav__link">
+  <a href="#41" class="md-nav__link">
     <span class="md-ellipsis">
-      37. 기어 번호
+      41. 기어 번호
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#38" class="md-nav__link">
+  <a href="#42" class="md-nav__link">
     <span class="md-ellipsis">
-      38. 기어비
+      42. 기어비
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#39" class="md-nav__link">
+  <a href="#43" class="md-nav__link">
     <span class="md-ellipsis">
-      39. 기어비 차트
+      43. 기어비 차트
     </span>
   </a>
   
@@ -925,27 +963,27 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#40" class="md-nav__link">
+  <a href="#44" class="md-nav__link">
     <span class="md-ellipsis">
-      40. 목적지까지의 거리
+      44. 목적지까지의 거리
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#41" class="md-nav__link">
+  <a href="#45" class="md-nav__link">
     <span class="md-ellipsis">
-      41. 목적지까지의 예상 시간*
+      45. 목적지까지의 예상 시간*
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#42" class="md-nav__link">
+  <a href="#46" class="md-nav__link">
     <span class="md-ellipsis">
-      42. 예상 도착 시간*
+      46. 예상 도착 시간*
     </span>
   </a>
   
@@ -967,36 +1005,54 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#43" class="md-nav__link">
+  <a href="#47" class="md-nav__link">
     <span class="md-ellipsis">
-      43. 실시간 좌우 밸런스
+      47. 실시간 좌우 밸런스
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#44-3" class="md-nav__link">
+  <a href="#48-3" class="md-nav__link">
     <span class="md-ellipsis">
-      44. 3초 평균 좌우 밸런스*
+      48. 3초 평균 좌우 밸런스*
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#45" class="md-nav__link">
+  <a href="#49" class="md-nav__link">
     <span class="md-ellipsis">
-      45. 파워 구간 히스토그램*
+      49. 파워 구간 히스토그램*
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#46" class="md-nav__link">
+  <a href="#50" class="md-nav__link">
     <span class="md-ellipsis">
-      46. 심박 구간 히스토그램*
+      50. 심박 구간 히스토그램*
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#51" class="md-nav__link">
+    <span class="md-ellipsis">
+      51. 페달링 효율성
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52" class="md-nav__link">
+    <span class="md-ellipsis">
+      52. 스무스니스
     </span>
   </a>
   
@@ -1018,63 +1074,81 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#47" class="md-nav__link">
+  <a href="#53" class="md-nav__link">
     <span class="md-ellipsis">
-      47. 시계
+      53. 시계
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#48" class="md-nav__link">
+  <a href="#54" class="md-nav__link">
     <span class="md-ellipsis">
-      48. 배터리
+      54. 배터리
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#49" class="md-nav__link">
+  <a href="#55" class="md-nav__link">
     <span class="md-ellipsis">
-      49. 온도 (센서)
+      55. 온도 (센서)
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#50" class="md-nav__link">
+  <a href="#56" class="md-nav__link">
     <span class="md-ellipsis">
-      50. 바람*
+      56. 바람*
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#51-openweather" class="md-nav__link">
+  <a href="#57-openweather" class="md-nav__link">
     <span class="md-ellipsis">
-      51. 온도 (OpenWeather)*
+      57. 온도 (OpenWeather)*
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#52-openweather" class="md-nav__link">
+  <a href="#58-openweather" class="md-nav__link">
     <span class="md-ellipsis">
-      52. 체감 온도 (OpenWeather)*
+      58. 체감 온도 (OpenWeather)*
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#53-openweather" class="md-nav__link">
+  <a href="#59-openweather" class="md-nav__link">
     <span class="md-ellipsis">
-      53. 습도 (OpenWeather)*
+      59. 습도 (OpenWeather)*
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#60" class="md-nav__link">
+    <span class="md-ellipsis">
+      60. 일출 시간
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#61" class="md-nav__link">
+    <span class="md-ellipsis">
+      61. 일몰 시간
     </span>
   </a>
   
@@ -1096,7 +1170,7 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#_8" class="md-nav__link">
+  <a href="#_11" class="md-nav__link">
     <span class="md-ellipsis">
       실시간 파워
     </span>
@@ -1114,7 +1188,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_9" class="md-nav__link">
+  <a href="#_12" class="md-nav__link">
     <span class="md-ellipsis">
       심박 구간
     </span>
@@ -1123,27 +1197,27 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_10" class="md-nav__link">
+  <a href="#_13" class="md-nav__link">
     <span class="md-ellipsis">
-      평균 속도 표시기
+      평균 속도 인디케이터
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#_11" class="md-nav__link">
+  <a href="#_14" class="md-nav__link">
     <span class="md-ellipsis">
-      평균 파워 표시기
+      평균 파워 인디케이터
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#_12" class="md-nav__link">
+  <a href="#_15" class="md-nav__link">
     <span class="md-ellipsis">
-      좌우 밸런스 표시기
+      좌우 밸런스 인디케이터
     </span>
   </a>
   
@@ -1152,7 +1226,229 @@
           <li class="md-nav__item">
   <a href="#3_2" class="md-nav__link">
     <span class="md-ellipsis">
-      3초 좌우 밸런스 표시기
+      3초 좌우 밸런스 인디케이터
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#x" class="md-nav__link">
+    <span class="md-ellipsis">
+      X 구성 가이드
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="X 구성 가이드">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#activationcode" class="md-nav__link">
+    <span class="md-ellipsis">
+      ActivationCode (활성화 코드)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11-ftp" class="md-nav__link">
+    <span class="md-ellipsis">
+      [1.1] FTP (와트)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-openweather-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      [1.2] OpenWeather API 키 (이제 모든 기기 지원)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      [1.3] 가상 페이지 스크롤 모드**
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      [1.4] 레이아웃**
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      [1.5] 언어**
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#21" class="md-nav__link">
+    <span class="md-ellipsis">
+      [2.1] 타이머와 시계 형식**
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-24" class="md-nav__link">
+    <span class="md-ellipsis">
+      [2.2] 24시간 형식 활성화**
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#231" class="md-nav__link">
+    <span class="md-ellipsis">
+      [2.3.1] 평균 속도 인디케이터**
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#232" class="md-nav__link">
+    <span class="md-ellipsis">
+      [2.3.2] 평균 파워 인디케이터**
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#233" class="md-nav__link">
+    <span class="md-ellipsis">
+      [2.3.3] 평균 심박수 인디케이터**
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#234" class="md-nav__link">
+    <span class="md-ellipsis">
+      [2.3.4] 평균 케이던스 인디케이터**
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      [2.4] 상대 풍향 사용 (화살표가 이동 방향에 따라 변경)**
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#25_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      [2.5] 풍속 단위**
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#26_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      [2.6] 심박수 색상 스타일**
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#27_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      [2.7] 파워 색상 스타일**
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#28_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      [2.8] 배경색**
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#29_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      [2.9] 시간 형식의 앞자리 영점 표시**
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#210-wbal-cp-w-w-j" class="md-nav__link">
+    <span class="md-ellipsis">
+      [2.10] [W'Bal] CP (W) / W' (J) / 표시 모드 / 알고리즘**
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#211" class="md-nav__link">
+    <span class="md-ellipsis">
+      [2.11] 우상단 제목 오프셋 활성화 (레이더 아이콘重叠 피하기)**
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#212-1x" class="md-nav__link">
+    <span class="md-ellipsis">
+      [2.12] 기어 차트 - 1X 단독 체인링 모드**
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#31-34-led-led-led-led" class="md-nav__link">
+    <span class="md-ellipsis">
+      [3.1-3.4] 왼쪽 LED / 오른쪽 LED / 위쪽 LED / 아래쪽 LED**
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    <span class="md-ellipsis">
+      페이지 활성화**
     </span>
   </a>
   
@@ -1259,17 +1555,27 @@
 <p>실시간 라이딩 파워 출력을 표시합니다.</p>
 <div class="admonition info">
 <p class="admonition-title">색상</p>
-<p>이는 배경색을 표시할 수 있는 모듈입니다. ConnectIQ 앱에서 두 가지 색상 시퀀스 스타일을 선택할 수 있습니다. 하지만 사용자는 개별 색상이나 구간 범위를 사용자 정의할 수 없습니다.</p>
+<p>이는 배경색을 표시할 수 있는 모듈입니다. ConnectIQ 앱에서 두 가지 색상 시퀀스 스타일을 선택할 수 있습니다. 그러나 사용자는 개별 색상이나 구간 범위를 사용자 정의할 수 없습니다.</p>
 <ul>
 <li>Garmin 스타일: 회색-파란색-녹색-노란색-주황색-빨간색-보라색 (구간 1~구간 7)</li>
 <li>Wahoo 스타일: 회색-진한 파란색-연한 파란색-녹색-노란색-주황색-빨간색 (구간 1~구간 7)</li>
 </ul>
 </div>
+<h4 id="_2">평균 파워 인디케이터<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h4>
+<p>이는 현재/해제 가능한 설정으로, 현재 파워 모듈 내에서 현재 파워와 평균 파워를 비교하는 데 사용됩니다. ConnectIQ 앱에서 설정할 수 있습니다. "화살표" 표시 모드를 지원합니다.</p>
+<ul>
+<li>"화살표"<ul>
+<li>위쪽: 평균 파워보다 높음</li>
+<li>아래쪽: 평균 파워보다 낮음</li>
+<li>표시 없음: 평균 파워와 같거나 라이딩 시작 안 함</li>
+</ul>
+</li>
+</ul>
 <p><br></p>
 <h3 id="2"><strong>2. 현재 속도</strong><a class="headerlink" href="#2" title="Permanent link">&para;</a></h3>
 <p>현재 라이딩 속도를 표시합니다. 단위는 사용자의 Garmin Connect 설정과 일치합니다 (kph/mph).</p>
-<h4 id="_2">평균 속도 표시기<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h4>
-<p>이는 켜기/끄기가 가능한 설정으로, 현재 속도 모듈 내에서 현재 속도와 평균 속도를 비교하는 데 사용됩니다. ConnectIQ 앱에서 설정할 수 있습니다. "화살표"와 "배경" 두 가지 표시 모드가 있습니다.</p>
+<h4 id="_3">평균 속도 인디케이터<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h4>
+<p>이는 현재/해제 가능한 설정으로, 현재 속도 모듈 내에서 현재 속도와 평균 속도를 비교하는 데 사용됩니다. ConnectIQ 앱에서 설정할 수 있습니다. "화살표"와 "배경" 두 가지 표시 모드가 있습니다.</p>
 <ul>
 <li>"화살표"
 <br>
@@ -1290,15 +1596,35 @@
 <p>실시간 심박수 데이터를 표시합니다.</p>
 <div class="admonition info">
 <p class="admonition-title">색상</p>
-<p>이는 배경색을 설정할 수 있는 모듈입니다. ConnectIQ 앱에서 두 가지 색상 시퀀스 스타일을 선택할 수 있습니다. 하지만 사용자는 개별 색상이나 구간 범위를 사용자 정의할 수 없습니다.</p>
+<p>이는 배경색을 설정할 수 있는 모듈입니다. ConnectIQ 앱에서 두 가지 색상 시퀀스 스타일을 선택할 수 있습니다. 그러나 사용자는 개별 색상이나 구간 범위를 사용자 정의할 수 없습니다.</p>
 <ul>
 <li>Garmin 스타일: 회색-회색-파란색-녹색-노란색-빨간색 (&lt;구간 1, 구간 1~구간 5)</li>
 <li>Wahoo 스타일: 회색-파란색-녹색-노란색-주황색-빨간색 (&lt;구간 1, 구간 1~구간 5)</li>
 </ul>
 </div>
+<h4 id="_4">평균 심박수 인디케이터<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h4>
+<p>이는 현재/해제 가능한 설정으로, 현재 심박수 모듈 내에서 현재 심박수와 평균 심박수를 비교하는 데 사용됩니다. ConnectIQ 앱에서 설정할 수 있습니다. "화살표" 표시 모드를 지원합니다.</p>
+<ul>
+<li>"화살표"<ul>
+<li>위쪽: 평균 심박수보다 높음</li>
+<li>아래쪽: 평균 심박수보다 낮음</li>
+<li>표시 없음: 평균 심박수와 같거나 라이딩 시작 안 함</li>
+</ul>
+</li>
+</ul>
 <p><br></p>
 <h3 id="4"><strong>4. 현재 케이던스</strong><a class="headerlink" href="#4" title="Permanent link">&para;</a></h3>
 <p>실시간 케이던스 값을 표시합니다.</p>
+<h4 id="_5">평균 케이던스 인디케이터<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h4>
+<p>이는 현재/해제 가능한 설정으로, 현재 케이던스 모듈 내에서 현재 케이던스와 평균 케이던스를 비교하는 데 사용됩니다. ConnectIQ 앱에서 설정할 수 있습니다. "화살표" 표시 모드를 지원합니다.</p>
+<ul>
+<li>"화살표"<ul>
+<li>위쪽: 평균 케이던스보다 높음</li>
+<li>아래쪽: 평균 케이던스보다 낮음</li>
+<li>표시 없음: 평균 케이던스와 같거나 라이딩 시작 안 함</li>
+</ul>
+</li>
+</ul>
 <p><br></p>
 <h3 id="5"><strong>5. 현재 고도</strong><a class="headerlink" href="#5" title="Permanent link">&para;</a></h3>
 <p>현재 고도를 표시합니다. 단위는 사용자의 Garmin Connect 설정과 일치합니다 (m/ft).</p>
@@ -1358,106 +1684,112 @@
 <p><span style="font-size: 0.7em; color: gray;">*Garmin 공식에서 데이터 인터페이스를 제공하지 않기 때문에 계산된 데이터가 부정확하거나 잘못될 수 있습니다</span>
 <br></p>
 <p><br></p>
-<h3 id="11"><strong>11. 평균 심박수</strong><a class="headerlink" href="#11" title="Permanent link">&para;</a></h3>
+<h3 id="11"><strong>11. 평균 파워</strong><a class="headerlink" href="#11" title="Permanent link">&para;</a></h3>
+<p>현재 활동의 전체 평균 파워를 표시합니다.</p>
+<p><br></p>
+<h3 id="12"><strong>12. 평균 심박수</strong><a class="headerlink" href="#12" title="Permanent link">&para;</a></h3>
 <p>현재 활동의 평균 심박수를 표시합니다.
 <br></p>
 <p><br></p>
-<h3 id="12"><strong>12. 평균 속도</strong><a class="headerlink" href="#12" title="Permanent link">&para;</a></h3>
+<h3 id="13"><strong>13. 평균 속도</strong><a class="headerlink" href="#13" title="Permanent link">&para;</a></h3>
 <p>현재 활동의 평균 속도를 표시합니다.
 <br></p>
 <p><br></p>
-<h3 id="13"><strong>13. 활동 시간</strong><a class="headerlink" href="#13" title="Permanent link">&para;</a></h3>
+<h3 id="14"><strong>14. 활동 시간</strong><a class="headerlink" href="#14" title="Permanent link">&para;</a></h3>
 <p>현재 활동의 지속 시간을 표시합니다.
 <br></p>
 <p><br></p>
-<h3 id="14"><strong>14. 랩 시간<sup>*</sup></strong><a class="headerlink" href="#14" title="Permanent link">&para;</a></h3>
+<h3 id="15"><strong>15. 경과 시간(총 시간)</strong><a class="headerlink" href="#15" title="Permanent link">&para;</a></h3>
+<p>현재 활동의 총 시간을 표시합니다(일시정지 시간 포함).</p>
+<p><br></p>
+<p><br></p>
+<h3 id="16"><strong>16. 랩 시간<sup>*</sup></strong><a class="headerlink" href="#16" title="Permanent link">&para;</a></h3>
 <p>현재 랩의 지속 시간을 표시합니다.</p>
 <p><span style="font-size: 0.7em; color: gray;">*Garmin 공식에서 데이터 인터페이스를 제공하지 않기 때문에 계산된 데이터가 부정확하거나 잘못될 수 있습니다</span>
 <br></p>
 <p><br></p>
-<h3 id="15"><strong>15. 거리</strong><a class="headerlink" href="#15" title="Permanent link">&para;</a></h3>
+<h3 id="17"><strong>17. 거리</strong><a class="headerlink" href="#17" title="Permanent link">&para;</a></h3>
 <p>현재 활동의 누적 라이딩 거리를 표시합니다.
 <br></p>
 <p><br></p>
-<h3 id="16"><strong>16. 총 상승</strong><a class="headerlink" href="#16" title="Permanent link">&para;</a></h3>
+<h3 id="18"><strong>18. 총 상승</strong><a class="headerlink" href="#18" title="Permanent link">&para;</a></h3>
 <p>현재 활동 중 획득한 총 고도를 표시합니다.
 <br></p>
 <p><br></p>
-<h3 id="17"><strong>17. 총 하강</strong><a class="headerlink" href="#17" title="Permanent link">&para;</a></h3>
+<h3 id="19"><strong>19. 총 하강</strong><a class="headerlink" href="#19" title="Permanent link">&para;</a></h3>
 <p>현재 활동 중 잃은 총 고도를 표시합니다.
 <br></p>
 <p><br></p>
-<h3 id="18"><strong>18. 랩 평균 심박수<sup>*</sup></strong><a class="headerlink" href="#18" title="Permanent link">&para;</a></h3>
+<h3 id="20"><strong>20. 랩 평균 심박수<sup>*</sup></strong><a class="headerlink" href="#20" title="Permanent link">&para;</a></h3>
 <p>현재 랩의 평균 심박수를 표시합니다.</p>
 <p><span style="font-size: 0.7em; color: gray;">*Garmin 공식에서 데이터 인터페이스를 제공하지 않기 때문에 계산된 데이터가 부정확하거나 잘못될 수 있습니다</span>
 <br></p>
 <p><br></p>
-<h3 id="19-kj"><strong>19. 총 작업량 (KJ)<sup>*</sup></strong><a class="headerlink" href="#19-kj" title="Permanent link">&para;</a></h3>
+<h3 id="21-kj"><strong>21. 총 작업량 (kJ)<sup>*</sup></strong><a class="headerlink" href="#21-kj" title="Permanent link">&para;</a></h3>
 <p>현재 활동 중 수행된 총 작업량을 킬로줄(kJ) 단위로 표시합니다. 이 측정은 파워미터에서 나오므로 파워미터가 필요합니다.</p>
 <p><span style="font-size: 0.7em; color: gray;">*Garmin 공식에서 데이터 인터페이스를 제공하지 않기 때문에 계산된 데이터가 부정확하거나 잘못될 수 있습니다</span>
 <br></p>
 <p><br></p>
-<h3 id="20"><strong>20. 랩 거리<sup>*</sup></strong><a class="headerlink" href="#20" title="Permanent link">&para;</a></h3>
+<h3 id="22"><strong>22. 랩 거리<sup>*</sup></strong><a class="headerlink" href="#22" title="Permanent link">&para;</a></h3>
 <p>현재 랩에서 커버한 거리를 표시합니다.</p>
 <p><span style="font-size: 0.7em; color: gray;">*Garmin 공식에서 데이터 인터페이스를 제공하지 않기 때문에 계산된 데이터가 부정확하거나 잘못될 수 있습니다</span>
 <br></p>
 <p><br></p>
-<h3 id="21"><strong>21. 평균 케이던스</strong><a class="headerlink" href="#21" title="Permanent link">&para;</a></h3>
+<h3 id="23"><strong>23. 평균 케이던스</strong><a class="headerlink" href="#23" title="Permanent link">&para;</a></h3>
 <p>현재 활동의 평균 케이던스를 표시합니다.
 <br></p>
 <p><br></p>
-<h3 id="22"><strong>22. 랩 평균 속도<sup>*</sup></strong><a class="headerlink" href="#22" title="Permanent link">&para;</a></h3>
+<h3 id="24"><strong>24. 랩 평균 속도<sup>*</sup></strong><a class="headerlink" href="#24" title="Permanent link">&para;</a></h3>
 <p>현재 랩의 평균 속도를 표시합니다.</p>
 <p><span style="font-size: 0.7em; color: gray;">*Garmin 공식에서 데이터 인터페이스를 제공하지 않기 때문에 계산된 데이터가 부정확하거나 잘못될 수 있습니다</span>
 <br></p>
 <p><br></p>
-<h3 id="23"><strong>23. 칼로리</strong><a class="headerlink" href="#23" title="Permanent link">&para;</a></h3>
+<h3 id="25"><strong>25. 칼로리</strong><a class="headerlink" href="#25" title="Permanent link">&para;</a></h3>
 <p>현재 활동에서 소모한 칼로리를 표시합니다.
 <br></p>
 <hr />
-<hr />
 <h2 id="iii"><strong>III 최대값</strong><a class="headerlink" href="#iii" title="Permanent link">&para;</a></h2>
-<h3 id="24"><strong>24. 최대 파워</strong><a class="headerlink" href="#24" title="Permanent link">&para;</a></h3>
+<h3 id="26"><strong>26. 최대 파워</strong><a class="headerlink" href="#26" title="Permanent link">&para;</a></h3>
 <p>현재 활동 중 달성한 최대 파워를 표시합니다.
 <br></p>
 <p><br></p>
-<h3 id="25"><strong>25. 최대 심박수</strong><a class="headerlink" href="#25" title="Permanent link">&para;</a></h3>
+<h3 id="27"><strong>27. 최대 심박수</strong><a class="headerlink" href="#27" title="Permanent link">&para;</a></h3>
 <p>현재 활동 중 달성한 최대 심박수를 표시합니다.
 <br></p>
 <p><br></p>
-<h3 id="26"><strong>26. 최대 속도</strong><a class="headerlink" href="#26" title="Permanent link">&para;</a></h3>
+<h3 id="28"><strong>28. 최대 속도</strong><a class="headerlink" href="#28" title="Permanent link">&para;</a></h3>
 <p>현재 활동 중 달성한 최대 속도를 표시합니다.
 <br></p>
 <p><br></p>
-<h3 id="27"><strong>27. 최대 케이던스</strong><a class="headerlink" href="#27" title="Permanent link">&para;</a></h3>
+<h3 id="29"><strong>29. 최대 케이던스</strong><a class="headerlink" href="#29" title="Permanent link">&para;</a></h3>
 <p>현재 활동 중 달성한 최대 케이던스를 표시합니다.
 <br></p>
 <p><br></p>
-<h3 id="28"><strong>28. 랩 수</strong><a class="headerlink" href="#28" title="Permanent link">&para;</a></h3>
+<h3 id="30"><strong>30. 랩 수</strong><a class="headerlink" href="#30" title="Permanent link">&para;</a></h3>
 <p>현재 활동의 총 랩 수를 표시합니다. 활동 시작 시 랩 수는 1로 설정됩니다.
 <br></p>
 <hr />
 <h2 id="iv"><strong>IV 훈련 지표</strong><a class="headerlink" href="#iv" title="Permanent link">&para;</a></h2>
-<h3 id="29"><strong>29. 현재 파워 대 체중 비율</strong><a class="headerlink" href="#29" title="Permanent link">&para;</a></h3>
+<h3 id="31"><strong>31. 현재 파워 대 체중 비율</strong><a class="headerlink" href="#31" title="Permanent link">&para;</a></h3>
 <p>현재 활동의 실시간 파워 대 체중 비율을 W/Kg 단위로 표시합니다. 파워는 MyGahoo 설정 페이지의 입력에서, 체중은 Garmin 프로필 페이지의 설정에서 가져옵니다.
 <br></p>
 <p><br></p>
-<h3 id="30-3"><strong>30. 3초 평균 파워 대 체중 비율<sup>*</sup></strong><a class="headerlink" href="#30-3" title="Permanent link">&para;</a></h3>
+<h3 id="32-3"><strong>32. 3초 평균 파워 대 체중 비율<sup>*</sup></strong><a class="headerlink" href="#32-3" title="Permanent link">&para;</a></h3>
 <p>지난 3초간의 평균 파워 대 체중 비율을 W/Kg 단위로 표시합니다.</p>
 <p><span style="font-size: 0.7em; color: gray;">*Garmin 공식에서 데이터 인터페이스를 제공하지 않기 때문에 계산된 데이터가 부정확하거나 잘못될 수 있습니다</span>
 <br></p>
 <p><br></p>
-<h3 id="31-10"><strong>31. 10초 평균 파워 대 체중 비율<sup>*</sup></strong><a class="headerlink" href="#31-10" title="Permanent link">&para;</a></h3>
+<h3 id="33-10"><strong>33. 10초 평균 파워 대 체중 비율<sup>*</sup></strong><a class="headerlink" href="#33-10" title="Permanent link">&para;</a></h3>
 <p>지난 10초간의 평균 파워 대 체중 비율을 W/Kg 단위로 표시합니다.</p>
 <p><span style="font-size: 0.7em; color: gray;">*Garmin 공식에서 데이터 인터페이스를 제공하지 않기 때문에 계산된 데이터가 부정확하거나 잘못될 수 있습니다</span>
 <br></p>
 <p><br></p>
-<h3 id="32"><strong>32. 랩 평균 파워 대 체중 비율<sup>*</sup></strong><a class="headerlink" href="#32" title="Permanent link">&para;</a></h3>
+<h3 id="34"><strong>34. 랩 평균 파워 대 체중 비율<sup>*</sup></strong><a class="headerlink" href="#34" title="Permanent link">&para;</a></h3>
 <p>현재 랩의 평균 파워 대 체중 비율을 W/Kg 단위로 표시합니다.</p>
 <p><span style="font-size: 0.7em; color: gray;">*Garmin 공식에서 데이터 인터페이스를 제공하지 않기 때문에 계산된 데이터가 부정확하거나 잘못될 수 있습니다</span>
 <br></p>
 <p><br></p>
-<h3 id="33-nptm"><strong>33. NP™ (정규화 파워)<sup>*</sup></strong><a class="headerlink" href="#33-nptm" title="Permanent link">&para;</a></h3>
+<h3 id="35-nptm"><strong>35. NP™ (정규화 파워)<sup>*</sup></strong><a class="headerlink" href="#35-nptm" title="Permanent link">&para;</a></h3>
 <p>현재 활동의 정규화 파워를 표시합니다.</p>
 <div class="admonition warning">
 <p class="admonition-title">데이터 손실 위험</p>
@@ -1468,7 +1800,7 @@
 <span style="font-size: 0.7em; color: gray;">*Garmin 공식에서 데이터 인터페이스를 제공하지 않기 때문에 계산된 데이터가 부정확하거나 잘못될 수 있습니다</span>
 <br></p>
 <p><br></p>
-<h3 id="34-tsstm"><strong>34. TSS™ (훈련 스트레스 점수)<sup>*</sup></strong><a class="headerlink" href="#34-tsstm" title="Permanent link">&para;</a></h3>
+<h3 id="36-tsstm"><strong>36. TSS™ (훈련 스트레스 점수)<sup>*</sup></strong><a class="headerlink" href="#36-tsstm" title="Permanent link">&para;</a></h3>
 <p>현재 활동의 훈련 스트레스 점수를 표시합니다.</p>
 <div class="admonition warning">
 <p class="admonition-title">데이터 손실 위험</p>
@@ -1479,7 +1811,7 @@
 <span style="font-size: 0.7em; color: gray;">*Garmin 공식에서 데이터 인터페이스를 제공하지 않기 때문에 계산된 데이터가 부정확하거나 잘못될 수 있습니다</span>
 <br></p>
 <hr />
-<h3 id="35-wbalance"><strong>35. W'Balance<sup>*</sup></strong><a class="headerlink" href="#35-wbalance" title="Permanent link">&para;</a></h3>
+<h3 id="37-wbalance"><strong>37. W'Balance<sup>*</sup></strong><a class="headerlink" href="#37-wbalance" title="Permanent link">&para;</a></h3>
 <p>현재 활동의 W'Balance (W prime balance)를 표시합니다. 이것이 작동하려면 CP (Critical Power)와 W' (W Prime)를 미리 정의해야 합니다. 과학적 설명에 대해서는 그것이 무엇인지 설명하는 많은 기사와 비디오가 있습니다.</p>
 <p>활동 중에 이 필드는 녹색 또는 빨간색이 됩니다. 녹색인 경우 현재 파워가 CP보다 낮다는 것을 나타내며, 다시 말해 "회복" 중임을 의미합니다. 반대로 빨간색인 경우는 소모 중임을 나타냅니다.</p>
 <p>현재 수학 모델은 Froncioni / Clarke의 미분 모델을 사용합니다:</p>
@@ -1487,51 +1819,61 @@
 <p><code>W′bal = W′bal + (CP - P)</code> when <code>P &lt; CP</code></p>
 <p><span style="font-size: 0.7em; color: gray;">*Garmin 공식에서 데이터 인터페이스를 제공하지 않기 때문에 계산된 데이터가 부정확하거나 잘못될 수 있습니다</span>
 <br></p>
+<p><br></p>
+<h3 id="38"><strong>38. 현재 훈련 단계 남은 시간</strong><a class="headerlink" href="#38" title="Permanent link">&para;</a></h3>
+<p>현재 훈련 워크아웃 단계의 카운트다운 남은 시간을 표시합니다. Garmin 구조화 훈련(Workout)이 시작된 경우에만 적용됩니다. 현재 훈련 단계에 시간 제한이 없으면 데이터가 표시되지 않습니다.</p>
+<p><br></p>
+<p><br></p>
+<h3 id="39-iftm"><strong>39. IF™ (강도 계수)<sup>*</sup></strong><a class="headerlink" href="#39-iftm" title="Permanent link">&para;</a></h3>
+<p>현재 활동의 강도 계수를 표시합니다. 이 훈련 세션의 강도 수준을 평가하는 데 사용됩니다.</p>
+<p><span style="font-size: 0.7em; color: gray;">™강도 계수(IF)는 Peaksware, LLC의 등록 상표입니다.</span>
+<br>
+<span style="font-size: 0.7em; color: gray;">*Garmin 공식에서 데이터 인터페이스를 제공하지 않기 때문에 계산된 데이터가 부정확하거나 잘못될 수 있습니다</span></p>
+<p><br></p>
 <hr />
 <h2 id="v"><strong>V 장비 정보</strong><a class="headerlink" href="#v" title="Permanent link">&para;</a></h2>
-<h3 id="36"><strong>36. 기어 표시</strong><a class="headerlink" href="#36" title="Permanent link">&para;</a></h3>
+<h3 id="40"><strong>40. 기어 표시</strong><a class="headerlink" href="#40" title="Permanent link">&para;</a></h3>
 <p>현재 체인링/카세트의 톱니 수를 표시합니다. 예: 52/13
 <br></p>
 <p><br></p>
-<h3 id="37"><strong>37. 기어 번호</strong><a class="headerlink" href="#37" title="Permanent link">&para;</a></h3>
+<h3 id="41"><strong>41. 기어 번호</strong><a class="headerlink" href="#41" title="Permanent link">&para;</a></h3>
 <p>현재 체인링/카세트의 인덱스 번호를 표시합니다. 예: 1/7
 <br></p>
 <p><br></p>
-<h3 id="38"><strong>38. 기어비</strong><a class="headerlink" href="#38" title="Permanent link">&para;</a></h3>
+<h3 id="42"><strong>42. 기어비</strong><a class="headerlink" href="#42" title="Permanent link">&para;</a></h3>
 <p>현재 체인링을 카세트 톱니 수로 나눈 기어비를 표시합니다. 예: 4.02
 <br></p>
 <p><br></p>
-<h3 id="39"><strong>39. 기어비 차트</strong><a class="headerlink" href="#39" title="Permanent link">&para;</a></h3>
+<h3 id="43"><strong>43. 기어비 차트</strong><a class="headerlink" href="#43" title="Permanent link">&para;</a></h3>
 <p>기어비 정보를 그래픽으로 표시합니다.
 <br></p>
 <hr />
-<hr />
 <h2 id="vi"><strong>VI 내비게이션 정보</strong><a class="headerlink" href="#vi" title="Permanent link">&para;</a></h2>
-<h3 id="40"><strong>40. 목적지까지의 거리</strong><a class="headerlink" href="#40" title="Permanent link">&para;</a></h3>
+<h3 id="44"><strong>44. 목적지까지의 거리</strong><a class="headerlink" href="#44" title="Permanent link">&para;</a></h3>
 <p>목적지까지의 남은 거리를 표시합니다.
 <br></p>
 <p><br></p>
-<h3 id="41"><strong>41. 목적지까지의 예상 시간<sup>*</sup></strong><a class="headerlink" href="#41" title="Permanent link">&para;</a></h3>
+<h3 id="45"><strong>45. 목적지까지의 예상 시간<sup>*</sup></strong><a class="headerlink" href="#45" title="Permanent link">&para;</a></h3>
 <p>목적지 도착까지의 예상 남은 시간을 표시합니다. 이는 지금까지의 평균 속도를 기반으로 추정되며, 시작 시의 급격한 변동을 피하기 위해 활동 시작 후 10초 후에 수치가 표시됩니다.</p>
 <p><span style="font-size: 0.7em; color: gray;">*Garmin 공식에서 데이터 인터페이스를 제공하지 않기 때문에 계산된 데이터가 부정확하거나 잘못될 수 있습니다</span>
 <br></p>
 <p><br></p>
-<h3 id="42"><strong>42. 예상 도착 시간<sup>*</sup></strong><a class="headerlink" href="#42" title="Permanent link">&para;</a></h3>
+<h3 id="46"><strong>46. 예상 도착 시간<sup>*</sup></strong><a class="headerlink" href="#46" title="Permanent link">&para;</a></h3>
 <p>목적지로의 예상 도착 시간을 표시합니다. 이는 지금까지의 평균 속도를 기반으로 추정되며, 시작 시의 급격한 변동을 피하기 위해 활동 시작 후 10초 후에 수치가 표시됩니다.</p>
 <p><span style="font-size: 0.7em; color: gray;">*Garmin 공식에서 데이터 인터페이스를 제공하지 않기 때문에 계산된 데이터가 부정확하거나 잘못될 수 있습니다</span>
 <br></p>
 <hr />
 <h2 id="vii"><strong>VII 데이터 분석</strong><a class="headerlink" href="#vii" title="Permanent link">&para;</a></h2>
-<h3 id="43"><strong>43. 실시간 좌우 밸런스</strong><a class="headerlink" href="#43" title="Permanent link">&para;</a></h3>
+<h3 id="47"><strong>47. 실시간 좌우 밸런스</strong><a class="headerlink" href="#47" title="Permanent link">&para;</a></h3>
 <p>현재 좌우 파워 밸런스를 표시합니다. 퍼센트로 표시되며 % 기호는 포함되지 않습니다. 예: 52-48
 <br></p>
 <p><br></p>
-<h3 id="44-3"><strong>44. 3초 평균 좌우 밸런스<sup>*</sup></strong><a class="headerlink" href="#44-3" title="Permanent link">&para;</a></h3>
+<h3 id="48-3"><strong>48. 3초 평균 좌우 밸런스<sup>*</sup></strong><a class="headerlink" href="#48-3" title="Permanent link">&para;</a></h3>
 <p>3초간의 평균 좌우 파워 밸런스 비율을 표시합니다.</p>
 <p><span style="font-size: 0.7em; color: gray;">*Garmin 공식에서 데이터 인터페이스를 제공하지 않기 때문에 계산된 데이터가 부정확하거나 잘못될 수 있습니다</span>
 <br></p>
 <p><br></p>
-<h3 id="45"><strong>45. 파워 구간 히스토그램<sup>*</sup></strong><a class="headerlink" href="#45" title="Permanent link">&para;</a></h3>
+<h3 id="49"><strong>49. 파워 구간 히스토그램<sup>*</sup></strong><a class="headerlink" href="#49" title="Permanent link">&para;</a></h3>
 <p>다른 파워 구간의 시간 분포를 표시합니다.</p>
 <div class="admonition warning">
 <p class="admonition-title">데이터 손실 위험</p>
@@ -1540,67 +1882,86 @@
 <p><span style="font-size: 0.7em; color: gray;">*Garmin 공식에서 데이터 인터페이스를 제공하지 않기 때문에 계산된 데이터가 부정확하거나 잘못될 수 있습니다</span>
 <br></p>
 <p><br></p>
-<h3 id="46"><strong>46. 심박 구간 히스토그램<sup>*</sup></strong><a class="headerlink" href="#46" title="Permanent link">&para;</a></h3>
+<h3 id="50"><strong>50. 심박 구간 히스토그램<sup>*</sup></strong><a class="headerlink" href="#50" title="Permanent link">&para;</a></h3>
 <p>다른 심박 구간의 시간 분포를 표시합니다.</p>
 <div class="admonition warning">
 <p class="admonition-title">데이터 손실 위험</p>
 <p>활동 중에 MyGahoo 필드를 "재추가"하거나 다른 라이딩 모드에 들어간 후 현재 모드로 돌아오면 이 모듈의 데이터가 지워집니다. (하지만 Garmin 자체가 기록하는 활동은 영향을 받지 않으며, MyGahoo만 이러한 데이터의 축적을 처음부터 다시 시작합니다).</p>
 </div>
 <p><span style="font-size: 0.7em; color: gray;">*Garmin 공식에서 데이터 인터페이스를 제공하지 않기 때문에 계산된 데이터가 부정확하거나 잘못될 수 있습니다</span>
-<br>
 <br></p>
-<hr />
+<p><br></p>
+<h3 id="51"><strong>51. 페달링 효율성</strong><a class="headerlink" href="#51" title="Permanent link">&para;</a></h3>
+<p>현재 좌우 페달의 토크 효율성을 퍼센트로 표시합니다. 이 데이터 인터페이스를 지원하는 파워미터가 필요합니다.</p>
+<ul>
+<li>형식: 왼쪽% / 오른쪽%</li>
+<li>파워미터가 좌우별 데이터를 지원하지 않으면 결합된 값만 표시됩니다</li>
+</ul>
+<p><br></p>
+<h3 id="52"><strong>52. 스무스니스</strong><a class="headerlink" href="#52" title="Permanent link">&para;</a></h3>
+<p>현재 좌우 페달의 페달링 스무스니스를 퍼센트로 표시합니다. 이 데이터 인터페이스를 지원하는 파워미터가 필요합니다.</p>
+<ul>
+<li>형식: 왼쪽% / 오른쪽%</li>
+<li>파워미터가 결합된 데이터만 지원하는 경우(좌우 구분 없음) 결합된 값만 표시됩니다
+<br></li>
+</ul>
 <hr />
 <h2 id="viii"><strong>VIII 환경 정보</strong><a class="headerlink" href="#viii" title="Permanent link">&para;</a></h2>
-<h3 id="47"><strong>47. 시계</strong><a class="headerlink" href="#47" title="Permanent link">&para;</a></h3>
+<h3 id="53"><strong>53. 시계</strong><a class="headerlink" href="#53" title="Permanent link">&para;</a></h3>
 <p>현재 시간을 표시합니다.
 <br></p>
 <p><br></p>
-<h3 id="48"><strong>48. 배터리</strong><a class="headerlink" href="#48" title="Permanent link">&para;</a></h3>
+<h3 id="54"><strong>54. 배터리</strong><a class="headerlink" href="#54" title="Permanent link">&para;</a></h3>
 <p>현재 배터리 레벨을 퍼센트로 표시합니다.
 <br></p>
 <p><br></p>
-<h3 id="49"><strong>49. 온도 (센서)</strong><a class="headerlink" href="#49" title="Permanent link">&para;</a></h3>
+<h3 id="55"><strong>55. 온도 (센서)</strong><a class="headerlink" href="#55" title="Permanent link">&para;</a></h3>
 <p>현재 온도를 섭씨 또는 화씨로 표시합니다. 5분마다 업데이트됩니다. 빈도는 Garmin의 제한으로 인해 이보다 높을 수 없습니다.
 <br></p>
 <p><br></p>
-<h3 id="50"><strong>50. 바람<sup>*</sup></strong><a class="headerlink" href="#50" title="Permanent link">&para;</a></h3>
+<h3 id="56"><strong>56. 바람<sup>*</sup></strong><a class="headerlink" href="#56" title="Permanent link">&para;</a></h3>
 <p>현재 풍속과 상대/절대 풍향을 표시합니다.</p>
 <p><span style="font-size: 0.7em; color: gray;">*Garmin 공식에서 데이터 인터페이스를 제공하지 않기 때문에 계산된 데이터가 부정확하거나 잘못될 수 있습니다</span>
 <br></p>
-<p><br></p>
-<h3 id="51-openweather"><strong>51. 온도 (OpenWeather)<sup>*</sup></strong><a class="headerlink" href="#51-openweather" title="Permanent link">&para;</a></h3>
-<p>현재 온도를 섭씨 또는 화씨로 표시합니다. 데이터 소스는 OpenWeather이므로 데이터를 활성화하려면 유효한 OpenWeather API 설정이 필요합니다.</p>
-<p><br></p>
-<h3 id="52-openweather"><strong>52. 체감 온도 (OpenWeather)<sup>*</sup></strong><a class="headerlink" href="#52-openweather" title="Permanent link">&para;</a></h3>
-<p>현재 체감 온도를 섭씨 또는 화씨로 표시합니다. 데이터 소스는 OpenWeather이므로 데이터를 활성화하려면 유효한 OpenWeather API 설정이 필요합니다.</p>
-<p><br></p>
-<h3 id="53-openweather"><strong>53. 습도 (OpenWeather)<sup>*</sup></strong><a class="headerlink" href="#53-openweather" title="Permanent link">&para;</a></h3>
-<p>현재 상대 습도를 퍼센트로 표시합니다. 데이터 소스는 OpenWeather이므로 데이터를 활성화하려면 유효한 OpenWeather API 설정이 필요합니다.</p>
-<p><br></p>
-<h4 id="_3">풍속 단위<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h4>
+<h4 id="_6">풍속 단위<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h4>
 <ul>
 <li>m/s: 미터/초</li>
 <li>KPH: 킬로미터/시</li>
 <li>MPH: 마일/시</li>
 <li>Beaufort scale: 풍력 계급, 0~12급</li>
 </ul>
-<h4 id="_4">풍속 레벨<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h4>
+<h4 id="_7">풍속 레벨<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h4>
 <p>풍속 레벨은 화살표 수로 표시되며, 다른 수에 해당하는 풍속은 아래 그림에 나와 있습니다. 선택한 풍속 단위가 m/s가 아닌 경우, 화살표 수는 표시되는 숫자가 아닌 올바른 풍속을 기반으로 계산됩니다.
 <br>
 <img alt="wind speed" src="../../images/wd_speed.jpg" /></p>
-<h4 id="_5">절대/상대 풍향<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h4>
+<h4 id="_8">절대/상대 풍향<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h4>
 <ul>
 <li>절대 풍향: 일기 예보에서 주어지는 풍향으로, 라이딩 방향과 무관</li>
 <li>상대 풍향: 현재 라이딩 방향과 풍향의 상대 각도. 예를 들어, 서쪽으로 향해 달리고 절대 풍향이 북쪽에서 남쪽인 경우, 상대 풍향은 오른쪽에서 왼쪽이 됩니다.</li>
 </ul>
-<h4 id="_6">풍향 색상<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h4>
+<h4 id="_9">풍향 색상<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h4>
 <p>상대 풍향을 표시할 때, 화살표는 바람 각도에 따라 색상이 구분됩니다. 빨간색은 맞바람(상대 바람이 왼쪽 앞 45°에서 오른쪽 앞 45°)을 나타내고, 녹색은 뒷바람(상대 바람이 왼쪽 뒤 45°에서 오른쪽 뒤 45°)을 나타내며, 검은색은 옆바람을 나타냅니다.
 <br>
 <img alt="wind direction" src="../../images/wd_dir.jpg" />
 <br></p>
-<h4 id="_7">설정<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h4>
+<h4 id="_10">설정<a class="headerlink" href="#_10" title="Permanent link">&para;</a></h4>
 <p>바람 모듈은 최적의 표시 효과를 얻기 위해 ConnectIQ 앱에서의 설정이 필요합니다. 자세한 내용은 <a href="../weather/">날씨 설정</a> 모듈을 참조하세요.</p>
+<p><br></p>
+<h3 id="57-openweather"><strong>57. 온도 (OpenWeather)<sup>*</sup></strong><a class="headerlink" href="#57-openweather" title="Permanent link">&para;</a></h3>
+<p>현재 온도를 섭씨 또는 화씨로 표시합니다. 데이터 소스는 OpenWeather이므로 데이터를 활성화하려면 유효한 OpenWeather API 설정이 필요합니다.</p>
+<p><br></p>
+<h3 id="58-openweather"><strong>58. 체감 온도 (OpenWeather)<sup>*</sup></strong><a class="headerlink" href="#58-openweather" title="Permanent link">&para;</a></h3>
+<p>현재 체감 온도를 섭씨 또는 화씨로 표시합니다. 데이터 소스는 OpenWeather이므로 데이터를 활성화하려면 유효한 OpenWeather API 설정이 필요합니다.</p>
+<p><br></p>
+<h3 id="59-openweather"><strong>59. 습도 (OpenWeather)<sup>*</sup></strong><a class="headerlink" href="#59-openweather" title="Permanent link">&para;</a></h3>
+<p>현재 상대 습도를 퍼센트로 표시합니다. 데이터 소스는 OpenWeather이므로 데이터를 활성화하려면 유효한 OpenWeather API 설정이 필요합니다.</p>
+<p><br></p>
+<h3 id="60"><strong>60. 일출 시간</strong><a class="headerlink" href="#60" title="Permanent link">&para;</a></h3>
+<p>그날의 일출 시간을 표시합니다. 데이터 소스는 Garmin의 내장 날씨 서비스이며, 기기가 날씨 기능을 지원해야 합니다(530/830 이상 모델) GPS 위치가 획득되어야 합니다.</p>
+<p><br></p>
+<h3 id="61"><strong>61. 일몰 시간</strong><a class="headerlink" href="#61" title="Permanent link">&para;</a></h3>
+<p>그날의 일몰 시간을 표시합니다. 데이터 소스는 Garmin의 내장 날씨 서비스이며, 기기가 날씨 기능을 지원해야 합니다(530/830 이상 모델) GPS 위치가 획득되어야 합니다.</p>
+<p><br></p>
 <hr />
 <h2 id="ix-led"><strong>IX 가상 LED</strong><a class="headerlink" href="#ix-led" title="Permanent link">&para;</a></h2>
 <p>가상 LED는 화면 가장자리 주변에 설정할 수 있습니다. 사용자는 다른 위치의 LED를 사용하여 다른 정보를 표시할 수 있습니다.
@@ -1645,17 +2006,17 @@
 </tr>
 </tbody>
 </table>
-<h3 id="_8">실시간 파워<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h3>
+<h3 id="_11">실시간 파워<a class="headerlink" href="#_11" title="Permanent link">&para;</a></h3>
 <p>가상 LED는 각 구간의 수와 색상을 표시합니다(아래 예시에서는 색상 스타일이 Garmin 스타일로 설정됨)
 <br>
 <img alt="power led" src="../../images/pw_led.jpg" /></p>
 <h3 id="3_1">3초 평균 파워<a class="headerlink" href="#3_1" title="Permanent link">&para;</a></h3>
 <p>위와 동일합니다.</p>
-<h3 id="_9">심박 구간<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h3>
+<h3 id="_12">심박 구간<a class="headerlink" href="#_12" title="Permanent link">&para;</a></h3>
 <p>가상 LED는 각 구간의 수와 색상을 표시합니다(아래 예시에서는 색상 스타일이 Garmin 스타일로 설정됨)
 <br>
 <img alt="hr led" src="../../images/hr_led.jpg" /></p>
-<h3 id="_10">평균 속도 표시기<a class="headerlink" href="#_10" title="Permanent link">&para;</a></h3>
+<h3 id="_13">평균 속도 인디케이터<a class="headerlink" href="#_13" title="Permanent link">&para;</a></h3>
 <p>가상 LED는 현재 속도와 평균 속도의 관계를 표시하며, 빨간색은 지연(평균값보다 낮음), 파란색은 선행(평균값보다 높음)을 나타냅니다.
 <br>
 <img alt="led avg" src="../../images/led_avg.jpg" />
@@ -1687,7 +2048,7 @@
 </tr>
 </tbody>
 </table>
-<h3 id="_11">평균 파워 표시기<a class="headerlink" href="#_11" title="Permanent link">&para;</a></h3>
+<h3 id="_14">평균 파워 인디케이터<a class="headerlink" href="#_14" title="Permanent link">&para;</a></h3>
 <p>가상 LED는 현재 파워와 평균 파워의 관계를 표시하며, 색상 의미는 위와 동일하지만 각 LED는 20%의 선행 또는 지연을 나타냅니다. 표는 선행을 예로 들고 있으며, 지연도 같은 원리를 따릅니다.</p>
 <table>
 <thead>
@@ -1715,8 +2076,8 @@
 </tr>
 </tbody>
 </table>
-<h3 id="_12">좌우 밸런스 표시기<a class="headerlink" href="#_12" title="Permanent link">&para;</a></h3>
-<p>가상 LED는 현재 페달링 파워의 좌우 밸런스를 표시합니다. 각 LED는 한쪽 5%의 오프셋을 나타냅니다. 표는 우편향 페달링을 예로 들고 있으며, 반대의 경우도 같은 원리를 따릅니다.</p>
+<h3 id="_15">좌우 밸런스 인디케이터<a class="headerlink" href="#_15" title="Permanent link">&para;</a></h3>
+<p>가상 LED는 현재 페달링 파워의 좌우 밸런스를 표시합니다. 각 LED는 한쪽 5%의 오프셋을 나타냅니다. 표는 우측偏 페달링을 예로 들고 있으며, 반대의 경우도 같은 원리를 따릅니다.</p>
 <p>또한, 수신된 좌우 밸런스 값이 100-0 또는 0-100인 경우 오류 상태가 표시됩니다. 이 상황은 일반적으로 양쪽 파워미터의 한쪽이 연결 해제되거나 첫 페달링 시의 순간적인 힘에 의해 발생합니다.</p>
 <table>
 <thead>
@@ -1748,8 +2109,362 @@
 </tr>
 </tbody>
 </table>
-<h3 id="3_2">3초 좌우 밸런스 표시기<a class="headerlink" href="#3_2" title="Permanent link">&para;</a></h3>
+<h3 id="3_2">3초 좌우 밸런스 인디케이터<a class="headerlink" href="#3_2" title="Permanent link">&para;</a></h3>
 <p>위와 동일합니다.</p>
+<hr />
+<h2 id="x"><strong>X 구성 가이드</strong><a class="headerlink" href="#x" title="Permanent link">&para;</a></h2>
+<p>이 섹션에서는 설정 페이지의 순서대로 각 설정의 기능과 영향 범위를 설명합니다. 제목 상자의 숫자는 설정 페이지에서 각 항목의 위치를 나타냅니다.</p>
+<p>범위에서 언급된 필드 번호에 대해서는 위의 각 필드 설명을 참조하세요.</p>
+<hr />
+<h3 id="activationcode">ActivationCode (활성화 코드)<a class="headerlink" href="#activationcode" title="Permanent link">&para;</a></h3>
+<p>설정 페이지에 활성화 코드를 입력하여 모든 기능을 잠금 해제합니다.</p>
+<p><strong>기능</strong>:</p>
+<ul>
+<li>구매 후 받은 활성화 코드를 입력하여 모든 MyGahoo Pro 기능 활성화</li>
+</ul>
+<p><strong>구성 제안</strong>:</p>
+<ul>
+<li>활성화 코드는 기기에 바인딩되어 있으며, 각 기기에는 별도의 활성화 코드가 필요합니다
+-同一 기기에서 다른 계정으로 로그인하는 경우, 활성화 코드는 변경되지 않습니다</li>
+<li>기기를 교체하는 경우, 새 활성화 코드를 받아야 합니다</li>
+</ul>
+<hr />
+<h3 id="11-ftp">[1.1] FTP (와트)<a class="headerlink" href="#11-ftp" title="Permanent link">&para;</a></h3>
+<p>FTP는 라이더가 오래 유지할 수 있는 임계 전력 값이며, 여러 훈련 지표를 계산하는 기본 매개변수입니다.</p>
+<p><strong>기능</strong>:</p>
+<p>-功率 구간, 파워 대 체중 비율, NP, TSS, IF 등 훈련 지표 계산에 사용되는 라이더의 기능적 임계 전력 설정</p>
+<p><strong>영향 범위</strong>:</p>
+<ul>
+<li>현재功率 필드의 구간 색상划分</li>
+<li>파워 대 체중 비율 필드의 계산</li>
+<li>NP 필드 관련 TSS 계산</li>
+<li>IF 필드의 계산</li>
+</ul>
+<p><strong>구성 제안</strong>:</p>
+<ul>
+<li>20분 측정功率 또는 CP(임계 전력)를 입력 값으로 사용하는 것이 좋습니다</li>
+<li>파워 대 체중 비율을 계산하려면 FTP가 Garmin 프로필의 체중과 함께 사용되어야 합니다</li>
+<li>FTP를 수정하면 TSS, IF 등의 지표가 기록된 NP 데이터를 기반으로 다시 계산됩니다</li>
+</ul>
+<hr />
+<h3 id="12-openweather-api">[1.2] OpenWeather API 키 (이제 모든 기기 지원)<a class="headerlink" href="#12-openweather-api" title="Permanent link">&para;</a></h3>
+<p>OpenWeather 서비스에 연결하여 실시간 날씨 데이터를 가져오는 데 사용됩니다.</p>
+<p><strong>기능</strong>:</p>
+<ul>
+<li>애플리케이션이 온라인 날씨 데이터를 가져올 수 있도록 OpenWeather API 키 입력</li>
+</ul>
+<p><strong>영향 범위</strong>:</p>
+<ul>
+<li>기온 필드</li>
+<li>체감 온도 필드</li>
+<li>습도 필드</li>
+</ul>
+<p><strong>구성 제안</strong>:</p>
+<ul>
+<li>OpenWeather 공식 웹사이트에서 직접 등록하고 API 키를 받아야 합니다</li>
+<li>기기는 전화를 통해 네트워크에 연결되어야 합니다</li>
+<li>GPS 위치가 획득되어야 합니다(실내에서는 날씨 데이터를 가져올 수 없을 수 있습니다)</li>
+</ul>
+<hr />
+<h3 id="13_1">[1.3] 가상 페이지 스크롤 모드**<a class="headerlink" href="#13_1" title="Permanent link">&para;</a></h3>
+<p>선택한 레이아웃 내에서 다른 데이터 블록 위치间の切り替え 방법을 제어합니다.</p>
+<p><strong>기능</strong>:</p>
+<ul>
+<li>가상 스크롤을 활성화할지, 버튼还是触摸操作を使用するか 설정</li>
+</ul>
+<p><strong>구성 제안</strong>:</p>
+<ul>
+<li><strong>끄기</strong>: 가상 스크롤 비활성화, 화면을 터치하면 시스템 기본 메뉴가 호출됩니다</li>
+<li><strong>빠른 버튼 모드</strong>: 연속으로 "위 아래 위 아래" 버튼 조합(2초 이내)을 눌러 뒤로 스크롤하고, 뒤로 스크롤만 지원합니다</li>
+<li><strong>터치 모드</strong>: 화면 하단 왼쪽을 탭하여 오른쪽으로 스크롤하고, 오른쪽을 탭하여 왼쪽으로 스크롤하며, 터치스크린 기기에 적합합니다</li>
+<li><strong>터치 및 빠른 버튼 모드</strong>: 터치와 버튼 두 모드를 모두 동시에 활성화합니다</li>
+</ul>
+<hr />
+<h3 id="14_1">[1.4] 레이아웃**<a class="headerlink" href="#14_1" title="Permanent link">&para;</a></h3>
+<p>화면에 데이터 블록의 배열과 수를 선택합니다.</p>
+<p><strong>기능</strong>:</p>
+<ul>
+<li>화면에 표시되는 데이터 블록의 수와 배열 템플릿 결정</li>
+</ul>
+<hr />
+<h3 id="15_1">[1.5] 언어**<a class="headerlink" href="#15_1" title="Permanent link">&para;</a></h3>
+<p>MyGahoo Pro 인터페이스 표시 언어를 선택합니다.</p>
+<p><strong>功能</strong>:</p>
+<ul>
+<li>애플리케이션 인터페이스에서 데이터 제목에 사용되는 언어 변경</li>
+</ul>
+<hr />
+<h3 id="21">[2.1] 타이머와 시계 형식**<a class="headerlink" href="#21" title="Permanent link">&para;</a></h3>
+<p>운동 상태에 따라 시간 표시 형식이 자동으로 전환되는지 제어합니다.</p>
+<p><strong>功能</strong>:</p>
+<ul>
+<li>시간 표시 형식 결정 - 항상 "시:분:초"를 표시할지, 아니면 "분:초"와 "시:분" 형식间で 자동 전환할지 설정</li>
+</ul>
+<p><strong>구성 제안</strong>:</p>
+<ul>
+<li>"항상 시:분:초 표시"를 선택하면 일부 레이아웃에서 폰트 오버플로우가 발생할 수 있습니다. 특별한 요구사항이 없으면 자동 전환을 선택하는 것이 좋습니다.</li>
+</ul>
+<hr />
+<h3 id="22-24">[2.2] 24시간 형식 활성화**<a class="headerlink" href="#22-24" title="Permanent link">&para;</a></h3>
+<p>시간 표시가 12시간制还是24시간制を使用するか 제어합니다.</p>
+<p><strong>功能</strong>:</p>
+<ul>
+<li>시계 표시의 시간 형식 설정</li>
+</ul>
+<hr />
+<h3 id="231">[2.3.1] 평균 속도 인디케이터**<a class="headerlink" href="#231" title="Permanent link">&para;</a></h3>
+<p>현재 속도와 평균 속도의 비교를 표시합니다.</p>
+<p><strong>功能</strong>:</p>
+<ul>
+<li>데이터 블록에 현재 속도가 평균 속도보다 높은지 낮은지 표시</li>
+</ul>
+<p><strong>구성 제안</strong>:</p>
+<ul>
+<li><strong>끄기</strong>: 비교 표시 안 함</li>
+<li><strong>켜기 - 화살표</strong>: 제목 옆에 표시됩니다. 위쪽 화살표는 선행, 아래쪽 화살표는 지연을 의미합니다</li>
+<li><strong>켜기 - 배경색</strong>: 녹색은 선행, 빨간색은 지연을 의미합니다</li>
+<li>라이딩 시작 후에만 표시되고, 정지時には表示되지ません</li>
+</ul>
+<hr />
+<h3 id="232">[2.3.2] 평균 파워 인디케이터**<a class="headerlink" href="#232" title="Permanent link">&para;</a></h3>
+<p>현재 파워와 평균 파워의 비교를 표시합니다.</p>
+<p><strong>功能</strong>:</p>
+<ul>
+<li>데이터 블록에 현재 파워가 평균 파워보다 높은지 낮은지 표시</li>
+</ul>
+<p><strong>구성 제안</strong>:</p>
+<ul>
+<li><strong>끄기</strong>: 비교 표시 안 함</li>
+<li><strong>켜기 - 화살표</strong>: 제목 옆에 표시됩니다. 위쪽 화살표는 선행, 아래쪽 화살표는 지연을 의미합니다</li>
+<li>참고: 이 인디케이터는 화살표 모드만 지원하며, 배경색 모드는 지원하지 않습니다</li>
+</ul>
+<hr />
+<h3 id="233">[2.3.3] 평균 심박수 인디케이터**<a class="headerlink" href="#233" title="Permanent link">&para;</a></h3>
+<p>현재 심박수와 평균 심박수의 비교를 표시합니다.</p>
+<p><strong>功能</strong>:</p>
+<ul>
+<li>데이터 블록에 현재 심박수가 평균 심박수보다 높은지 낮은지 표시</li>
+</ul>
+<p><strong>구성 제안</strong>:</p>
+<ul>
+<li><strong>끄기</strong>: 비교 표시 안 함</li>
+<li><strong>켜기 - 화살표</strong>: 제목 옆에 표시됩니다. 위쪽 화살표는 선행, 아래쪽 화살표는 지연을 의미합니다</li>
+<li>참고: 이 인디케이터는 화살표 모드만 지원하며, 배경색 모드는 지원하지 않습니다</li>
+</ul>
+<hr />
+<h3 id="234">[2.3.4] 평균 케이던스 인디케이터**<a class="headerlink" href="#234" title="Permanent link">&para;</a></h3>
+<p>현재 케이던스와 평균 케이던스의 비교를 표시합니다.</p>
+<p><strong>功能</strong>:</p>
+<ul>
+<li>데이터 블록에 현재 케이던스가 평균 케이던스보다 높은지 낮은지 표시</li>
+</ul>
+<p><strong>구성 제안</strong>:</p>
+<ul>
+<li><strong>끄기</strong>: 비교 표시 안 함</li>
+<li><strong>켜기 - 화살표</strong>: 제목 옆에 표시됩니다. 위쪽 화살표는 선행, 아래쪽 화살표는 지연을 의미합니다</li>
+<li><strong>켜기 - 배경색</strong>: 녹색은 선행, 빨간색은 지연을 의미합니다</li>
+</ul>
+<hr />
+<h3 id="24_1">[2.4] 상대 풍향 사용 (화살표가 이동 방향에 따라 변경)**<a class="headerlink" href="#24_1" title="Permanent link">&para;</a></h3>
+<p>풍향이 이동 방향에 상대적인지 지리적 실제 방향인지 설정합니다.</p>
+<p><strong>功能</strong>:</p>
+<ul>
+<li>풍향 화살표의 방향 제어</li>
+</ul>
+<p><strong>구성 제안</strong>:</p>
+<ul>
+<li><strong>켜기</strong>: 화살표가 이동 방향과 함께 변경되며, 항상 바람이 현재 어느 방향에서 불어오는지 표시합니다. 돌아서면 화살표가 따라 변경됩니다.</li>
+<li><strong>끄기</strong>: 지리적 실제 풍향을 표시하며, 이동 방향과 함께 변경되지 않습니다. 화살표가 아래를 가리키면 현재 북풍임을 의미하고, 왼쪽을 가리키면 동풍을 의미합니다.</li>
+</ul>
+<hr />
+<h3 id="25_1">[2.5] 풍속 단위**<a class="headerlink" href="#25_1" title="Permanent link">&para;</a></h3>
+<p>풍속 표시의 단위를 설정합니다.</p>
+<p><strong>功能</strong>:</p>
+<ul>
+<li>풍속データの表示 단위 제어</li>
+</ul>
+<p><strong>구성 제안</strong>:</p>
+<ul>
+<li><strong>미터/초</strong>: 표준 기상 단위</li>
+<li><strong>킬로미터/시</strong>: 일반적인 라이딩 속도 단위</li>
+<li><strong>마일/시</strong>: 야드파운드법 단위</li>
+<li><strong>보퍼트 척도</strong>: 0~12급, 풍속から換算された 풍력 등급</li>
+</ul>
+<hr />
+<h3 id="26_1">[2.6] 심박수 색상 스타일**<a class="headerlink" href="#26_1" title="Permanent link">&para;</a></h3>
+<p>심박수 구간의 색상 체계を設定합니다.</p>
+<p><strong>功能</strong>:</p>
+<ul>
+<li>심박수 데이터에 사용되는 구간 색상 스타일 선택</li>
+</ul>
+<p><strong>영향 범위</strong>:</p>
+<ul>
+<li>현재 심박数字段의 배경색</li>
+<li>가상 LED 심박수 구간 표시(LED가 심박수로 설정된 경우)</li>
+</ul>
+<hr />
+<h3 id="27_1">[2.7] 파워 색상 스타일**<a class="headerlink" href="#27_1" title="Permanent link">&para;</a></h3>
+<p>파워 구간의 색상 체계を設定합니다.</p>
+<p><strong>功能</strong>:</p>
+<ul>
+<li>파워 데이터에 사용되는 구간 색상 스타일 선택</li>
+</ul>
+<p><strong>영향 범위</strong>:</p>
+<ul>
+<li>현재功率 필드의 배경색</li>
+<li>다양한 평균功率 필드의 배경색</li>
+<li>가상 LED功率 구간 표시(LED가功率로 설정된 경우)</li>
+</ul>
+<hr />
+<h3 id="28_1">[2.8] 배경색**<a class="headerlink" href="#28_1" title="Permanent link">&para;</a></h3>
+<p>전체 데이터 필드의 배경 테마를 설정합니다.</p>
+<p><strong>功能</strong>:</p>
+<ul>
+<li>애플리케이션의 전체적인 배경색 스타일 제어</li>
+</ul>
+<p><strong>구성 제안</strong>:</p>
+<ul>
+<li><strong>시스템 따르기</strong>: 기기의 현재昼/夜 모드를 자동으로 따릅니다</li>
+<li><strong>항상昼</strong>: 항상昼간 모드의 흰색 배경 사용</li>
+<li><strong>항상夜</strong>: 항상夜间 모드의 검은색 배경 사용</li>
+</ul>
+<hr />
+<h3 id="29_1">[2.9] 시간 형식의 앞자리 영점 표시**<a class="headerlink" href="#29_1" title="Permanent link">&para;</a></h3>
+<p>시간 표시가 앞자리 영점을 표시하는지 제어합니다.</p>
+<p><strong>功能</strong>:</p>
+<ul>
+<li>시간数字이 영점埋め되어 표시되는지 설정</li>
+</ul>
+<p><strong>구성 제안</strong>:</p>
+<ul>
+<li><strong>켜기</strong>: 9:05가 "09:05"로 표시됩니다</li>
+<li><strong>끄기</strong>: 9:05가 "9:05"로 표시됩니다</li>
+</ul>
+<hr />
+<h3 id="210-wbal-cp-w-w-j">[2.10] [W'Bal] CP (W) / W' (J) / 표시 모드 / 알고리즘**<a class="headerlink" href="#210-wbal-cp-w-w-j" title="Permanent link">&para;</a></h3>
+<p>이 설정 그룹은 W'Balance 기능의 계산과 표시를 jointly 제어합니다.</p>
+<h4 id="cp">CP (임계 전력)<a class="headerlink" href="#cp" title="Permanent link">&para;</a></h4>
+<p>라이더가 오래 유지할 수 있는功率 상한이며, W'Balance 소모/회복 판단의 임계값이기도 합니다.</p>
+<p><strong>功能</strong>:</p>
+<ul>
+<li>W'Balance 필드의 소모/회복 판단
+-功率이 CP보다 높으면 W'Balance가 소모되고, CP보다 낮으면 W'Balance가 회복됩니다</li>
+</ul>
+<p><strong>구성 제안</strong>:</p>
+<ul>
+<li>CP를 정확히 알면 CP로 설정하고, 모르면 FTP로近似 설정할 수 있습니다</li>
+</ul>
+<h4 id="wprime-w">WPRIME (W' 에너지储备)**<a class="headerlink" href="#wprime-w" title="Permanent link">&para;</a></h4>
+<p>라이더가 CP 이상으로 출력할 수 있는 총 에너지储备입니다.</p>
+<p><strong>구성 제안</strong>:</p>
+<ul>
+<li>기본값은 약 10000줄(10킬로줄)입니다</li>
+<li>경험 많은 라이더는通常 15000~20000줄 범위로 설정합니다</li>
+</ul>
+<h4 id="_16">표시 모드**<a class="headerlink" href="#_16" title="Permanent link">&para;</a></h4>
+<p>W'Balance 데이터의 표시 방법을 설정합니다.</p>
+<p><strong>功能</strong>:</p>
+<p>-百分比还是千焦耳로 표시할지, 색상을 포함할지 선택</p>
+<p><strong>구성 제안</strong>:</p>
+<ul>
+<li><strong>百分比</strong>: 남은百分比를 표시, 색상 포함(녹색=회복, 빨간색=소모)</li>
+<li><strong>千焦</strong>: 남은 에너지 값을 표시, 색상 포함</li>
+<li><strong>百分比 (색상 없음)</strong>: 남은百分比를 표시, 색상 없음</li>
+<li><strong>千焦 (색상 없음)</strong>: 남은 에너지 값을 표시, 색상 없음</li>
+</ul>
+<h4 id="_17">알고리즘**<a class="headerlink" href="#_17" title="Permanent link">&para;</a></h4>
+<p>W'Balance의 계산 모델을 선택합니다.</p>
+<p><strong>구성 제안</strong>:</p>
+<ul>
+<li><strong>적분 알고리즘</strong>: 소모와 회복이 모두 더 느리고 부드러워서,持久力 라이딩에 적합합니다</li>
+<li><strong>미분 알고리즘</strong>: 소모 빠름, 회복도 빠름, 더 반응이 좋아서,_INTERVAL 훈련에 적합합니다</li>
+</ul>
+<hr />
+<h3 id="211">[2.11] 우상단 제목 오프셋 활성화 (레이더 아이콘重叠 피하기)**<a class="headerlink" href="#211" title="Permanent link">&para;</a></h3>
+<p>우상단 제목이 레이더 아이콘과重叠되지 않도록 오른쪽으로 오프셋되는지 설정합니다.</p>
+<p><strong>구성 제안</strong>:</p>
+<ul>
+<li>Garmin 레이다功能 사용 시에만 필요합니다</li>
+<li>기본적으로 꺼져 있습니다</li>
+</ul>
+<hr />
+<h3 id="212-1x">[2.12] 기어 차트 - 1X 단독 체인링 모드**<a class="headerlink" href="#212-1x" title="Permanent link">&para;</a></h3>
+<p>기어비 차트가 1X 단독 체인링 모드로 표시되는지 설정합니다.</p>
+<p><strong>구성 제안</strong>:</p>
+<ul>
+<li><strong>활성화 후</strong>: 기어비 차트는 카세트 차트만 표시하고, 체인링 차트는 표시하지 않습니다</li>
+<li><strong>비활성화 후</strong>: 기본적으로 카세트와 체인링 차트 모두 표시됩니다</li>
+</ul>
+<hr />
+<h3 id="31-34-led-led-led-led">[3.1-3.4] 왼쪽 LED / 오른쪽 LED / 위쪽 LED / 아래쪽 LED**<a class="headerlink" href="#31-34-led-led-led-led" title="Permanent link">&para;</a></h3>
+<p>가상 LED는 화면의 네 가장자리에 설정하여 다양한 종류의 데이터를 표시할 수 있습니다.</p>
+<p><strong>功能</strong>:</p>
+<ul>
+<li>화면 가장자리에功率/구간, 평균 인디케이터, 좌우 밸런스 또는 상태 막대 표시</li>
+</ul>
+<p><strong>영향 범위</strong>:</p>
+<p>-功率 구간 LED: 현재功率 및 다양한 평균功率 필드의 구간 시각화에 영향
+- 심박수 구간 LED: 현재 심박数字段的 구간 시각화에 영향
+- 평균 인디케이터 LED: 평균 데이터의 선행/지연 표시에 영향
+- 좌우 밸런스 LED: 좌우 밸런스 필드의 시각화에 영향
+- 상태 막대 LED: 배터리, GPS, 블루투스 연결, 시간 등의 상태 아이콘 표시</p>
+<p><strong>설정 설명</strong>:</p>
+<table>
+<thead>
+<tr>
+<th>위치</th>
+<th>선택 가능한 내용</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>왼쪽 LED (3.1)</td>
+<td>끄기 / 3초功率 구간 /功率 구간 / 심박수 구간 / 평균 속도 인디케이터 / 평균功率 인디케이터</td>
+</tr>
+<tr>
+<td>오른쪽 LED (3.2)</td>
+<td>끄기 / 3초功率 구간 /功率 구간 / 심박수 구간 / 평균 속도 인디케이터 / 평균功率 인디케이터</td>
+</tr>
+<tr>
+<td>위쪽 LED (3.3)</td>
+<td>끄기 / 상태 막대 / 3초功率 구간 /功率 구간 / 심박수 구간 / 평균 속도 인디케이터 / 평균功率 인디케이터 / 좌우功率 밸런스 / 3초 좌우 밸런스</td>
+</tr>
+<tr>
+<td>아래쪽 LED (3.4)</td>
+<td>끄기 / 상태 막대 / 3초功率 구간 /功率 구간 / 심박수 구간 / 평균 속도 인디케이터 / 평균功率 인디케이터 / 좌우功率 밸런스 / 3초 좌우 밸런스</td>
+</tr>
+</tbody>
+</table>
+<p><strong>구성 제안</strong>:</p>
+<ul>
+<li><strong>끄기</strong>: 이 가장자리에 LED 표시 안 함</li>
+<li><strong>상태 막대</strong>: 위와 아래에만利用可能하고, 배터리 아이콘, GPS 신호 상태, 전화 연결 상태, 읽지 않은 메시지 수, 현재 시간 표시</li>
+<li><strong>功率/심박수 구간</strong>: 7개의 LED가 각功率/심박수 구간의 수 분포를 표시합니다</li>
+<li><strong>평균 인디케이터</strong>: 파란색은 선행, 빨간색은 지연</li>
+<li><strong>좌우 밸런스</strong>: 위와 아래 LED 전용으로, 각 LED는 한쪽 5%의 오프셋을 나타냅니다</li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">좌우 밸런스 LED 오류 상태</p>
+<p>좌우 밸런스 값이 100-0 또는 0-100으로 표시되면 오류 상태가 표시됩니다. 이는通常 양쪽 파워미터의 한쪽이 연결 해제되거나 첫 페달링 시의 순간적인 힘에 의해 발생합니다.</p>
+</div>
+<hr />
+<h3 id="_18">페이지 활성화**<a class="headerlink" href="#_18" title="Permanent link">&para;</a></h3>
+<p>2페이지와 3페이지를 활성화할지 제어합니다.</p>
+<p><strong>영향 범위</strong>:</p>
+<ul>
+<li>페이지切り替え 기능が利用可能かどうか</li>
+<li>단일 페이지 모드에서는 페이지 번호가 표시되지 않습니다</li>
+</ul>
+<p><strong>구성 제안</strong>:</p>
+<ul>
+<li>1페이지는 항상 활성화되어 있으며 끌 수 없습니다</li>
+<li>여러 페이지를 활성화하면 사용자가 가상 스크롤 또는 터치操作으로 페이지를切り替え할 수 있습니다</li>
+<li>각 페이지는 독립적으로 MainBlock과 좌우 데이터 블록 유형을 설정할 수 있습니다</li>
+</ul>
+<div class="admonition info">
+<p class="admonition-title">페이지와 레이아웃의 관계</p>
+<p>다중 페이지 설정을 사용하면 사용자가 여러組의 다른 데이터 블록 조합을 구성할 수 있으며, 각 그룹은 동일한 레이아웃 스타일을 사용하지만 다른 데이터 블록을 표시합니다.</p>
+</div>
 
 
 
@@ -1850,6 +2565,8 @@
       <script src="../../assets/javascripts/bundle.13a4f30d.min.js"></script>
       
         <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="../../javascripts/designer.js"></script>
       
     
   </body>

@@ -43,6 +43,8 @@
       
     
     
+      <link rel="stylesheet" href="../../css/designer.css">
+    
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -606,7 +608,7 @@
           <li class="md-nav__item">
   <a href="#11" class="md-nav__link">
     <span class="md-ellipsis">
-      11. 平均心拍数
+      11. 平均パワー
     </span>
   </a>
   
@@ -615,7 +617,7 @@
           <li class="md-nav__item">
   <a href="#12" class="md-nav__link">
     <span class="md-ellipsis">
-      12. 平均速度
+      12. 平均心拍数
     </span>
   </a>
   
@@ -624,7 +626,7 @@
           <li class="md-nav__item">
   <a href="#13" class="md-nav__link">
     <span class="md-ellipsis">
-      13. アクティビティ時間
+      13. 平均速度
     </span>
   </a>
   
@@ -633,7 +635,7 @@
           <li class="md-nav__item">
   <a href="#14" class="md-nav__link">
     <span class="md-ellipsis">
-      14. ラップ時間*
+      14. アクティビティ時間
     </span>
   </a>
   
@@ -642,7 +644,7 @@
           <li class="md-nav__item">
   <a href="#15" class="md-nav__link">
     <span class="md-ellipsis">
-      15. 距離
+      15. 経過時間（合計時間）
     </span>
   </a>
   
@@ -651,7 +653,7 @@
           <li class="md-nav__item">
   <a href="#16" class="md-nav__link">
     <span class="md-ellipsis">
-      16. 総上昇
+      16. ラップ時間*
     </span>
   </a>
   
@@ -660,7 +662,7 @@
           <li class="md-nav__item">
   <a href="#17" class="md-nav__link">
     <span class="md-ellipsis">
-      17. 総下降
+      17. 距離
     </span>
   </a>
   
@@ -669,16 +671,16 @@
           <li class="md-nav__item">
   <a href="#18" class="md-nav__link">
     <span class="md-ellipsis">
-      18. ラップ平均心拍数*
+      18. 総上昇
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#19-kj" class="md-nav__link">
+  <a href="#19" class="md-nav__link">
     <span class="md-ellipsis">
-      19. 総仕事量（KJ）*
+      19. 総下降
     </span>
   </a>
   
@@ -687,16 +689,16 @@
           <li class="md-nav__item">
   <a href="#20" class="md-nav__link">
     <span class="md-ellipsis">
-      20. ラップ距離*
+      20. ラップ平均心拍数*
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#21" class="md-nav__link">
+  <a href="#21-kj" class="md-nav__link">
     <span class="md-ellipsis">
-      21. 平均ケイデンス
+      21. 合計作業量（kJ）*
     </span>
   </a>
   
@@ -705,7 +707,7 @@
           <li class="md-nav__item">
   <a href="#22" class="md-nav__link">
     <span class="md-ellipsis">
-      22. ラップ平均速度*
+      22. ラップ距離*
     </span>
   </a>
   
@@ -714,7 +716,25 @@
           <li class="md-nav__item">
   <a href="#23" class="md-nav__link">
     <span class="md-ellipsis">
-      23. カロリー
+      23. 平均ケイデンス
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24" class="md-nav__link">
+    <span class="md-ellipsis">
+      24. ラップ平均速度*
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#25" class="md-nav__link">
+    <span class="md-ellipsis">
+      25. カロリー
     </span>
   </a>
   
@@ -736,27 +756,9 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#24" class="md-nav__link">
-    <span class="md-ellipsis">
-      24. 最大パワー
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#25" class="md-nav__link">
-    <span class="md-ellipsis">
-      25. 最大心拍数
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#26" class="md-nav__link">
     <span class="md-ellipsis">
-      26. 最大速度
+      26. 最大パワー
     </span>
   </a>
   
@@ -765,7 +767,7 @@
           <li class="md-nav__item">
   <a href="#27" class="md-nav__link">
     <span class="md-ellipsis">
-      27. 最大ケイデンス
+      27. 最大心拍数
     </span>
   </a>
   
@@ -774,7 +776,25 @@
           <li class="md-nav__item">
   <a href="#28" class="md-nav__link">
     <span class="md-ellipsis">
-      28. ラップ数
+      28. 最大速度
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#29" class="md-nav__link">
+    <span class="md-ellipsis">
+      29. 最大ケイデンス
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#30" class="md-nav__link">
+    <span class="md-ellipsis">
+      30. ラップ数
     </span>
   </a>
   
@@ -796,63 +816,81 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#29" class="md-nav__link">
+  <a href="#31" class="md-nav__link">
     <span class="md-ellipsis">
-      29. 現在のパワーウェイトレシオ
+      31. 現在のパワーウェイトレシオ
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#30-3" class="md-nav__link">
+  <a href="#32-3" class="md-nav__link">
     <span class="md-ellipsis">
-      30. 3秒平均パワーウェイトレシオ*
+      32. 3秒平均パワーウェイトレシオ*
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#31-10" class="md-nav__link">
+  <a href="#33-10" class="md-nav__link">
     <span class="md-ellipsis">
-      31. 10秒平均パワーウェイトレシオ*
+      33. 10秒平均パワーウェイトレシオ*
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#32" class="md-nav__link">
+  <a href="#34" class="md-nav__link">
     <span class="md-ellipsis">
-      32. ラップ平均パワーウェイトレシオ*
+      34. ラップ平均パワーウェイトレシオ*
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#33-nptm" class="md-nav__link">
+  <a href="#35-nptm" class="md-nav__link">
     <span class="md-ellipsis">
-      33. NP™（正規化パワー）*
+      35. NP™（正規化パワー）*
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#34-tsstm" class="md-nav__link">
+  <a href="#36-tsstm" class="md-nav__link">
     <span class="md-ellipsis">
-      34. TSS™（トレーニングストレススコア）*
+      36. TSS™（トレーニングストレススコア）*
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#35-wbalance" class="md-nav__link">
+  <a href="#37-wbalance" class="md-nav__link">
     <span class="md-ellipsis">
-      35. W'Balance*
+      37. W'Balance*
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#38" class="md-nav__link">
+    <span class="md-ellipsis">
+      38. 現在のトレーニングステップ残り時間
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#39-iftm" class="md-nav__link">
+    <span class="md-ellipsis">
+      39. IF™（強度係数）*
     </span>
   </a>
   
@@ -874,36 +912,36 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#36" class="md-nav__link">
+  <a href="#40" class="md-nav__link">
     <span class="md-ellipsis">
-      36. ギア表示
+      40. ギア表示
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#37" class="md-nav__link">
+  <a href="#41" class="md-nav__link">
     <span class="md-ellipsis">
-      37. ギア番号
+      41. ギア番号
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#38" class="md-nav__link">
+  <a href="#42" class="md-nav__link">
     <span class="md-ellipsis">
-      38. ギア比
+      42. ギア比
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#39" class="md-nav__link">
+  <a href="#43" class="md-nav__link">
     <span class="md-ellipsis">
-      39. ギア比チャート
+      43. ギア比チャート
     </span>
   </a>
   
@@ -925,27 +963,27 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#40" class="md-nav__link">
+  <a href="#44" class="md-nav__link">
     <span class="md-ellipsis">
-      40. 目的地までの距離
+      44. 目的地までの距離
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#41" class="md-nav__link">
+  <a href="#45" class="md-nav__link">
     <span class="md-ellipsis">
-      41. 目的地までの予想時間*
+      45. 目的地までの予想時間*
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#42" class="md-nav__link">
+  <a href="#46" class="md-nav__link">
     <span class="md-ellipsis">
-      42. 予想到着時刻*
+      46. 予想到着時刻*
     </span>
   </a>
   
@@ -967,36 +1005,54 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#43" class="md-nav__link">
+  <a href="#47" class="md-nav__link">
     <span class="md-ellipsis">
-      43. リアルタイム左右バランス
+      47. リアルタイム左右バランス
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#44-3" class="md-nav__link">
+  <a href="#48-3" class="md-nav__link">
     <span class="md-ellipsis">
-      44. 3秒平均左右バランス*
+      48. 3秒平均左右バランス*
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#45" class="md-nav__link">
+  <a href="#49" class="md-nav__link">
     <span class="md-ellipsis">
-      45. パワーゾーンヒストグラム*
+      49. パワーゾーンヒストグラム*
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#46" class="md-nav__link">
+  <a href="#50" class="md-nav__link">
     <span class="md-ellipsis">
-      46. 心拍ゾーンヒストグラム*
+      50. 心拍ゾーンヒストグラム*
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#51" class="md-nav__link">
+    <span class="md-ellipsis">
+      51. ペダリング効率
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52" class="md-nav__link">
+    <span class="md-ellipsis">
+      52. スムースネス
     </span>
   </a>
   
@@ -1018,63 +1074,81 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#47" class="md-nav__link">
+  <a href="#53" class="md-nav__link">
     <span class="md-ellipsis">
-      47. 時計
+      53. 時計
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#48" class="md-nav__link">
+  <a href="#54" class="md-nav__link">
     <span class="md-ellipsis">
-      48. バッテリー
+      54. バッテリー
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#49" class="md-nav__link">
+  <a href="#55" class="md-nav__link">
     <span class="md-ellipsis">
-      49. 温度（センサー）
+      55. 温度（センサー）
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#50" class="md-nav__link">
+  <a href="#56" class="md-nav__link">
     <span class="md-ellipsis">
-      50. 風*
+      56. 風*
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#51-openweather" class="md-nav__link">
+  <a href="#57-openweather" class="md-nav__link">
     <span class="md-ellipsis">
-      51. 温度（OpenWeather）*
+      57. 温度（OpenWeather）*
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#52-openweather" class="md-nav__link">
+  <a href="#58-openweather" class="md-nav__link">
     <span class="md-ellipsis">
-      52. 体感温度（OpenWeather）*
+      58. 体感温度（OpenWeather）*
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#53-openweather" class="md-nav__link">
+  <a href="#59-openweather" class="md-nav__link">
     <span class="md-ellipsis">
-      53. 湿度（OpenWeather）*
+      59. 湿度（OpenWeather）*
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#60" class="md-nav__link">
+    <span class="md-ellipsis">
+      60. 日の出時間
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#61" class="md-nav__link">
+    <span class="md-ellipsis">
+      61. 日の入り時間
     </span>
   </a>
   
@@ -1096,7 +1170,7 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#_8" class="md-nav__link">
+  <a href="#_11" class="md-nav__link">
     <span class="md-ellipsis">
       リアルタイムパワー
     </span>
@@ -1114,7 +1188,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_9" class="md-nav__link">
+  <a href="#_12" class="md-nav__link">
     <span class="md-ellipsis">
       心拍ゾーン
     </span>
@@ -1123,7 +1197,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_10" class="md-nav__link">
+  <a href="#_13" class="md-nav__link">
     <span class="md-ellipsis">
       平均速度インジケーター
     </span>
@@ -1132,7 +1206,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_11" class="md-nav__link">
+  <a href="#_14" class="md-nav__link">
     <span class="md-ellipsis">
       平均パワーインジケーター
     </span>
@@ -1141,7 +1215,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_12" class="md-nav__link">
+  <a href="#_15" class="md-nav__link">
     <span class="md-ellipsis">
       左右バランスインジケーター
     </span>
@@ -1153,6 +1227,228 @@
   <a href="#3_2" class="md-nav__link">
     <span class="md-ellipsis">
       3秒左右バランスインジケーター
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#x" class="md-nav__link">
+    <span class="md-ellipsis">
+      X 設定ガイド
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="X 設定ガイド">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#activationcode" class="md-nav__link">
+    <span class="md-ellipsis">
+      ActivationCode（アクティブコード）
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11-ftp" class="md-nav__link">
+    <span class="md-ellipsis">
+      [1.1] FTP（ワット）
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-openweather-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      [1.2] OpenWeather APIキー（すべてのデバイスでサポート）
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      [1.3] 仮想ページスクロールモード**
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      [1.4] レイアウト**
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      [1.5] 言語**
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#21" class="md-nav__link">
+    <span class="md-ellipsis">
+      [2.1] タイマーと時計形式**
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-24" class="md-nav__link">
+    <span class="md-ellipsis">
+      [2.2] 24時間形式を有効にする**
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#231" class="md-nav__link">
+    <span class="md-ellipsis">
+      [2.3.1] 平均速度インジケーター**
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#232" class="md-nav__link">
+    <span class="md-ellipsis">
+      [2.3.2] 平均パワーインジケーター**
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#233" class="md-nav__link">
+    <span class="md-ellipsis">
+      [2.3.3] 平均心拍数インジケーター**
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#234" class="md-nav__link">
+    <span class="md-ellipsis">
+      [2.3.4] 平均ケイデンスインジケーター**
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      [2.4] 相対風向を使用（矢印が移動方向に応じて変更）**
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#25_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      [2.5] 風速単位**
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#26_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      [2.6] 心拍数カラースタイル**
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#27-colour" class="md-nav__link">
+    <span class="md-ellipsis">
+      [2.7] パワー colourスタイル**
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#28_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      [2.8] 背景色**
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#29_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      [2.9] 時間形式の先頭ゼロを表示**
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#210-wbal-cp-w-w-j" class="md-nav__link">
+    <span class="md-ellipsis">
+      [2.10] [W'Bal] CP (W) / W' (J) / 表示モード / 算法**
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#211" class="md-nav__link">
+    <span class="md-ellipsis">
+      [2.11] 右上タイトルオフセットを有効にする（レーダーアイコンの重叠を避ける）**
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#212-1x" class="md-nav__link">
+    <span class="md-ellipsis">
+      [2.12] 变速图 - 1X单盘模式**
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#31-34-led-led-led-led" class="md-nav__link">
+    <span class="md-ellipsis">
+      [3.1-3.4] 左LED / 右LED / 上LED / 下LED**
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    <span class="md-ellipsis">
+      ページを有効にする**
     </span>
   </a>
   
@@ -1265,21 +1561,31 @@
 <li>Wahooスタイル：グレー-ダークブルー-ライトブルー-グリーン-イエロー-オレンジ-レッド（ゾーン1～ゾーン7）</li>
 </ul>
 </div>
+<h4 id="_2">平均パワーインジケーター<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h4>
+<p>これはオン/オフできる設定で、現在のパワークラス内で現在のパワーと平均功率を比較するために使用されます。ConnectIQアプリで設定できます。「矢印」表示モードをサポートしています。</p>
+<ul>
+<li>「矢印」<ul>
+<li>上向き：平均功率より高い</li>
+<li>下向き：平均功率より低い</li>
+<li>表示なし：平均功率と等しい、またはライディング未開始</li>
+</ul>
+</li>
+</ul>
 <p><br></p>
 <h3 id="2"><strong>2. 現在の速度</strong><a class="headerlink" href="#2" title="Permanent link">&para;</a></h3>
 <p>現在のライディング速度を表示します。単位はユーザーのGarmin Connectの設定と一致します（kph/mph）。</p>
-<h4 id="_2">平均速度インジケーター<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h4>
+<h4 id="_3">平均速度インジケーター<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h4>
 <p>これはオン/オフできる設定で、現在の速度モジュール内で現在の速度と平均速度を比較するために使用されます。ConnectIQアプリで設定できます。「矢印」と「背景」の2つの表示モードがあります。</p>
 <ul>
-<li>"矢印"
+<li>「矢印」
 <br>
 <img alt="avg_arrow" src="../../images/avg_arrow.jpg" /><ul>
 <li>上向き：平均速度より高い</li>
 <li>下向き：平均速度より低い</li>
-<li>表示なし：平均速度と等しいまたはライディング未開始</li>
+<li>表示なし：平均速度と等しい、またはライディング未開始</li>
 </ul>
 </li>
-<li>"背景"<ul>
+<li>「背景」<ul>
 <li>赤色：平均速度より低い</li>
 <li>緑色：平均速度より高い</li>
 </ul>
@@ -1296,9 +1602,29 @@
 <li>Wahooスタイル：グレー-ブルー-グリーン-イエロー-オレンジ-レッド（&lt;ゾーン1、ゾーン1～ゾーン5）</li>
 </ul>
 </div>
+<h4 id="_4">平均心拍数インジケーター<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h4>
+<p>これはオン/オフできる設定で、現在心拍数モジュール内で現在心拍数と平均心拍数を比較するために使用されます。ConnectIQアプリで設定できます。「矢印」表示モードをサポートしています。</p>
+<ul>
+<li>「矢印」<ul>
+<li>上向き：平均心拍数より高い</li>
+<li>下向き：平均心拍数より低い</li>
+<li>表示なし：平均心拍数と等しい、またはライディング未開始</li>
+</ul>
+</li>
+</ul>
 <p><br></p>
 <h3 id="4"><strong>4. 現在のケイデンス</strong><a class="headerlink" href="#4" title="Permanent link">&para;</a></h3>
 <p>リアルタイムのケイデンス値を表示します。</p>
+<h4 id="_5">平均ケイデンスインジケーター<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h4>
+<p>これはオン/オフできる設定で、現在ケイデンスモジュール内で現在ケイデンスと平均ケイデンスを比較するために使用されます。ConnectIQアプリで設定できます。「矢印」表示モードをサポートしています。</p>
+<ul>
+<li>「矢印」<ul>
+<li>上向き：平均ケイデンスより高い</li>
+<li>下向き：平均ケイデンスより低い</li>
+<li>表示なし：平均ケイデンスと等しい、またはライディング未開始</li>
+</ul>
+</li>
+</ul>
 <p><br></p>
 <h3 id="5"><strong>5. 現在の標高</strong><a class="headerlink" href="#5" title="Permanent link">&para;</a></h3>
 <p>現在の標高を表示します。単位はユーザーのGarmin Connectの設定と一致します（m/ft）。</p>
@@ -1306,7 +1632,7 @@
 <h3 id="6"><strong>6. 現在の勾配<sup>*</sup></strong><a class="headerlink" href="#6" title="Permanent link">&para;</a></h3>
 <p>現在の勾配を表示します。
 <br>
-<span style="font-size: 0.7em; color: gray;">*Garmin公式はデータインターフェースを提供していないため、計算されたデータは不正確または間違っている可能性があります</span>
+<span style="font-size: 0.7em; color: gray;">*Garmin公式はデータインターフェースを提供していないため、計算されたデータは不正確または間違う可能性があります</span>
 <br></p>
 <div class="admonition info">
 <p class="admonition-title">色</p>
@@ -1340,135 +1666,141 @@
 <h2 id="ii"><strong>II 平均および累積データ</strong><a class="headerlink" href="#ii" title="Permanent link">&para;</a></h2>
 <h3 id="7-3"><strong>7. 3秒平均パワー<sup>*</sup></strong><a class="headerlink" href="#7-3" title="Permanent link">&para;</a></h3>
 <p>過去3秒間の平均パワーを表示します。色表示はリアルタイムパワーと同じです。</p>
-<p><span style="font-size: 0.7em; color: gray;">*Garmin公式はデータインターフェースを提供していないため、計算されたデータは不正確または間違っている可能性があります</span>
+<p><span style="font-size: 0.7em; color: gray;">*Garmin公式はデータインターフェースを提供していないため、計算されたデータは不正確または間違う可能性があります</span>
 <br>
 <br></p>
 <h3 id="8-5"><strong>8. 5秒平均パワー<sup>*</sup></strong><a class="headerlink" href="#8-5" title="Permanent link">&para;</a></h3>
 <p>過去5秒間の平均パワーを表示します。色表示はリアルタイムパワーと同じです。</p>
-<p><span style="font-size: 0.7em; color: gray;">*Garmin公式はデータインターフェースを提供していないため、計算されたデータは不正確または間違っている可能性があります</span>
+<p><span style="font-size: 0.7em; color: gray;">*Garmin公式はデータインターフェースを提供していないため、計算されたデータは不正確または間違う可能性があります</span>
 <br></p>
 <p><br></p>
 <h3 id="9-10"><strong>9. 10秒平均パワー<sup>*</sup></strong><a class="headerlink" href="#9-10" title="Permanent link">&para;</a></h3>
 <p>過去10秒間の平均パワーを表示します。色表示はリアルタイムパワーと同じです。</p>
-<p><span style="font-size: 0.7em; color: gray;">*Garmin公式はデータインターフェースを提供していないため、計算されたデータは不正確または間違っている可能性があります</span>
+<p><span style="font-size: 0.7em; color: gray;">*Garmin公式はデータインターフェースを提供していないため、計算されたデータは不正確または間違う可能性があります</span>
 <br>
 <br></p>
 <h3 id="10"><strong>10. ラップ平均パワー<sup>*</sup></strong><a class="headerlink" href="#10" title="Permanent link">&para;</a></h3>
 <p>現在のラップの平均パワーを表示します。</p>
-<p><span style="font-size: 0.7em; color: gray;">*Garmin公式はデータインターフェースを提供していないため、計算されたデータは不正確または間違っている可能性があります</span>
+<p><span style="font-size: 0.7em; color: gray;">*Garmin公式はデータインターフェースを提供していないため、計算されたデータは不正確または間違う可能性があります</span>
 <br></p>
 <p><br></p>
-<h3 id="11"><strong>11. 平均心拍数</strong><a class="headerlink" href="#11" title="Permanent link">&para;</a></h3>
+<h3 id="11"><strong>11. 平均パワー</strong><a class="headerlink" href="#11" title="Permanent link">&para;</a></h3>
+<p>現在のアクティビティの全体平均パワーを表示します。</p>
+<p><br></p>
+<h3 id="12"><strong>12. 平均心拍数</strong><a class="headerlink" href="#12" title="Permanent link">&para;</a></h3>
 <p>現在のアクティビティの平均心拍数を表示します。
 <br></p>
 <p><br></p>
-<h3 id="12"><strong>12. 平均速度</strong><a class="headerlink" href="#12" title="Permanent link">&para;</a></h3>
+<h3 id="13"><strong>13. 平均速度</strong><a class="headerlink" href="#13" title="Permanent link">&para;</a></h3>
 <p>現在のアクティビティの平均速度を表示します。
 <br></p>
 <p><br></p>
-<h3 id="13"><strong>13. アクティビティ時間</strong><a class="headerlink" href="#13" title="Permanent link">&para;</a></h3>
+<h3 id="14"><strong>14. アクティビティ時間</strong><a class="headerlink" href="#14" title="Permanent link">&para;</a></h3>
 <p>現在のアクティビティの継続時間を表示します。
 <br></p>
 <p><br></p>
-<h3 id="14"><strong>14. ラップ時間<sup>*</sup></strong><a class="headerlink" href="#14" title="Permanent link">&para;</a></h3>
+<h3 id="15"><strong>15. 経過時間（合計時間）</strong><a class="headerlink" href="#15" title="Permanent link">&para;</a></h3>
+<p>現在のアクティビティの合計時間を表示します（一時停止時間も含む）。</p>
+<p><br></p>
+<p><br></p>
+<h3 id="16"><strong>16. ラップ時間<sup>*</sup></strong><a class="headerlink" href="#16" title="Permanent link">&para;</a></h3>
 <p>現在のラップの継続時間を表示します。</p>
-<p><span style="font-size: 0.7em; color: gray;">*Garmin公式はデータインターフェースを提供していないため、計算されたデータは不正確または間違っている可能性があります</span>
+<p><span style="font-size: 0.7em; color: gray;">*Garmin公式はデータインターフェースを提供していないため、計算されたデータは不正確または間違う可能性があります</span>
 <br></p>
 <p><br></p>
-<h3 id="15"><strong>15. 距離</strong><a class="headerlink" href="#15" title="Permanent link">&para;</a></h3>
+<h3 id="17"><strong>17. 距離</strong><a class="headerlink" href="#17" title="Permanent link">&para;</a></h3>
 <p>現在のアクティビティの累積ライディング距離を表示します。
 <br></p>
 <p><br></p>
-<h3 id="16"><strong>16. 総上昇</strong><a class="headerlink" href="#16" title="Permanent link">&para;</a></h3>
+<h3 id="18"><strong>18. 総上昇</strong><a class="headerlink" href="#18" title="Permanent link">&para;</a></h3>
 <p>現在のアクティビティ中に獲得した総標高を表示します。
 <br></p>
 <p><br></p>
-<h3 id="17"><strong>17. 総下降</strong><a class="headerlink" href="#17" title="Permanent link">&para;</a></h3>
+<h3 id="19"><strong>19. 総下降</strong><a class="headerlink" href="#19" title="Permanent link">&para;</a></h3>
 <p>現在のアクティビティ中に失った総標高を表示します。
 <br></p>
 <p><br></p>
-<h3 id="18"><strong>18. ラップ平均心拍数<sup>*</sup></strong><a class="headerlink" href="#18" title="Permanent link">&para;</a></h3>
+<h3 id="20"><strong>20. ラップ平均心拍数<sup>*</sup></strong><a class="headerlink" href="#20" title="Permanent link">&para;</a></h3>
 <p>現在のラップの平均心拍数を表示します。</p>
-<p><span style="font-size: 0.7em; color: gray;">*Garmin公式はデータインターフェースを提供していないため、計算されたデータは不正確または間違っている可能性があります</span>
+<p><span style="font-size: 0.7em; color: gray;">*Garmin公式はデータインターフェースを提供していないため、計算されたデータは不正確または間違う可能性があります</span>
 <br></p>
 <p><br></p>
-<h3 id="19-kj"><strong>19. 総仕事量（KJ）<sup>*</sup></strong><a class="headerlink" href="#19-kj" title="Permanent link">&para;</a></h3>
-<p>現在のアクティビティ中に実行された総仕事量をキロジュール（kJ）単位で表示します。この測定はパワーメーターからのものなので、パワーメーターが必要です。</p>
-<p><span style="font-size: 0.7em; color: gray;">*Garmin公式はデータインターフェースを提供していないため、計算されたデータは不正確または間違っている可能性があります</span>
+<h3 id="21-kj"><strong>21. 合計作業量（kJ）<sup>*</sup></strong><a class="headerlink" href="#21-kj" title="Permanent link">&para;</a></h3>
+<p>現在のアクティビティ中に実行された合計作業量をキロジュール（kJ）単位で表示します。この測定はパワーメーターからのものなので、パワーメーターが必要です。</p>
+<p><span style="font-size: 0.7em; color: gray;">*Garmin公式はデータインターフェースを提供していないため、計算されたデータは不正確または間違う可能性があります</span>
 <br></p>
 <p><br></p>
-<h3 id="20"><strong>20. ラップ距離<sup>*</sup></strong><a class="headerlink" href="#20" title="Permanent link">&para;</a></h3>
+<h3 id="22"><strong>22. ラップ距離<sup>*</sup></strong><a class="headerlink" href="#22" title="Permanent link">&para;</a></h3>
 <p>現在のラップでカバーした距離を表示します。</p>
-<p><span style="font-size: 0.7em; color: gray;">*Garmin公式はデータインターフェースを提供していないため、計算されたデータは不正確または間違っている可能性があります</span>
+<p><span style="font-size: 0.7em; color: gray;">*Garmin公式はデータインターフェースを提供していないため、計算されたデータは不正確または間違う可能性があります</span>
 <br></p>
 <p><br></p>
-<h3 id="21"><strong>21. 平均ケイデンス</strong><a class="headerlink" href="#21" title="Permanent link">&para;</a></h3>
+<h3 id="23"><strong>23. 平均ケイデンス</strong><a class="headerlink" href="#23" title="Permanent link">&para;</a></h3>
 <p>現在のアクティビティの平均ケイデンスを表示します。
 <br></p>
 <p><br></p>
-<h3 id="22"><strong>22. ラップ平均速度<sup>*</sup></strong><a class="headerlink" href="#22" title="Permanent link">&para;</a></h3>
+<h3 id="24"><strong>24. ラップ平均速度<sup>*</sup></strong><a class="headerlink" href="#24" title="Permanent link">&para;</a></h3>
 <p>現在のラップの平均速度を表示します。</p>
-<p><span style="font-size: 0.7em; color: gray;">*Garmin公式はデータインターフェースを提供していないため、計算されたデータは不正確または間違っている可能性があります</span>
+<p><span style="font-size: 0.7em; color: gray;">*Garmin公式はデータインターフェースを提供していないため、計算されたデータは不正確または間違う可能性があります</span>
 <br></p>
 <p><br></p>
-<h3 id="23"><strong>23. カロリー</strong><a class="headerlink" href="#23" title="Permanent link">&para;</a></h3>
-<p>現在のアクティビティで燃焼したカロリーを表示します。
+<h3 id="25"><strong>25. カロリー</strong><a class="headerlink" href="#25" title="Permanent link">&para;</a></h3>
+<p>現在のアクティビティで燃烧したカロリーを表示します。
 <br></p>
 <hr />
-<hr />
 <h2 id="iii"><strong>III 最大値</strong><a class="headerlink" href="#iii" title="Permanent link">&para;</a></h2>
-<h3 id="24"><strong>24. 最大パワー</strong><a class="headerlink" href="#24" title="Permanent link">&para;</a></h3>
+<h3 id="26"><strong>26. 最大パワー</strong><a class="headerlink" href="#26" title="Permanent link">&para;</a></h3>
 <p>現在のアクティビティ中に達成した最大パワーを表示します。
 <br></p>
 <p><br></p>
-<h3 id="25"><strong>25. 最大心拍数</strong><a class="headerlink" href="#25" title="Permanent link">&para;</a></h3>
+<h3 id="27"><strong>27. 最大心拍数</strong><a class="headerlink" href="#27" title="Permanent link">&para;</a></h3>
 <p>現在のアクティビティ中に達成した最大心拍数を表示します。
 <br></p>
 <p><br></p>
-<h3 id="26"><strong>26. 最大速度</strong><a class="headerlink" href="#26" title="Permanent link">&para;</a></h3>
+<h3 id="28"><strong>28. 最大速度</strong><a class="headerlink" href="#28" title="Permanent link">&para;</a></h3>
 <p>現在のアクティビティ中に達成した最大速度を表示します。
 <br></p>
 <p><br></p>
-<h3 id="27"><strong>27. 最大ケイデンス</strong><a class="headerlink" href="#27" title="Permanent link">&para;</a></h3>
+<h3 id="29"><strong>29. 最大ケイデンス</strong><a class="headerlink" href="#29" title="Permanent link">&para;</a></h3>
 <p>現在のアクティビティ中に達成した最大ケイデンスを表示します。
 <br></p>
 <p><br></p>
-<h3 id="28"><strong>28. ラップ数</strong><a class="headerlink" href="#28" title="Permanent link">&para;</a></h3>
+<h3 id="30"><strong>30. ラップ数</strong><a class="headerlink" href="#30" title="Permanent link">&para;</a></h3>
 <p>現在のアクティビティの総ラップ数を表示します。アクティビティ開始時、ラップ数は1に設定されます。
 <br></p>
 <hr />
 <h2 id="iv"><strong>IV トレーニング指標</strong><a class="headerlink" href="#iv" title="Permanent link">&para;</a></h2>
-<h3 id="29"><strong>29. 現在のパワーウェイトレシオ</strong><a class="headerlink" href="#29" title="Permanent link">&para;</a></h3>
+<h3 id="31"><strong>31. 現在のパワーウェイトレシオ</strong><a class="headerlink" href="#31" title="Permanent link">&para;</a></h3>
 <p>現在のアクティビティのリアルタイムパワーウェイトレシオをW/Kg単位で表示します。パワーはMyGahoo設定ページの入力から、体重はGarminプロフィールページの設定から取得されます。
 <br></p>
 <p><br></p>
-<h3 id="30-3"><strong>30. 3秒平均パワーウェイトレシオ<sup>*</sup></strong><a class="headerlink" href="#30-3" title="Permanent link">&para;</a></h3>
+<h3 id="32-3"><strong>32. 3秒平均パワーウェイトレシオ<sup>*</sup></strong><a class="headerlink" href="#32-3" title="Permanent link">&para;</a></h3>
 <p>過去3秒間の平均パワーウェイトレシオをW/Kg単位で表示します。</p>
-<p><span style="font-size: 0.7em; color: gray;">*Garmin公式はデータインターフェースを提供していないため、計算されたデータは不正確または間違っている可能性があります</span>
+<p><span style="font-size: 0.7em; color: gray;">*Garmin公式はデータインターフェースを提供していないため、計算されたデータは不正確または間違う可能性があります</span>
 <br></p>
 <p><br></p>
-<h3 id="31-10"><strong>31. 10秒平均パワーウェイトレシオ<sup>*</sup></strong><a class="headerlink" href="#31-10" title="Permanent link">&para;</a></h3>
+<h3 id="33-10"><strong>33. 10秒平均パワーウェイトレシオ<sup>*</sup></strong><a class="headerlink" href="#33-10" title="Permanent link">&para;</a></h3>
 <p>過去10秒間の平均パワーウェイトレシオをW/Kg単位で表示します。</p>
-<p><span style="font-size: 0.7em; color: gray;">*Garmin公式はデータインターフェースを提供していないため、計算されたデータは不正確または間違っている可能性があります</span>
+<p><span style="font-size: 0.7em; color: gray;">*Garmin公式はデータインターフェースを提供していないため、計算されたデータは不正確または間違う可能性があります</span>
 <br></p>
 <p><br></p>
-<h3 id="32"><strong>32. ラップ平均パワーウェイトレシオ<sup>*</sup></strong><a class="headerlink" href="#32" title="Permanent link">&para;</a></h3>
+<h3 id="34"><strong>34. ラップ平均パワーウェイトレシオ<sup>*</sup></strong><a class="headerlink" href="#34" title="Permanent link">&para;</a></h3>
 <p>現在のラップの平均パワーウェイトレシオをW/Kg単位で表示します。</p>
-<p><span style="font-size: 0.7em; color: gray;">*Garmin公式はデータインターフェースを提供していないため、計算されたデータは不正確または間違っている可能性があります</span>
+<p><span style="font-size: 0.7em; color: gray;">*Garmin公式はデータインターフェースを提供していないため、計算されたデータは不正確または間違う可能性があります</span>
 <br></p>
 <p><br></p>
-<h3 id="33-nptm"><strong>33. NP™（正規化パワー）<sup>*</sup></strong><a class="headerlink" href="#33-nptm" title="Permanent link">&para;</a></h3>
+<h3 id="35-nptm"><strong>35. NP™（正規化パワー）<sup>*</sup></strong><a class="headerlink" href="#35-nptm" title="Permanent link">&para;</a></h3>
 <p>現在のアクティビティの正規化パワーを表示します。</p>
 <div class="admonition warning">
 <p class="admonition-title">データ損失リスク</p>
-<p>アクティビティ中にMyGahooフィールドを「再追加」したり、他のライディングモードに入ったりすると、このモジュールのデータがクリアされます。（ただし、Garmin自体が記録するアクティビティは影響を受けず、MyGahooのみがゼロからこれらのデータの蓄積を再開します）。</p>
+<p>アクティビティ中にMyGahooフィールドを「再追加」したり、他のライディングモードに入ると、このモジュールのデータがクリアされます。（ただし、Garmin自体が記録するアクティビティは影響を受けず、MyGahooのみがゼロからこれらのデータの蓄積を再開します）。</p>
 </div>
 <p><span style="font-size: 0.7em; color: gray;">™正規化パワー（NP）およびトレーニングストレススコア（TSS）は、Peaksware, LLCの登録商標です。</span>
 <br>
-<span style="font-size: 0.7em; color: gray;">*Garmin公式はデータインターフェースを提供していないため、計算されたデータは不正確または間違っている可能性があります</span>
+<span style="font-size: 0.7em; color: gray;">*Garmin公式はデータインターフェースを提供していないため、計算されたデータは不正確または間違う可能性があります</span>
 <br></p>
 <p><br></p>
-<h3 id="34-tsstm"><strong>34. TSS™（トレーニングストレススコア）<sup>*</sup></strong><a class="headerlink" href="#34-tsstm" title="Permanent link">&para;</a></h3>
+<h3 id="36-tsstm"><strong>36. TSS™（トレーニングストレススコア）<sup>*</sup></strong><a class="headerlink" href="#36-tsstm" title="Permanent link">&para;</a></h3>
 <p>現在のアクティビティのトレーニングストレススコアを表示します。</p>
 <div class="admonition warning">
 <p class="admonition-title">データ損失リスク</p>
@@ -1476,137 +1808,166 @@
 </div>
 <p><span style="font-size: 0.7em; color: gray;">™正規化パワー（NP）およびトレーニングストレススコア（TSS）は、Peaksware, LLCの登録商標です。</span>
 <br>
-<span style="font-size: 0.7em; color: gray;">*Garmin公式はデータインターフェースを提供していないため、計算されたデータは不正確または間違っている可能性があります</span>
+<span style="font-size: 0.7em; color: gray;">*Garmin公式はデータインターフェースを提供していないため、計算されたデータは不正確または間違う可能性があります</span>
 <br></p>
 <hr />
-<h3 id="35-wbalance"><strong>35. W'Balance<sup>*</sup></strong><a class="headerlink" href="#35-wbalance" title="Permanent link">&para;</a></h3>
+<h3 id="37-wbalance"><strong>37. W'Balance<sup>*</sup></strong><a class="headerlink" href="#37-wbalance" title="Permanent link">&para;</a></h3>
 <p>現在のアクティビティのW'Balance（W prime balance）を表示します。これが機能するには、CP（クリティカルパワー）とW'（W Prime）を事前に定義する必要があります。科学的説明については、それが何であるかを説明する多くの記事やビデオがあります。</p>
-<p>アクティビティ中、このフィールドは緑色または赤色になります。緑色の場合、現在のパワーがCPより低いことを示し、言い換えれば「回復」していることを意味します。逆に、赤色の場合は消費していることを示します。</p>
+<p>アクティビティ中、このフィールドは緑色または赤色になります。緑色の場合、現在のパワーがCPより低いことを示し、言い換えれば「回復」していることを意味します。逆に、赤色の場合は消耗していることを示します。</p>
 <p>現在の数学モデルはFroncioni / Clarkeの微分モデルを使用しています：</p>
 <p><code>W′bal = W′bal + (CP - P) * (W′ - W′bal) / W′</code> when <code>P &gt; CP</code></p>
 <p><code>W′bal = W′bal + (CP - P)</code> when <code>P &lt; CP</code></p>
-<p><span style="font-size: 0.7em; color: gray;">*Garmin公式はデータインターフェースを提供していないため、計算されたデータは不正確または間違っている可能性があります</span>
+<p><span style="font-size: 0.7em; color: gray;">*Garmin公式はデータインターフェースを提供していないため、計算されたデータは不正確または間違う可能性があります</span>
 <br></p>
+<p><br></p>
+<h3 id="38"><strong>38. 現在のトレーニングステップ残り時間</strong><a class="headerlink" href="#38" title="Permanent link">&para;</a></h3>
+<p>現在のトレーニングセッションステップのカウントダウン残り時間を表示します。Garmin構造化トレーニング（ワークアウト）が開始されている場合にのみ有効です。現在のトレーニングステップに時間制限がない場合は、データは表示されません。</p>
+<p><br></p>
+<p><br></p>
+<h3 id="39-iftm"><strong>39. IF™（強度係数）<sup>*</sup></strong><a class="headerlink" href="#39-iftm" title="Permanent link">&para;</a></h3>
+<p>現在のアクティビティの強度係数を表示します。このトレーニングセッションの強度レベルを評価するために使用されます。</p>
+<p><span style="font-size: 0.7em; color: gray;">™強度係数（IF）はPeaksware, LLCの登録商標です。</span>
+<br>
+<span style="font-size: 0.7em; color: gray;">*Garmin公式はデータインターフェースを提供していないため、計算されたデータは不正確または間違う可能性があります</span></p>
+<p><br></p>
 <hr />
 <h2 id="v"><strong>V 機器情報</strong><a class="headerlink" href="#v" title="Permanent link">&para;</a></h2>
-<h3 id="36"><strong>36. ギア表示</strong><a class="headerlink" href="#36" title="Permanent link">&para;</a></h3>
+<h3 id="40"><strong>40. ギア表示</strong><a class="headerlink" href="#40" title="Permanent link">&para;</a></h3>
 <p>現在のチェーンリング/カセットの歯数を表示します。例：52/13
 <br></p>
 <p><br></p>
-<h3 id="37"><strong>37. ギア番号</strong><a class="headerlink" href="#37" title="Permanent link">&para;</a></h3>
+<h3 id="41"><strong>41. ギア番号</strong><a class="headerlink" href="#41" title="Permanent link">&para;</a></h3>
 <p>現在のチェーンリング/カセットのインデックス番号を表示します。例：1/7
 <br></p>
 <p><br></p>
-<h3 id="38"><strong>38. ギア比</strong><a class="headerlink" href="#38" title="Permanent link">&para;</a></h3>
+<h3 id="42"><strong>42. ギア比</strong><a class="headerlink" href="#42" title="Permanent link">&para;</a></h3>
 <p>現在のチェーンリングをカセット歯数で割ったギア比を表示します。例：4.02
 <br></p>
 <p><br></p>
-<h3 id="39"><strong>39. ギア比チャート</strong><a class="headerlink" href="#39" title="Permanent link">&para;</a></h3>
+<h3 id="43"><strong>43. ギア比チャート</strong><a class="headerlink" href="#43" title="Permanent link">&para;</a></h3>
 <p>ギア比情報をグラフィカルに表示します。
 <br></p>
 <hr />
-<hr />
 <h2 id="vi"><strong>VI ナビゲーション情報</strong><a class="headerlink" href="#vi" title="Permanent link">&para;</a></h2>
-<h3 id="40"><strong>40. 目的地までの距離</strong><a class="headerlink" href="#40" title="Permanent link">&para;</a></h3>
+<h3 id="44"><strong>44. 目的地までの距離</strong><a class="headerlink" href="#44" title="Permanent link">&para;</a></h3>
 <p>目的地までの残り距離を表示します。
 <br></p>
 <p><br></p>
-<h3 id="41"><strong>41. 目的地までの予想時間<sup>*</sup></strong><a class="headerlink" href="#41" title="Permanent link">&para;</a></h3>
+<h3 id="45"><strong>45. 目的地までの予想時間<sup>*</sup></strong><a class="headerlink" href="#45" title="Permanent link">&para;</a></h3>
 <p>目的地到着までの予想残り時間を表示します。これはこれまでの平均速度に基づいて推定され、開始時の急激な変動を避けるため、アクティビティ開始から10秒後に数値が表示されます。</p>
-<p><span style="font-size: 0.7em; color: gray;">*Garmin公式はデータインターフェースを提供していないため、計算されたデータは不正確または間違っている可能性があります</span>
+<p><span style="font-size: 0.7em; color: gray;">*Garmin公式はデータインターフェースを提供していないため、計算されたデータは不正確または間違う可能性があります</span>
 <br></p>
 <p><br></p>
-<h3 id="42"><strong>42. 予想到着時刻<sup>*</sup></strong><a class="headerlink" href="#42" title="Permanent link">&para;</a></h3>
+<h3 id="46"><strong>46. 予想到着時刻<sup>*</sup></strong><a class="headerlink" href="#46" title="Permanent link">&para;</a></h3>
 <p>目的地への予想到着時刻を表示します。これはこれまでの平均速度に基づいて推定され、開始時の急激な変動を避けるため、アクティビティ開始から10秒後に数値が表示されます。</p>
-<p><span style="font-size: 0.7em; color: gray;">*Garmin公式はデータインターフェースを提供していないため、計算されたデータは不正確または間違っている可能性があります</span>
+<p><span style="font-size: 0.7em; color: gray;">*Garmin公式はデータインターフェースを提供していないため、計算されたデータは不正確または間違う可能性があります</span>
 <br></p>
 <hr />
 <h2 id="vii"><strong>VII データ分析</strong><a class="headerlink" href="#vii" title="Permanent link">&para;</a></h2>
-<h3 id="43"><strong>43. リアルタイム左右バランス</strong><a class="headerlink" href="#43" title="Permanent link">&para;</a></h3>
+<h3 id="47"><strong>47. リアルタイム左右バランス</strong><a class="headerlink" href="#47" title="Permanent link">&para;</a></h3>
 <p>現在の左右パワーバランスを表示します。パーセンテージで表示され、%記号は含まれません。例：52-48
 <br></p>
 <p><br></p>
-<h3 id="44-3"><strong>44. 3秒平均左右バランス<sup>*</sup></strong><a class="headerlink" href="#44-3" title="Permanent link">&para;</a></h3>
+<h3 id="48-3"><strong>48. 3秒平均左右バランス<sup>*</sup></strong><a class="headerlink" href="#48-3" title="Permanent link">&para;</a></h3>
 <p>3秒間の平均左右パワーバランス比率を表示します。</p>
-<p><span style="font-size: 0.7em; color: gray;">*Garmin公式はデータインターフェースを提供していないため、計算されたデータは不正確または間違っている可能性があります</span>
+<p><span style="font-size: 0.7em; color: gray;">*Garmin公式はデータインターフェースを提供していないため、計算されたデータは不正確または間違う可能性があります</span>
 <br></p>
 <p><br></p>
-<h3 id="45"><strong>45. パワーゾーンヒストグラム<sup>*</sup></strong><a class="headerlink" href="#45" title="Permanent link">&para;</a></h3>
+<h3 id="49"><strong>49. パワーゾーンヒストグラム<sup>*</sup></strong><a class="headerlink" href="#49" title="Permanent link">&para;</a></h3>
 <p>異なるパワーゾーンの時間分布を表示します。</p>
 <div class="admonition warning">
 <p class="admonition-title">データ損失リスク</p>
 <p>アクティビティ中にMyGahooフィールドを「再追加」したり、他のライディングモードに入った後に現在のモードに戻ったりすると、このモジュールのデータがクリアされます。（ただし、Garmin自体が記録するアクティビティは影響を受けず、MyGahooのみがゼロからこれらのデータの蓄積を再開します）。</p>
 </div>
-<p><span style="font-size: 0.7em; color: gray;">*Garmin公式はデータインターフェースを提供していないため、計算されたデータは不正確または間違っている可能性があります</span>
+<p><span style="font-size: 0.7em; color: gray;">*Garmin公式はデータインターフェースを提供していないため、計算されたデータは不正確または間違う可能性があります</span>
 <br></p>
 <p><br></p>
-<h3 id="46"><strong>46. 心拍ゾーンヒストグラム<sup>*</sup></strong><a class="headerlink" href="#46" title="Permanent link">&para;</a></h3>
+<h3 id="50"><strong>50. 心拍ゾーンヒストグラム<sup>*</sup></strong><a class="headerlink" href="#50" title="Permanent link">&para;</a></h3>
 <p>異なる心拍ゾーンの時間分布を表示します。</p>
 <div class="admonition warning">
 <p class="admonition-title">データ損失リスク</p>
 <p>アクティビティ中にMyGahooフィールドを「再追加」したり、他のライディングモードに入った後に現在のモードに戻ったりすると、このモジュールのデータがクリアされます。（ただし、Garmin自体が記録するアクティビティは影響を受けず、MyGahooのみがゼロからこれらのデータの蓄積を再開します）。</p>
 </div>
-<p><span style="font-size: 0.7em; color: gray;">*Garmin公式はデータインターフェースを提供していないため、計算されたデータは不正確または間違っている可能性があります</span>
-<br>
+<p><span style="font-size: 0.7em; color: gray;">*Garmin公式はデータインターフェースを提供していないため、計算されたデータは不正確または間違う可能性があります</span>
 <br></p>
-<hr />
+<p><br></p>
+<h3 id="51"><strong>51. ペダリング効率</strong><a class="headerlink" href="#51" title="Permanent link">&para;</a></h3>
+<p>現在の左右ペダルのトルク効率をパーセンテージで表示します。このデータインターフェースをサポートしているパワーメーターが必要です。</p>
+<ul>
+<li>形式：左% / 右%</li>
+<li>パワーク Luciaがサイド별データをサポートしていない場合は、複合値のみが表示されます</li>
+</ul>
+<p><br></p>
+<h3 id="52"><strong>52. スムースネス</strong><a class="headerlink" href="#52" title="Permanent link">&para;</a></h3>
+<p>現在の左右ペダルのペダリングスムースネスをパーセンテージで表示します。このデータインターフェースをサポートしているパワーメーターが必要です。</p>
+<ul>
+<li>形式：左% / 右%</li>
+<li>パワーク Luciaが複合データのみをサポートしている場合（左右区別なし）は、複合値のみが表示されます
+<br></li>
+</ul>
 <hr />
 <h2 id="viii"><strong>VIII 環境情報</strong><a class="headerlink" href="#viii" title="Permanent link">&para;</a></h2>
-<h3 id="47"><strong>47. 時計</strong><a class="headerlink" href="#47" title="Permanent link">&para;</a></h3>
+<h3 id="53"><strong>53. 時計</strong><a class="headerlink" href="#53" title="Permanent link">&para;</a></h3>
 <p>現在の時刻を表示します。
 <br></p>
 <p><br></p>
-<h3 id="48"><strong>48. バッテリー</strong><a class="headerlink" href="#48" title="Permanent link">&para;</a></h3>
+<h3 id="54"><strong>54. バッテリー</strong><a class="headerlink" href="#54" title="Permanent link">&para;</a></h3>
 <p>現在のバッテリーレベルをパーセンテージで表示します。
 <br></p>
 <p><br></p>
-<h3 id="49"><strong>49. 温度（センサー）</strong><a class="headerlink" href="#49" title="Permanent link">&para;</a></h3>
+<h3 id="55"><strong>55. 温度（センサー）</strong><a class="headerlink" href="#55" title="Permanent link">&para;</a></h3>
 <p>現在の温度を摂氏または華氏で表示します。5分ごとに更新されます。頻度はGarminの制限により、これより高くできません。
 <br></p>
 <p><br></p>
-<h3 id="50"><strong>50. 風<sup>*</sup></strong><a class="headerlink" href="#50" title="Permanent link">&para;</a></h3>
+<h3 id="56"><strong>56. 風<sup>*</sup></strong><a class="headerlink" href="#56" title="Permanent link">&para;</a></h3>
 <p>現在の風速と相対/絶対風向を表示します。</p>
-<p><span style="font-size: 0.7em; color: gray;">*Garmin公式はデータインターフェースを提供していないため、計算されたデータは不正確または間違っている可能性があります</span>
+<p><span style="font-size: 0.7em; color: gray;">*Garmin公式はデータインターフェースを提供していないため、計算されたデータは不正確または間違う可能性があります</span>
 <br></p>
-<p><br></p>
-<h3 id="51-openweather"><strong>51. 温度（OpenWeather）<sup>*</sup></strong><a class="headerlink" href="#51-openweather" title="Permanent link">&para;</a></h3>
-<p>現在の温度を摂氏または華氏で表示します。データソースはOpenWeatherなので、データを有効にするには有効なOpenWeather APIの設定が必要です。</p>
-<p><br></p>
-<h3 id="52-openweather"><strong>52. 体感温度（OpenWeather）<sup>*</sup></strong><a class="headerlink" href="#52-openweather" title="Permanent link">&para;</a></h3>
-<p>現在の体感温度を摂氏または華氏で表示します。データソースはOpenWeatherなので、データを有効にするには有効なOpenWeather APIの設定が必要です。</p>
-<p><br></p>
-<h3 id="53-openweather"><strong>53. 湿度（OpenWeather）<sup>*</sup></strong><a class="headerlink" href="#53-openweather" title="Permanent link">&para;</a></h3>
-<p>現在の相対湿度をパーセンテージで表示します。データソースはOpenWeatherなので、データを有効にするには有効なOpenWeather APIの設定が必要です。</p>
-<p><br></p>
-<h4 id="_3">風速単位<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h4>
+<h4 id="_6">風速単位<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h4>
 <ul>
 <li>m/s：メートル/秒</li>
 <li>KPH：キロメートル/時</li>
 <li>MPH：マイル/時</li>
 <li>Beaufort scale：風力階級、0~12級</li>
 </ul>
-<h4 id="_4">風速レベル<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h4>
+<h4 id="_7">風速レベル<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h4>
 <p>風速レベルは矢印の数で示され、異なる数に対応する風速は以下の図に示されています。選択した風速単位がm/sでない場合、矢印の数は表示される数字ではなく、正しい風速に基づいて計算されます。
 <br>
 <img alt="wind speed" src="../../images/wd_speed.jpg" /></p>
-<h4 id="_5">絶対/相対風向<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h4>
+<h4 id="_8">絶対/相対風向<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h4>
 <ul>
 <li>絶対風向：天気予報で与えられる風向で、ライディング方向とは無関係</li>
 <li>相対風向：現在のライディング方向と風向の相対角度。例えば、西に向かって走行し、絶対風向が北から南の場合、相対風向は右から左になります。</li>
 </ul>
-<h4 id="_6">風向の色<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h4>
+<h4 id="_9">風向の色<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h4>
 <p>相対風向を表示する際、矢印は風の角度に応じて色分けされます。赤色は向かい風（相対風が左前45°から右前45°）を示し、緑色は追い風（相対風が左後45°から右後45°）を示し、黒色は横風を示します。
 <br>
 <img alt="wind direction" src="../../images/wd_dir.jpg" />
 <br></p>
-<h4 id="_7">設定<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h4>
+<h4 id="_10">設定<a class="headerlink" href="#_10" title="Permanent link">&para;</a></h4>
 <p>風モジュールは最適な表示効果を得るためにConnectIQアプリでの設定が必要です。詳細については<a href="../weather/">天気設定</a>モジュールを参照してください。</p>
+<p><br></p>
+<h3 id="57-openweather"><strong>57. 温度（OpenWeather）<sup>*</sup></strong><a class="headerlink" href="#57-openweather" title="Permanent link">&para;</a></h3>
+<p>現在の温度を摂氏または華氏で表示します。データソースはOpenWeatherなので、データを有効にするには有効なOpenWeather APIの設定が必要です。</p>
+<p><br></p>
+<h3 id="58-openweather"><strong>58. 体感温度（OpenWeather）<sup>*</sup></strong><a class="headerlink" href="#58-openweather" title="Permanent link">&para;</a></h3>
+<p>現在の体感温度を摂氏または華氏で表示します。データソースはOpenWeatherなので、データを有効にするには有効なOpenWeather APIの設定が必要です。</p>
+<p><br></p>
+<h3 id="59-openweather"><strong>59. 湿度（OpenWeather）<sup>*</sup></strong><a class="headerlink" href="#59-openweather" title="Permanent link">&para;</a></h3>
+<p>現在の相対湿度をパーセンテージで表示します。データソースはOpenWeatherなので、データを有効にするには有効なOpenWeather APIの設定が必要です。</p>
+<p><br></p>
+<h3 id="60"><strong>60. 日の出時間</strong><a class="headerlink" href="#60" title="Permanent link">&para;</a></h3>
+<p>その日の日の出時間を表示します。データソースはGarmin内置天气服务，需要设备支持天气功能（530/830及更新型号）且已获取GPS定位。</p>
+<p><br></p>
+<h3 id="61"><strong>61. 日の入り時間</strong><a class="headerlink" href="#61" title="Permanent link">&para;</a></h3>
+<p>その日の日の入り時間を表示します。データソースはGarmin内置天气服务，需要设备支持天气功能（530/830及更新型号）且已获取GPS定位。</p>
+<p><br></p>
 <hr />
 <h2 id="ix-led"><strong>IX バーチャルLED</strong><a class="headerlink" href="#ix-led" title="Permanent link">&para;</a></h2>
 <p>バーチャルLEDは画面の端の周りに設定できます。ユーザーは異なる位置のLEDを使用して異なる情報を表示できます。
 <br>
 <img alt="led example" src="../../images/led.jpg" /></p>
-<p>バーチャルLEDの2つの水平フィールド（上と下）は現在ステータスバーをサポートしています。ステータスバーのアイコンは左から右に：バッテリー、GPS信号状態、電話接続状態（条件付き）、未読メッセージ（条件付き）、時刻です。</p>
+<p>バーチャルLEDの2つの水平フィールド（上と下）は現在ステータスバーをサポートしています。ステータスバーのアイコンは左から右に：バッテリー、GPS信号状態、电话接続状態（条件付き）、未読メッセージ（条件付き）、時刻です。</p>
 <p><img alt="statbar" src="../../images/statbar.jpg" /></p>
 <p>電話がGarmin Edgeに接続されていない場合、「Bluetooth」アイコンは表示されません。未読メッセージがない場合、未読メッセージアイコンは表示されません。未読メッセージ数が9を超える場合、実際の数字ではなく常に「9+」が表示されます。</p>
 <table>
@@ -1631,7 +1992,7 @@
 <tr>
 <td><img alt="sig_2" src="../../images/sig_2.jpg" /></td>
 <td>QUALITY_POOR</td>
-<td>貧弱なGPS位置計算による位置。2-D GPS位置のみ利用可能、追跡衛星数の制限による可能性</td>
+<td>貧弱なGPS位置計算による位置。2-D GPS位置のみ利用可能、追跡衛星数の制限による可能रण성</td>
 </tr>
 <tr>
 <td><img alt="sig_3" src="../../images/sig_3.jpg" /></td>
@@ -1645,18 +2006,18 @@
 </tr>
 </tbody>
 </table>
-<h3 id="_8">リアルタイムパワー<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h3>
+<h3 id="_11">リアルタイムパワー<a class="headerlink" href="#_11" title="Permanent link">&para;</a></h3>
 <p>バーチャルLEDは各ゾーンの数と色を表示します（下の例では色スタイルがGarminスタイルに設定されています）
 <br>
 <img alt="power led" src="../../images/pw_led.jpg" /></p>
 <h3 id="3_1">3秒平均パワー<a class="headerlink" href="#3_1" title="Permanent link">&para;</a></h3>
 <p>上記と同じです。</p>
-<h3 id="_9">心拍ゾーン<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h3>
+<h3 id="_12">心拍ゾーン<a class="headerlink" href="#_12" title="Permanent link">&para;</a></h3>
 <p>バーチャルLEDは各ゾーンの数と色を表示します（下の例では色スタイルがGarminスタイルに設定されています）
 <br>
 <img alt="hr led" src="../../images/hr_led.jpg" /></p>
-<h3 id="_10">平均速度インジケーター<a class="headerlink" href="#_10" title="Permanent link">&para;</a></h3>
-<p>バーチャルLEDは現在の速度と平均速度の関係を表示し、赤色は遅れ（平均値より低い）、青色は先行（平均値より高い）を示します。
+<h3 id="_13">平均速度インジケーター<a class="headerlink" href="#_13" title="Permanent link">&para;</a></h3>
+<p>バーチャルLEDは現在の速度と平均速度の関係を表示し、赤色は遅れ（平均値より低い）、蓝色は先行（平均値より高い）を示します。
 <br>
 <img alt="led avg" src="../../images/led_avg.jpg" />
 <br>
@@ -1687,7 +2048,7 @@
 </tr>
 </tbody>
 </table>
-<h3 id="_11">平均パワーインジケーター<a class="headerlink" href="#_11" title="Permanent link">&para;</a></h3>
+<h3 id="_14">平均パワーインジケーター<a class="headerlink" href="#_14" title="Permanent link">&para;</a></h3>
 <p>バーチャルLEDは現在のパワーと平均パワーの関係を表示し、色の意味は上記と同じですが、各LEDは20%の先行または遅れを表します。表は先行を例にしており、遅れも同じ原理に従います。</p>
 <table>
 <thead>
@@ -1715,9 +2076,9 @@
 </tr>
 </tbody>
 </table>
-<h3 id="_12">左右バランスインジケーター<a class="headerlink" href="#_12" title="Permanent link">&para;</a></h3>
+<h3 id="_15">左右バランスインジケーター<a class="headerlink" href="#_15" title="Permanent link">&para;</a></h3>
 <p>バーチャルLEDは現在のペダリングパワーの左右バランスを表示します。各LEDは片側5%のオフセットを表します。表は右偏ペダリングを例にしており、逆の場合も同じ原理に従います。</p>
-<p>さらに、受信した左右バランス値が100-0または0-100の場合、エラー状態が表示されます。この状況は通常、両側パワーメーターの片側が切断されたり、初回ペダリング時の瞬間的な力によって発生します。</p>
+<p>また、受信した左右バランス値が100-0または0-100の場合、エラー状態が表示されます。この状況は通常、両側パワーメーターの片側が切断されたり、初回ペダリング時の瞬間的な力によって発生します。</p>
 <table>
 <thead>
 <tr>
@@ -1750,6 +2111,366 @@
 </table>
 <h3 id="3_2">3秒左右バランスインジケーター<a class="headerlink" href="#3_2" title="Permanent link">&para;</a></h3>
 <p>上記と同じです。</p>
+<hr />
+<h2 id="x"><strong>X 設定ガイド</strong><a class="headerlink" href="#x" title="Permanent link">&para;</a></h2>
+<p>このセクションでは、設定ページの順序で各設定の機能と影響範囲説明します。タイトルボックス内の番号は、 해당항목が設定ページ内で位置に対応します。</p>
+<p>影響範囲内で言及されているフィールド番号については、上記の各フィールドの説明を参照してください。</p>
+<hr />
+<h3 id="activationcode">ActivationCode（アクティブコード）<a class="headerlink" href="#activationcode" title="Permanent link">&para;</a></h3>
+<p>設定ページでアクティブコードを入力して、すべての機能をアンロックします。</p>
+<p><strong>機能</strong>：</p>
+<ul>
+<li>購入後に受け取ったアクティブコードを入力して、すべてのMyGahoo Pro機能をアクティブ化します</li>
+</ul>
+<p><strong>設定の提案</strong>：</p>
+<ul>
+<li>アクティブコードはデバイスにバインド되어おり、各デバイスには個別のアクティブコードが必要です</li>
+<li>同じデバイスで異なるアカウントにログインする場合、アクティブコードは変更されません</li>
+<li>デバイスを交換する場合は、新しいアクティブコードを取得する必要があります</li>
+</ul>
+<hr />
+<h3 id="11-ftp">[1.1] FTP（ワット）<a class="headerlink" href="#11-ftp" title="Permanent link">&para;</a></h3>
+<p>FTPはサイクリストが長時間維持できる臨界パワー値であり、複数のトレーニング指標を計算するための基本パラメータです。</p>
+<p><strong>機能</strong>：</p>
+<ul>
+<li>功率ゾーン、パワーウェイトレシオ、NP、TSS、IFなどのトレーニング指標を計算するために使用されるサイクリストの機能的閾値パワーを設定します</li>
+</ul>
+<p><strong>影響範囲</strong>：</p>
+<ul>
+<li>現在功率フィールドのゾーン颜色划分</li>
+<li>パワーウェイトレシオフィールドの計算</li>
+<li>NPフィールドに関連するTSS計算</li>
+<li>IFフィールドの計算</li>
+</ul>
+<p><strong>設定の提案</strong>：</p>
+<ul>
+<li>20分測定功率またはCP（臨界パワー）を入力値として使用することをお勧めします</li>
+<li>パワーウェイトレシオを計算するには、FTPはGarminプロフィール内の体重と一緒に使用する必要があります</li>
+<li>FTPを変更すると、TSS、IFなどの指標は記録されたNPデータに基づいて再計算されます</li>
+</ul>
+<hr />
+<h3 id="12-openweather-api">[1.2] OpenWeather APIキー（すべてのデバイスでサポート）<a class="headerlink" href="#12-openweather-api" title="Permanent link">&para;</a></h3>
+<p>OpenWeatherサービスに接続してリアルタイムの天気データを取得するために使用されます。</p>
+<p><strong>機能</strong>：</p>
+<ul>
+<li>アプリケーションがオンライン天気データを取得できるようにOpenWeather APIキーを入力します</li>
+</ul>
+<p><strong>影響範囲</strong>：</p>
+<ul>
+<li>気温フィールド</li>
+<li>体感温度フィールド</li>
+<li>湿度フィールド</li>
+</ul>
+<p><strong>設定の提案</strong>：</p>
+<ul>
+<li>OpenWeatherの公式Webサイトで自分で登録してAPIキーを取得する必要があります</li>
+<li>デバイスは電話を通じてネットワークに接続する必要があります</li>
+<li>GPS位置を取得する必要があります（屋内では天気データを取得できない場合があります）</li>
+</ul>
+<hr />
+<h3 id="13_1">[1.3] 仮想ページスクロールモード**<a class="headerlink" href="#13_1" title="Permanent link">&para;</a></h3>
+<p>選択したレイアウト内で異なるデータブロック位置間をユーザーがどのように切り替えかを制御します。</p>
+<p><strong>機能</strong>：</p>
+<ul>
+<li>仮想スクロールを有効にするかどうか、およびボタン还是触摸操作を使用するか設定します</li>
+</ul>
+<p><strong>設定の提案</strong>：</p>
+<ul>
+<li><strong>オフ</strong>：仮想スクロールを無効化し、画面に触れるとシステムネイティブメニューが呼び出されます</li>
+<li><strong>クイックボタン режим</strong>：連続して「上下上下」ボタンの組み合わせ（2秒以内）を押して後ろにスクロールし、後ろへのスクロールのみをサポートします</li>
+<li><strong>タッチモード</strong>：画面下半分の左側をタップして右にスクロールし、右側をタップして左にスクロールし、タッチスクリーンデバイスに適しています</li>
+<li><strong>タッチ・アンド・クイックボタン режим</strong>：触摸とボタンの両方のモードを同時に有効にします</li>
+</ul>
+<hr />
+<h3 id="14_1">[1.4] レイアウト**<a class="headerlink" href="#14_1" title="Permanent link">&para;</a></h3>
+<p>画面上のデータブロックの配置と数を選択します。</p>
+<p><strong>機能</strong>：</p>
+<ul>
+<li>画面に表示されるデータブロックの数と配置テンプレートを決定します</li>
+</ul>
+<hr />
+<h3 id="15_1">[1.5] 言語**<a class="headerlink" href="#15_1" title="Permanent link">&para;</a></h3>
+<p>MyGahoo Proインターフェース显示の言語選擇します。</p>
+<p><strong>機能</strong>：</p>
+<ul>
+<li>アプリケーションインターフェース上でデータタイトルに使用される言語を変更します</li>
+</ul>
+<hr />
+<h3 id="21">[2.1] タイマーと時計形式**<a class="headerlink" href="#21" title="Permanent link">&para;</a></h3>
+<p>運動状態に応じて時間表示形式が自動的に切り替えるかどうかを制御します。</p>
+<p><strong>機能</strong>：</p>
+<ul>
+<li>時間表示形式を決定し、常に「時:分:秒」を表示するか、「分:秒」と「時:分」形式の間で自動的に切り替えるか設定します</li>
+</ul>
+<p><strong>設定の提案</strong>：</p>
+<ul>
+<li>「常に時:分:秒を表示する」を選択すると、一部のレイアウトでフォントが溢れる可能性があります。特別な要件がない場合は自動切り替えを選択することをお勧めします。</li>
+</ul>
+<hr />
+<h3 id="22-24">[2.2] 24時間形式を有効にする**<a class="headerlink" href="#22-24" title="Permanent link">&para;</a></h3>
+<p>時間表示が12時間制还是24時間制を使用かを制御します。</p>
+<p><strong>機能</strong>：</p>
+<ul>
+<li>時計表示の時間形式を設定します</li>
+</ul>
+<hr />
+<h3 id="231">[2.3.1] 平均速度インジケーター**<a class="headerlink" href="#231" title="Permanent link">&para;</a></h3>
+<p>現在の速度と平均速度の比較を表示します。</p>
+<p><strong>機能</strong>：</p>
+<ul>
+<li>データブロックに現在の速度が平均速度より高いか低いを表示します</li>
+</ul>
+<p><strong>設定の提案</strong>：</p>
+<ul>
+<li><strong>オフ</strong>：比較を表示しない</li>
+<li><strong>オン - 矢印</strong>：タイトルの横に表示されます。上矢印は先行、下矢印は遅れを示します</li>
+<li><strong>オン - 背景色</strong>：緑色は先行、赤色は遅れを示します</li>
+<li>ライド開始後にのみ表示され、停止中には表示されません</li>
+</ul>
+<hr />
+<h3 id="232">[2.3.2] 平均パワーインジケーター**<a class="headerlink" href="#232" title="Permanent link">&para;</a></h3>
+<p>現在のパワーと平均パワーの比較を表示します。</p>
+<p><strong>機能</strong>：</p>
+<ul>
+<li>データブロックに現在のパワーが平均パワーより高いか低いを表示します</li>
+</ul>
+<p><strong>設定の提案</strong>：</p>
+<ul>
+<li><strong>オフ</strong>：比較を表示しない</li>
+<li><strong>オン - 矢印</strong>：タイトルの横に表示されます。上矢印は先行、下矢印は遅れを示します</li>
+<li>注：このインジケーターは矢印モードのみをサポートし、背景色モードはサポートしません</li>
+</ul>
+<hr />
+<h3 id="233">[2.3.3] 平均心拍数インジケーター**<a class="headerlink" href="#233" title="Permanent link">&para;</a></h3>
+<p>現在心拍数と平均心拍数の比較を表示します。</p>
+<p><strong>機能</strong>：</p>
+<ul>
+<li>データブロックに現在心拍数が平均心拍数より高いか低いを表示します</li>
+</ul>
+<p><strong>設定の提案</strong>：</p>
+<ul>
+<li><strong>オフ</strong>：比較を表示しない</li>
+<li><strong>オン - 矢印</strong>：タイトルの横に表示されます。上矢印は先行、下矢印は遅れを示します</li>
+<li>注：このインジケーターは矢印モードのみをサポートし、背景色モードはサポートしません</li>
+</ul>
+<hr />
+<h3 id="234">[2.3.4] 平均ケイデンスインジケーター**<a class="headerlink" href="#234" title="Permanent link">&para;</a></h3>
+<p>現在のケイデンスと平均ケイadou的比较を表示します。</p>
+<p><strong>機能</strong>：</p>
+<ul>
+<li>データブロックに現在のケイデンスが平均ケイadouより高いか低いを表示します</li>
+</ul>
+<p><strong>設定の提案</strong>：</p>
+<ul>
+<li><strong>オフ</strong>：比較を表示しない</li>
+<li><strong>オン - 矢印</strong>：タイトルの横に表示されます。上矢印は先行、下矢印は遅れを示します</li>
+<li><strong>オン - 背景色</strong>：緑色は先行、赤色は遅れを示します</li>
+</ul>
+<hr />
+<h3 id="24_1">[2.4] 相対風向を使用（矢印が移動方向に応じて変更）**<a class="headerlink" href="#24_1" title="Permanent link">&para;</a></h3>
+<p>風向が移動方向相对于还是地理的實際方向かを設定します。</p>
+<p><strong>機能</strong>：</p>
+<ul>
+<li>風向矢印の向きを制御します</li>
+</ul>
+<p><strong>設定の提案</strong>：</p>
+<ul>
+<li><strong>オン</strong>：矢印が移動方向とともに変化し、常に風が現在のどの方向から吹いてくるかを示します。曲がると、矢印がそれに応じて変化します。</li>
+<li><strong>オフ</strong>：地理上の実際の風向を表示し、移動方向とともに変化しません。矢印が下を向いている場合は現在北風であることを、左を向いている場合は東風であることを示します。</li>
+</ul>
+<hr />
+<h3 id="25_1">[2.5] 風速単位**<a class="headerlink" href="#25_1" title="Permanent link">&para;</a></h3>
+<p>風速表示の単位を設定します。</p>
+<p><strong>機能</strong>：</p>
+<ul>
+<li>風速データの表示単位を制御します</li>
+</ul>
+<p><strong>設定の提案</strong>：</p>
+<ul>
+<li><strong>メートル每秒</strong>：標準気象単位</li>
+<li><strong>キロメートル毎時</strong>：一般的なcycling速度単位</li>
+<li><strong>マイル毎時</strong>：ヤード・ポンド法単位</li>
+<li><strong>蒲福風級</strong>：0~12級、風速から換算得出的風力等級</li>
+</ul>
+<hr />
+<h3 id="26_1">[2.6] 心拍数カラースタイル**<a class="headerlink" href="#26_1" title="Permanent link">&para;</a></h3>
+<p>心拍数ゾーンの色schemeを設定します。</p>
+<p><strong>機能</strong>：</p>
+<ul>
+<li>心拍数データに使用されるゾーンの色スタイル選擇します</li>
+</ul>
+<p><strong>影響範囲</strong>：</p>
+<ul>
+<li>現在心拍数フィールドの背景色</li>
+<li>バーチャルLED心拍数ゾーン表示（LEDが心拍数に設定されている場合）</li>
+</ul>
+<hr />
+<h3 id="27-colour">[2.7] パワー colourスタイル**<a class="headerlink" href="#27-colour" title="Permanent link">&para;</a></h3>
+<p>パワーゾーンの色schemeを設定します。</p>
+<p><strong>機能</strong>：</p>
+<ul>
+<li>パワーデータに使用されるゾーンの色スタイル選擇します</li>
+</ul>
+<p><strong>影響範囲</strong>：</p>
+<ul>
+<li>現在功率フィールドの背景色</li>
+<li>各种平均功率字段の背景色</li>
+<li>バーチャルLED功率ゾーン表示（LEDが功率に設定されている場合）</li>
+</ul>
+<hr />
+<h3 id="28_1">[2.8] 背景色**<a class="headerlink" href="#28_1" title="Permanent link">&para;</a></h3>
+<p>entireデータフィールドの背景テーマを設定します。</p>
+<p><strong>機能</strong>：</p>
+<ul>
+<li>アプリケーションの全体的な背景色スタイルを制御します</li>
+</ul>
+<p><strong>設定の提案</strong>：</p>
+<ul>
+<li><strong>システムに従う</strong>：デバイスの現在の昼/夜モードを自動的に追随します</li>
+<li><strong>常に昼</strong>：常に昼間モードの白い背景を使用します</li>
+<li><strong>常に夜</strong>：常に夜間モードの黒い背景を使用します</li>
+</ul>
+<hr />
+<h3 id="29_1">[2.9] 時間形式の先頭ゼロを表示**<a class="headerlink" href="#29_1" title="Permanent link">&para;</a></h3>
+<p>時間表示が先頭ゼロを表示するかを制御します。</p>
+<p><strong>機能</strong>：</p>
+<ul>
+<li>時間数字がゼロ埋め表示にするか設定します</li>
+</ul>
+<p><strong>設定の提案</strong>：</p>
+<ul>
+<li><strong>オン</strong>：9:05は「09:05」として表示されます</li>
+<li><strong>オフ</strong>：9:05は「9:05」として表示されます</li>
+</ul>
+<hr />
+<h3 id="210-wbal-cp-w-w-j">[2.10] [W'Bal] CP (W) / W' (J) / 表示モード / 算法**<a class="headerlink" href="#210-wbal-cp-w-w-j" title="Permanent link">&para;</a></h3>
+<p>この設定グループがW'Balance機能の計算と表示を jointly制御します。</p>
+<h4 id="cp">CP（臨界パワー）<a class="headerlink" href="#cp" title="Permanent link">&para;</a></h4>
+<p>サイクリストが長時間維持できる功率の上限，也是W'Balance消耗/回復判断の閾値です。</p>
+<p><strong>機能</strong>：</p>
+<ul>
+<li>W'Balance字段の消耗/回復判断</li>
+<li>功率がCPより高い時はW'Balanceが消耗し、CPより低い時はW'Balanceが回復します</li>
+</ul>
+<p><strong>設定の提案</strong>：</p>
+<ul>
+<li>CPを明知っている場合はCPに設定し、如果不知道则可近似设置为FTP</li>
+</ul>
+<h4 id="wprimew">WPRIME（W'能量储备）<a class="headerlink" href="#wprimew" title="Permanent link">&para;</a></h4>
+<p>サイクリストがCP以上を出力できる总能量储备。</p>
+<p><strong>設定の提案</strong>：</p>
+<ul>
+<li>デフォルト値は約10000焦耳（10千焦）です</li>
+<li>経験豊富なサイクリストは通常15000~20000焦耳の範囲に設定します</li>
+</ul>
+<h4 id="_16">表示モード**<a class="headerlink" href="#_16" title="Permanent link">&para;</a></h4>
+<p>W'Balanceデータの表示方法を設定します。</p>
+<p><strong>機能</strong>：</p>
+<ul>
+<li>パーセンテージ还是千焦耳で表示するか、色を含むかを選択できます</li>
+</ul>
+<p><strong>設定の提案</strong>：</p>
+<ul>
+<li><strong>パーセンテージ</strong>：残りのパーセンテージを表示、色付き（緑色=回復、赤色=消耗）</li>
+<li><strong>千焦</strong>：残りのエネルギー値を表示、色付き</li>
+<li><strong>パーセンテージ（色なし）</strong>：残りのパーセンテージを表示、色なし</li>
+<li><strong>千焦（色なし）</strong>：残りのエネルギー値を表示、色なし</li>
+</ul>
+<h4 id="_17">算法**<a class="headerlink" href="#_17" title="Permanent link">&para;</a></h4>
+<p>W'Balanceの計算モデル選擇します。</p>
+<p><strong>設定の提案</strong>：</p>
+<ul>
+<li><strong>積分算法</strong>：消耗と回復がどちらもより遅く、よりスムーズで、耐久ライディングに適しています</li>
+<li><strong>微分算法</strong>：消耗が速く、回復も速く、より敏感で、間隔トレーニングに適しています</li>
+</ul>
+<hr />
+<h3 id="211">[2.11] 右上タイトルオフセットを有効にする（レーダーアイコンの重叠を避ける）**<a class="headerlink" href="#211" title="Permanent link">&para;</a></h3>
+<p>右上タイトルを右にオフセットしてレーダーアイコンとの重叠を避けるかどうかを設定します。</p>
+<p><strong>設定の提案</strong>：</p>
+<ul>
+<li>Garminレーダー功能を使用する時のみ有効にする必要があります</li>
+<li>デフォルトではオフです</li>
+</ul>
+<hr />
+<h3 id="212-1x">[2.12] 变速图 - 1X单盘模式**<a class="headerlink" href="#212-1x" title="Permanent link">&para;</a></h3>
+<p>歯比図を1X単盤モードで表示するかどうかを設定します。</p>
+<p><strong>設定の提案</strong>：</p>
+<ul>
+<li><strong>有効にすると</strong>：歯比図はカセット图表ののみを表示し、チェーンリング图表は表示しません</li>
+<li><strong>無効にすると</strong>：デフォルトでカセットとチェーンリングの両方の图表が表示されます</li>
+</ul>
+<hr />
+<h3 id="31-34-led-led-led-led">[3.1-3.4] 左LED / 右LED / 上LED / 下LED**<a class="headerlink" href="#31-34-led-led-led-led" title="Permanent link">&para;</a></h3>
+<p>バーチャルLEDは画面的四周边配置できて、異なる種類のデータを表示するために使用できます。</p>
+<p><strong>機能</strong>：</p>
+<ul>
+<li>画面边缘に功率/ゾーン、平均インジケーター、左右バランスまたはステータスバーを表示します</li>
+</ul>
+<p><strong>影響範囲</strong>：</p>
+<ul>
+<li>功率ゾーンLED：現在功率和各种平均功率字段のゾーン可視化に影響します</li>
+<li>心拍数ゾーンLED：現在心拍数字段のゾーン可視化に影響します</li>
+<li>平均インジケーターLED：平均データの先行/遅れ表示に影響します</li>
+<li>左右バランスLED：左右バランス字段の可視化に影響します</li>
+<li>ステータスバーLED：バッテリー、GPS、蓝牙连接、时间などのステータスアイコンを表示します</li>
+</ul>
+<p><strong>設定の説明</strong>：</p>
+<table>
+<thead>
+<tr>
+<th>位置</th>
+<th>選択可能な内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>左LED（3.1）</td>
+<td>オフ / 3秒功率ゾーン / 功率ゾーン / 心拍数ゾーン / 平均速度インジケーター / 平均功率インジケーター</td>
+</tr>
+<tr>
+<td>右LED（3.2）</td>
+<td>オフ / 3秒功率ゾーン / 功率ゾーン / 心拍数ゾーン / 平均速度インジケーター / 平均功率インジケーター</td>
+</tr>
+<tr>
+<td>上LED（3.3）</td>
+<td>オフ / ステータスバー / 3秒功率ゾーン / 功率ゾーン / 心拍数ゾーン / 平均速度インジケーター / 平均功率インジケーター / 左右功率バランス / 3秒左右バランス</td>
+</tr>
+<tr>
+<td>下LED（3.4）</td>
+<td>オフ / ステータスバー / 3秒功率ゾーン / 功率ゾーン / 心拍数ゾーン / 平均速度インジケーター / 平均功率インジケーター / 左右功率バランス / 3秒左右バランス</td>
+</tr>
+</tbody>
+</table>
+<p><strong>設定の提案</strong>：</p>
+<ul>
+<li><strong>オフ</strong>：この边缘にLEDを表示しません</li>
+<li><strong>ステータスバー</strong>：上と下にのみ利用可能で、バッテリーアイコン、GPS信号状態、电话接続状態、未読メッセージ数、現在時間を表示します</li>
+<li><strong>功率/心拍数ゾーン</strong>：7つのLEDが各功率/心拍数ゾーンの數量分布を表示します</li>
+<li><strong>平均インジケーター</strong>：蓝色は先行、红色は遅れを示します</li>
+<li><strong>左右バランス</strong>：上と下のLED专用で、各LEDは片側5%のオフセットを表します</li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">左右バランスLEDエラー状態</p>
+<p>左右バランス値が100-0または0-100を表示している場合、エラー状態が表示されます。これは通常、両側パワーメーターの片側が切断された거나最初のペダリング時の瞬間的な力によって発生します。</p>
+</div>
+<hr />
+<h3 id="_18">ページを有効にする**<a class="headerlink" href="#_18" title="Permanent link">&para;</a></h3>
+<p>第2ページと第3頁を有効にするかどうか控制します。</p>
+<p><strong>影響範囲</strong>：</p>
+<ul>
+<li>ページ切り替え機能が利用可能かどうか</li>
+<li>単一ページモードではページ番号が表示されません</li>
+</ul>
+<p><strong>設定の提案</strong>：</p>
+<ul>
+<li>第1頁は常に有効でオフにできません</li>
+<li>複数のページを有効にすると、ユーザーは仮想スクロールまたは触摸操作でページを切り替えできます</li>
+<li>各ページは独立してMainBlockと左右のデータブロックタイプを設定できます</li>
+</ul>
+<div class="admonition info">
+<p class="admonition-title">ページとレイアウトの関係</p>
+<p>複数ページ設定を使用すると、ユーザーは複数の異なるデータブロック组合を構成でき、各组合は同じレイアウトスタイルを使用하지만異なるデータブロックを表示します。</p>
+</div>
 
 
 
@@ -1850,6 +2571,8 @@
       <script src="../../assets/javascripts/bundle.13a4f30d.min.js"></script>
       
         <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="../../javascripts/designer.js"></script>
       
     
   </body>

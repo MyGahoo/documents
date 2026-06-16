@@ -43,6 +43,8 @@
       
     
     
+      <link rel="stylesheet" href="../../css/designer.css">
+    
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -606,7 +608,7 @@
           <li class="md-nav__item">
   <a href="#11" class="md-nav__link">
     <span class="md-ellipsis">
-      11. 平均心率
+      11. 平均功率
     </span>
   </a>
   
@@ -615,7 +617,7 @@
           <li class="md-nav__item">
   <a href="#12" class="md-nav__link">
     <span class="md-ellipsis">
-      12. 平均速度
+      12. 平均心率
     </span>
   </a>
   
@@ -624,7 +626,7 @@
           <li class="md-nav__item">
   <a href="#13" class="md-nav__link">
     <span class="md-ellipsis">
-      13. 活动时间
+      13. 平均速度
     </span>
   </a>
   
@@ -633,7 +635,7 @@
           <li class="md-nav__item">
   <a href="#14" class="md-nav__link">
     <span class="md-ellipsis">
-      14. 圈时间*
+      14. 活动时间
     </span>
   </a>
   
@@ -642,7 +644,7 @@
           <li class="md-nav__item">
   <a href="#15" class="md-nav__link">
     <span class="md-ellipsis">
-      15. 距离
+      15. 已用时间(总时间)
     </span>
   </a>
   
@@ -651,7 +653,7 @@
           <li class="md-nav__item">
   <a href="#16" class="md-nav__link">
     <span class="md-ellipsis">
-      16. 总爬升
+      16. 圈时间*
     </span>
   </a>
   
@@ -660,7 +662,7 @@
           <li class="md-nav__item">
   <a href="#17" class="md-nav__link">
     <span class="md-ellipsis">
-      17. 总下降
+      17. 距离
     </span>
   </a>
   
@@ -669,16 +671,16 @@
           <li class="md-nav__item">
   <a href="#18" class="md-nav__link">
     <span class="md-ellipsis">
-      18. 圈平均心率*
+      18. 总爬升
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#19-kj" class="md-nav__link">
+  <a href="#19" class="md-nav__link">
     <span class="md-ellipsis">
-      19. 总功（KJ）*
+      19. 总下降
     </span>
   </a>
   
@@ -687,16 +689,16 @@
           <li class="md-nav__item">
   <a href="#20" class="md-nav__link">
     <span class="md-ellipsis">
-      20. 圈距离*
+      20. 圈平均心率*
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#21" class="md-nav__link">
+  <a href="#21-kj" class="md-nav__link">
     <span class="md-ellipsis">
-      21. 平均踏频
+      21. 总功（KJ）*
     </span>
   </a>
   
@@ -705,7 +707,7 @@
           <li class="md-nav__item">
   <a href="#22" class="md-nav__link">
     <span class="md-ellipsis">
-      22. 圈平均速度*
+      22. 圈距离*
     </span>
   </a>
   
@@ -714,7 +716,25 @@
           <li class="md-nav__item">
   <a href="#23" class="md-nav__link">
     <span class="md-ellipsis">
-      23. 卡路里
+      23. 平均踏频
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24" class="md-nav__link">
+    <span class="md-ellipsis">
+      24. 圈平均速度*
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#25" class="md-nav__link">
+    <span class="md-ellipsis">
+      25. 卡路里
     </span>
   </a>
   
@@ -736,27 +756,9 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#24" class="md-nav__link">
-    <span class="md-ellipsis">
-      24. 最大功率
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#25" class="md-nav__link">
-    <span class="md-ellipsis">
-      25. 最大心率
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#26" class="md-nav__link">
     <span class="md-ellipsis">
-      26. 最大速度
+      26. 最大功率
     </span>
   </a>
   
@@ -765,7 +767,7 @@
           <li class="md-nav__item">
   <a href="#27" class="md-nav__link">
     <span class="md-ellipsis">
-      27. 最大踏频
+      27. 最大心率
     </span>
   </a>
   
@@ -774,7 +776,25 @@
           <li class="md-nav__item">
   <a href="#28" class="md-nav__link">
     <span class="md-ellipsis">
-      28. 圈数
+      28. 最大速度
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#29" class="md-nav__link">
+    <span class="md-ellipsis">
+      29. 最大踏频
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#30" class="md-nav__link">
+    <span class="md-ellipsis">
+      30. 圈数
     </span>
   </a>
   
@@ -796,63 +816,81 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#29" class="md-nav__link">
+  <a href="#31" class="md-nav__link">
     <span class="md-ellipsis">
-      29. 当前功重比
+      31. 当前功重比
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#30-3" class="md-nav__link">
+  <a href="#32-3" class="md-nav__link">
     <span class="md-ellipsis">
-      30. 3秒平均功重比*
+      32. 3秒平均功重比*
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#31-10" class="md-nav__link">
+  <a href="#33-10" class="md-nav__link">
     <span class="md-ellipsis">
-      31. 10秒平均功重比*
+      33. 10秒平均功重比*
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#32" class="md-nav__link">
+  <a href="#34" class="md-nav__link">
     <span class="md-ellipsis">
-      32. 圈平均功重比*
+      34. 圈平均功重比*
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#33-nptm" class="md-nav__link">
+  <a href="#35-nptm" class="md-nav__link">
     <span class="md-ellipsis">
-      33. NP™（标准化功率）*
+      35. NP™（标准化功率）*
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#34-tsstm" class="md-nav__link">
+  <a href="#36-tsstm" class="md-nav__link">
     <span class="md-ellipsis">
-      34. TSS™（训练压力分数）*
+      36. TSS™（训练压力分数）*
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#35-wbalance" class="md-nav__link">
+  <a href="#37-wbalance" class="md-nav__link">
     <span class="md-ellipsis">
-      35. W'Balance*
+      37. W'Balance*
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#38" class="md-nav__link">
+    <span class="md-ellipsis">
+      38. 当前训练步骤剩余时间
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#39-iftm" class="md-nav__link">
+    <span class="md-ellipsis">
+      39. IF™（强度系数）*
     </span>
   </a>
   
@@ -874,36 +912,36 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#36" class="md-nav__link">
+  <a href="#40" class="md-nav__link">
     <span class="md-ellipsis">
-      36. 齿数显示
+      40. 齿数显示
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#37" class="md-nav__link">
+  <a href="#41" class="md-nav__link">
     <span class="md-ellipsis">
-      37. 档位序号
+      41. 档位序号
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#38" class="md-nav__link">
+  <a href="#42" class="md-nav__link">
     <span class="md-ellipsis">
-      38. 齿比
+      42. 齿比
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#39" class="md-nav__link">
+  <a href="#43" class="md-nav__link">
     <span class="md-ellipsis">
-      39. 齿比图表
+      43. 齿比图表
     </span>
   </a>
   
@@ -925,27 +963,27 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#40" class="md-nav__link">
+  <a href="#44" class="md-nav__link">
     <span class="md-ellipsis">
-      40. 到目的地距离
+      44. 到目的地距离
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#41" class="md-nav__link">
+  <a href="#45" class="md-nav__link">
     <span class="md-ellipsis">
-      41. 到目的地预计时间*
+      45. 到目的地预计时间*
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#42" class="md-nav__link">
+  <a href="#46" class="md-nav__link">
     <span class="md-ellipsis">
-      42. 预计到达时间*
+      46. 预计到达时间*
     </span>
   </a>
   
@@ -967,36 +1005,54 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#43" class="md-nav__link">
+  <a href="#47" class="md-nav__link">
     <span class="md-ellipsis">
-      43. 实时左右平衡
+      47. 实时左右平衡
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#44-3" class="md-nav__link">
+  <a href="#48-3" class="md-nav__link">
     <span class="md-ellipsis">
-      44. 3秒平均左右平衡*
+      48. 3秒平均左右平衡*
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#45" class="md-nav__link">
+  <a href="#49" class="md-nav__link">
     <span class="md-ellipsis">
-      45. 功率区间直方图*
+      49. 功率区间直方图*
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#46" class="md-nav__link">
+  <a href="#50" class="md-nav__link">
     <span class="md-ellipsis">
-      46. 心率区间直方图*
+      50. 心率区间直方图*
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#51" class="md-nav__link">
+    <span class="md-ellipsis">
+      51. 踩踏效率
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52" class="md-nav__link">
+    <span class="md-ellipsis">
+      52. 平顺度
     </span>
   </a>
   
@@ -1018,63 +1074,81 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#47" class="md-nav__link">
+  <a href="#53" class="md-nav__link">
     <span class="md-ellipsis">
-      47. 时钟
+      53. 时钟
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#48" class="md-nav__link">
+  <a href="#54" class="md-nav__link">
     <span class="md-ellipsis">
-      48. 电池
+      54. 电池
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#49" class="md-nav__link">
+  <a href="#55" class="md-nav__link">
     <span class="md-ellipsis">
-      49. 温度（传感器）
+      55. 温度（传感器）
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#50" class="md-nav__link">
+  <a href="#56" class="md-nav__link">
     <span class="md-ellipsis">
-      50. 风*
+      56. 风*
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#51-openweather" class="md-nav__link">
+  <a href="#57-openweather" class="md-nav__link">
     <span class="md-ellipsis">
-      51. 温度（OpenWeather）*
+      57. 温度（OpenWeather）*
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#52-openweather" class="md-nav__link">
+  <a href="#58-openweather" class="md-nav__link">
     <span class="md-ellipsis">
-      52. 体感温度（OpenWeather）*
+      58. 体感温度（OpenWeather）*
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#53-openweather" class="md-nav__link">
+  <a href="#59-openweather" class="md-nav__link">
     <span class="md-ellipsis">
-      53. 湿度（OpenWeather）*
+      59. 湿度（OpenWeather）*
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#60" class="md-nav__link">
+    <span class="md-ellipsis">
+      60. 日出时间
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#61" class="md-nav__link">
+    <span class="md-ellipsis">
+      61. 日落时间
     </span>
   </a>
   
@@ -1096,7 +1170,7 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#_8" class="md-nav__link">
+  <a href="#_11" class="md-nav__link">
     <span class="md-ellipsis">
       实时功率
     </span>
@@ -1114,7 +1188,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_9" class="md-nav__link">
+  <a href="#_12" class="md-nav__link">
     <span class="md-ellipsis">
       心率区间
     </span>
@@ -1123,7 +1197,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_10" class="md-nav__link">
+  <a href="#_13" class="md-nav__link">
     <span class="md-ellipsis">
       平均速度指示器
     </span>
@@ -1132,7 +1206,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_11" class="md-nav__link">
+  <a href="#_14" class="md-nav__link">
     <span class="md-ellipsis">
       平均功率指示器
     </span>
@@ -1141,7 +1215,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_12" class="md-nav__link">
+  <a href="#_15" class="md-nav__link">
     <span class="md-ellipsis">
       左右平衡指示器
     </span>
@@ -1153,6 +1227,228 @@
   <a href="#3_2" class="md-nav__link">
     <span class="md-ellipsis">
       3秒左右平衡指示器
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#x" class="md-nav__link">
+    <span class="md-ellipsis">
+      X 配置说明
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="X 配置说明">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#activationcode" class="md-nav__link">
+    <span class="md-ellipsis">
+      ActivationCode（激活码）
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11-ftp" class="md-nav__link">
+    <span class="md-ellipsis">
+      [1.1] FTP (瓦)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-openweather-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      [1.2] OpenWeather API密钥（现在支持所有设备）
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      [1.3] 虚拟页面翻页模式
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      [1.4] 布局
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      [1.5] 语言
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#21" class="md-nav__link">
+    <span class="md-ellipsis">
+      [2.1] 计时器和时钟格式
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-24" class="md-nav__link">
+    <span class="md-ellipsis">
+      [2.2] 启用24小时制
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#231" class="md-nav__link">
+    <span class="md-ellipsis">
+      [2.3.1] 平均速度指示器
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#232" class="md-nav__link">
+    <span class="md-ellipsis">
+      [2.3.2] 平均功率指示器
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#233" class="md-nav__link">
+    <span class="md-ellipsis">
+      [2.3.3] 平均心率指示器
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#234" class="md-nav__link">
+    <span class="md-ellipsis">
+      [2.3.4] 平均踏频指示器
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      [2.4] 使用相对风向 (箭头根据移动方向改变)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#25_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      [2.5] 风速单位
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#26_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      [2.6] 心率颜色风格
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#27_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      [2.7] 功率颜色风格
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#28_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      [2.8] 背景颜色
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#29_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      [2.9] 在时间格式中显示前导零
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#210-wbal-cp-w-w-j" class="md-nav__link">
+    <span class="md-ellipsis">
+      [2.10] [W'Bal] CP (W) / W' (J) / 显示模式 / 算法
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#211" class="md-nav__link">
+    <span class="md-ellipsis">
+      [2.11] 启用右上标题偏移 (避免雷达图标重叠)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#212-1x" class="md-nav__link">
+    <span class="md-ellipsis">
+      [2.12] 变速图 - 1X单盘模式
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#31-34-led-led-led-led" class="md-nav__link">
+    <span class="md-ellipsis">
+      [3.1-3.4] 左LED / 右LED / 上LED / 下LED
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    <span class="md-ellipsis">
+      启用页面
     </span>
   </a>
   
@@ -1265,10 +1561,20 @@
 <li>Wahoo样式：灰-深蓝-浅蓝-绿-黄-橙-红（区间1~区间7）</li>
 </ul>
 </div>
+<h4 id="_2">平均功率指示器<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h4>
+<p>这是一个可以开启/关闭的设置，用于在当前功率模块内比较当前功率与平均功率。可以在ConnectIQ应用中设置。支持"箭头"显示模式。</p>
+<ul>
+<li>"箭头"<ul>
+<li>向上：高于平均功率</li>
+<li>向下：低于平均功率</li>
+<li>不显示：等于平均功率或骑行未开始</li>
+</ul>
+</li>
+</ul>
 <p><br></p>
 <h3 id="2"><strong>2. 当前速度</strong><a class="headerlink" href="#2" title="Permanent link">&para;</a></h3>
 <p>显示当前骑行速度。单位将与用户在Garmin Connect中的设置保持一致（kph/mph）。</p>
-<h4 id="_2">平均速度指示器<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h4>
+<h4 id="_3">平均速度指示器<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h4>
 <p>这是一个可以开启/关闭的设置，用于在当前速度模块内比较当前速度与平均速度。可以在ConnectIQ应用中设置。有两种显示模式："箭头"和"背景"。</p>
 <ul>
 <li>"箭头"
@@ -1296,9 +1602,29 @@
 <li>Wahoo样式：灰-蓝-绿-黄-橙-红（&lt;区间1，区间1~区间5）</li>
 </ul>
 </div>
+<h4 id="_4">平均心率指示器<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h4>
+<p>这是一个可以开启/关闭的设置，用于在当前心率模块内比较当前心率与平均心率。可以在ConnectIQ应用中设置。支持"箭头"显示模式。</p>
+<ul>
+<li>"箭头"<ul>
+<li>向上：高于平均心率</li>
+<li>向下：低于平均心率</li>
+<li>不显示：等于平均心率或骑行未开始</li>
+</ul>
+</li>
+</ul>
 <p><br></p>
 <h3 id="4"><strong>4. 当前踏频</strong><a class="headerlink" href="#4" title="Permanent link">&para;</a></h3>
 <p>显示实时踏频值。</p>
+<h4 id="_5">平均踏频指示器<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h4>
+<p>这是一个可以开启/关闭的设置，用于在当前踏频模块内比较当前踏频与平均踏频。可以在ConnectIQ应用中设置。支持"箭头"显示模式。</p>
+<ul>
+<li>"箭头"<ul>
+<li>向上：高于平均踏频</li>
+<li>向下：低于平均踏频</li>
+<li>不显示：等于平均踏频或骑行未开始</li>
+</ul>
+</li>
+</ul>
 <p><br></p>
 <h3 id="5"><strong>5. 当前海拔</strong><a class="headerlink" href="#5" title="Permanent link">&para;</a></h3>
 <p>显示当前海拔。单位将与用户在Garmin Connect中的设置保持一致（m/ft）。</p>
@@ -1358,106 +1684,112 @@
 <p><span style="font-size: 0.7em; color: gray;">*Garmin官方未提供数据接口，因此计算的数据可能存在不准确或错误</span>
 <br></p>
 <p><br></p>
-<h3 id="11"><strong>11. 平均心率</strong><a class="headerlink" href="#11" title="Permanent link">&para;</a></h3>
+<h3 id="11"><strong>11. 平均功率</strong><a class="headerlink" href="#11" title="Permanent link">&para;</a></h3>
+<p>显示当前活动的整体平均功率。</p>
+<p><br></p>
+<h3 id="12"><strong>12. 平均心率</strong><a class="headerlink" href="#12" title="Permanent link">&para;</a></h3>
 <p>显示当前活动的平均心率。
 <br></p>
 <p><br></p>
-<h3 id="12"><strong>12. 平均速度</strong><a class="headerlink" href="#12" title="Permanent link">&para;</a></h3>
+<h3 id="13"><strong>13. 平均速度</strong><a class="headerlink" href="#13" title="Permanent link">&para;</a></h3>
 <p>显示当前活动的平均速度。
 <br></p>
 <p><br></p>
-<h3 id="13"><strong>13. 活动时间</strong><a class="headerlink" href="#13" title="Permanent link">&para;</a></h3>
+<h3 id="14"><strong>14. 活动时间</strong><a class="headerlink" href="#14" title="Permanent link">&para;</a></h3>
 <p>显示当前活动的持续时间。
 <br></p>
 <p><br></p>
-<h3 id="14"><strong>14. 圈时间<sup>*</sup></strong><a class="headerlink" href="#14" title="Permanent link">&para;</a></h3>
+<h3 id="15"><strong>15. 已用时间(总时间)</strong><a class="headerlink" href="#15" title="Permanent link">&para;</a></h3>
+<p>显示当前活动的总时间（包含暂停时间）。</p>
+<p><br></p>
+<p><br></p>
+<h3 id="16"><strong>16. 圈时间<sup>*</sup></strong><a class="headerlink" href="#16" title="Permanent link">&para;</a></h3>
 <p>显示当前圈的持续时间。</p>
 <p><span style="font-size: 0.7em; color: gray;">*Garmin官方未提供数据接口，因此计算的数据可能存在不准确或错误</span>
 <br></p>
 <p><br></p>
-<h3 id="15"><strong>15. 距离</strong><a class="headerlink" href="#15" title="Permanent link">&para;</a></h3>
+<h3 id="17"><strong>17. 距离</strong><a class="headerlink" href="#17" title="Permanent link">&para;</a></h3>
 <p>显示当前活动的累积骑行距离。
 <br></p>
 <p><br></p>
-<h3 id="16"><strong>16. 总爬升</strong><a class="headerlink" href="#16" title="Permanent link">&para;</a></h3>
+<h3 id="18"><strong>18. 总爬升</strong><a class="headerlink" href="#18" title="Permanent link">&para;</a></h3>
 <p>显示当前活动期间获得的总海拔高度。
 <br></p>
 <p><br></p>
-<h3 id="17"><strong>17. 总下降</strong><a class="headerlink" href="#17" title="Permanent link">&para;</a></h3>
+<h3 id="19"><strong>19. 总下降</strong><a class="headerlink" href="#19" title="Permanent link">&para;</a></h3>
 <p>显示当前活动期间损失的总海拔高度。
 <br></p>
 <p><br></p>
-<h3 id="18"><strong>18. 圈平均心率<sup>*</sup></strong><a class="headerlink" href="#18" title="Permanent link">&para;</a></h3>
+<h3 id="20"><strong>20. 圈平均心率<sup>*</sup></strong><a class="headerlink" href="#20" title="Permanent link">&para;</a></h3>
 <p>显示当前圈的平均心率。</p>
 <p><span style="font-size: 0.7em; color: gray;">*Garmin官方未提供数据接口，因此计算的数据可能存在不准确或错误</span>
 <br></p>
 <p><br></p>
-<h3 id="19-kj"><strong>19. 总功（KJ）<sup>*</sup></strong><a class="headerlink" href="#19-kj" title="Permanent link">&para;</a></h3>
+<h3 id="21-kj"><strong>21. 总功（KJ）<sup>*</sup></strong><a class="headerlink" href="#21-kj" title="Permanent link">&para;</a></h3>
 <p>显示当前活动期间执行的总功，以千焦耳（kJ）为单位。此测量来自功率计，因此需要功率计才能工作。</p>
 <p><span style="font-size: 0.7em; color: gray;">*Garmin官方未提供数据接口，因此计算的数据可能存在不准确或错误</span>
 <br></p>
 <p><br></p>
-<h3 id="20"><strong>20. 圈距离<sup>*</sup></strong><a class="headerlink" href="#20" title="Permanent link">&para;</a></h3>
+<h3 id="22"><strong>22. 圈距离<sup>*</sup></strong><a class="headerlink" href="#22" title="Permanent link">&para;</a></h3>
 <p>显示当前圈覆盖的距离。</p>
 <p><span style="font-size: 0.7em; color: gray;">*Garmin官方未提供数据接口，因此计算的数据可能存在不准确或错误</span>
 <br></p>
 <p><br></p>
-<h3 id="21"><strong>21. 平均踏频</strong><a class="headerlink" href="#21" title="Permanent link">&para;</a></h3>
+<h3 id="23"><strong>23. 平均踏频</strong><a class="headerlink" href="#23" title="Permanent link">&para;</a></h3>
 <p>显示当前活动的平均踏频。
 <br></p>
 <p><br></p>
-<h3 id="22"><strong>22. 圈平均速度<sup>*</sup></strong><a class="headerlink" href="#22" title="Permanent link">&para;</a></h3>
+<h3 id="24"><strong>24. 圈平均速度<sup>*</sup></strong><a class="headerlink" href="#24" title="Permanent link">&para;</a></h3>
 <p>显示当前圈的平均速度。</p>
 <p><span style="font-size: 0.7em; color: gray;">*Garmin官方未提供数据接口，因此计算的数据可能存在不准确或错误</span>
 <br></p>
 <p><br></p>
-<h3 id="23"><strong>23. 卡路里</strong><a class="headerlink" href="#23" title="Permanent link">&para;</a></h3>
+<h3 id="25"><strong>25. 卡路里</strong><a class="headerlink" href="#25" title="Permanent link">&para;</a></h3>
 <p>显示当前活动中燃烧的卡路里。
 <br></p>
 <hr />
-<hr />
 <h2 id="iii"><strong>III 最大值</strong><a class="headerlink" href="#iii" title="Permanent link">&para;</a></h2>
-<h3 id="24"><strong>24. 最大功率</strong><a class="headerlink" href="#24" title="Permanent link">&para;</a></h3>
+<h3 id="26"><strong>26. 最大功率</strong><a class="headerlink" href="#26" title="Permanent link">&para;</a></h3>
 <p>显示当前活动期间达到的最大功率。
 <br></p>
 <p><br></p>
-<h3 id="25"><strong>25. 最大心率</strong><a class="headerlink" href="#25" title="Permanent link">&para;</a></h3>
+<h3 id="27"><strong>27. 最大心率</strong><a class="headerlink" href="#27" title="Permanent link">&para;</a></h3>
 <p>显示当前活动期间达到的最大心率。
 <br></p>
 <p><br></p>
-<h3 id="26"><strong>26. 最大速度</strong><a class="headerlink" href="#26" title="Permanent link">&para;</a></h3>
+<h3 id="28"><strong>28. 最大速度</strong><a class="headerlink" href="#28" title="Permanent link">&para;</a></h3>
 <p>显示当前活动期间达到的最大速度。
 <br></p>
 <p><br></p>
-<h3 id="27"><strong>27. 最大踏频</strong><a class="headerlink" href="#27" title="Permanent link">&para;</a></h3>
+<h3 id="29"><strong>29. 最大踏频</strong><a class="headerlink" href="#29" title="Permanent link">&para;</a></h3>
 <p>显示当前活动期间达到的最大踏频。
 <br></p>
 <p><br></p>
-<h3 id="28"><strong>28. 圈数</strong><a class="headerlink" href="#28" title="Permanent link">&para;</a></h3>
+<h3 id="30"><strong>30. 圈数</strong><a class="headerlink" href="#30" title="Permanent link">&para;</a></h3>
 <p>显示当前活动的总圈数。活动开始时，圈数将设置为1。
 <br></p>
 <hr />
 <h2 id="iv"><strong>IV 训练指标</strong><a class="headerlink" href="#iv" title="Permanent link">&para;</a></h2>
-<h3 id="29"><strong>29. 当前功重比</strong><a class="headerlink" href="#29" title="Permanent link">&para;</a></h3>
+<h3 id="31"><strong>31. 当前功重比</strong><a class="headerlink" href="#31" title="Permanent link">&para;</a></h3>
 <p>显示当前活动的实时功重比，单位为W/Kg。功率来自MyGahoo设置页面输入，体重来自Garmin个人资料页面配置。
 <br></p>
 <p><br></p>
-<h3 id="30-3"><strong>30. 3秒平均功重比<sup>*</sup></strong><a class="headerlink" href="#30-3" title="Permanent link">&para;</a></h3>
+<h3 id="32-3"><strong>32. 3秒平均功重比<sup>*</sup></strong><a class="headerlink" href="#32-3" title="Permanent link">&para;</a></h3>
 <p>显示过去3秒的平均功重比，单位为W/Kg。</p>
 <p><span style="font-size: 0.7em; color: gray;">*Garmin官方未提供数据接口，因此计算的数据可能存在不准确或错误</span>
 <br></p>
 <p><br></p>
-<h3 id="31-10"><strong>31. 10秒平均功重比<sup>*</sup></strong><a class="headerlink" href="#31-10" title="Permanent link">&para;</a></h3>
+<h3 id="33-10"><strong>33. 10秒平均功重比<sup>*</sup></strong><a class="headerlink" href="#33-10" title="Permanent link">&para;</a></h3>
 <p>显示过去10秒的平均功重比，单位为W/Kg。</p>
 <p><span style="font-size: 0.7em; color: gray;">*Garmin官方未提供数据接口，因此计算的数据可能存在不准确或错误</span>
 <br></p>
 <p><br></p>
-<h3 id="32"><strong>32. 圈平均功重比<sup>*</sup></strong><a class="headerlink" href="#32" title="Permanent link">&para;</a></h3>
+<h3 id="34"><strong>34. 圈平均功重比<sup>*</sup></strong><a class="headerlink" href="#34" title="Permanent link">&para;</a></h3>
 <p>显示当前圈的平均功重比，单位为W/Kg。</p>
 <p><span style="font-size: 0.7em; color: gray;">*Garmin官方未提供数据接口，因此计算的数据可能存在不准确或错误</span>
 <br></p>
 <p><br></p>
-<h3 id="33-nptm"><strong>33. NP™（标准化功率）<sup>*</sup></strong><a class="headerlink" href="#33-nptm" title="Permanent link">&para;</a></h3>
+<h3 id="35-nptm"><strong>35. NP™（标准化功率）<sup>*</sup></strong><a class="headerlink" href="#35-nptm" title="Permanent link">&para;</a></h3>
 <p>显示当前活动的标准化功率。</p>
 <div class="admonition warning">
 <p class="admonition-title">数据丢失风险</p>
@@ -1468,7 +1800,7 @@
 <span style="font-size: 0.7em; color: gray;">*Garmin官方未提供数据接口，因此计算的数据可能存在不准确或错误</span>
 <br></p>
 <p><br></p>
-<h3 id="34-tsstm"><strong>34. TSS™（训练压力分数）<sup>*</sup></strong><a class="headerlink" href="#34-tsstm" title="Permanent link">&para;</a></h3>
+<h3 id="36-tsstm"><strong>36. TSS™（训练压力分数）<sup>*</sup></strong><a class="headerlink" href="#36-tsstm" title="Permanent link">&para;</a></h3>
 <p>显示当前活动的训练压力分数。</p>
 <div class="admonition warning">
 <p class="admonition-title">数据丢失风险</p>
@@ -1479,7 +1811,7 @@
 <span style="font-size: 0.7em; color: gray;">*Garmin官方未提供数据接口，因此计算的数据可能存在不准确或错误</span>
 <br></p>
 <hr />
-<h3 id="35-wbalance"><strong>35. W'Balance<sup>*</sup></strong><a class="headerlink" href="#35-wbalance" title="Permanent link">&para;</a></h3>
+<h3 id="37-wbalance"><strong>37. W'Balance<sup>*</sup></strong><a class="headerlink" href="#37-wbalance" title="Permanent link">&para;</a></h3>
 <p>显示当前活动的W'Balance（W prime balance）。这需要预先定义CP（临界功率）和W'（W Prime）才能工作。有关科学解释，会有大量文章或视频来解释它是什么。</p>
 <p>在活动期间，此字段可以是绿色或红色。当为绿色时，表示您当前的功率低于CP，换句话说，您正在"恢复"。反之，当为红色时，表示您正在消耗。</p>
 <p>当前的数学模型使用Froncioni / Clarke的微分模型：</p>
@@ -1487,51 +1819,61 @@
 <p><code>W′bal = W′bal + (CP - P)</code> 当 <code>P &lt; CP</code></p>
 <p><span style="font-size: 0.7em; color: gray;">*Garmin官方未提供数据接口，因此计算的数据可能存在不准确或错误</span>
 <br></p>
+<p><br></p>
+<h3 id="38"><strong>38. 当前训练步骤剩余时间</strong><a class="headerlink" href="#38" title="Permanent link">&para;</a></h3>
+<p>显示当前训练课程步骤的倒计时剩余时间。仅在已启动Garmin结构化训练课程（Workout）时生效。若当前训练步骤无时间限制，则不显示数据。</p>
+<p><br></p>
+<p><br></p>
+<h3 id="39-iftm"><strong>39. IF™（强度系数）<sup>*</sup></strong><a class="headerlink" href="#39-iftm" title="Permanent link">&para;</a></h3>
+<p>显示当前活动的强度系数（Intensity Factor），用于评估本次训练的强度水平。</p>
+<p><span style="font-size: 0.7em; color: gray;">™强度系数（IF）是 Peaksware, LLC 的注册商标。</span>
+<br>
+<span style="font-size: 0.7em; color: gray;">*Garmin官方未提供数据接口，因此计算的数据可能存在不准确或错误</span></p>
+<p><br></p>
 <hr />
 <h2 id="v"><strong>V 设备信息</strong><a class="headerlink" href="#v" title="Permanent link">&para;</a></h2>
-<h3 id="36"><strong>36. 齿数显示</strong><a class="headerlink" href="#36" title="Permanent link">&para;</a></h3>
+<h3 id="40"><strong>40. 齿数显示</strong><a class="headerlink" href="#40" title="Permanent link">&para;</a></h3>
 <p>显示当前牙盘/飞轮的齿数。例如52/13
 <br></p>
 <p><br></p>
-<h3 id="37"><strong>37. 档位序号</strong><a class="headerlink" href="#37" title="Permanent link">&para;</a></h3>
+<h3 id="41"><strong>41. 档位序号</strong><a class="headerlink" href="#41" title="Permanent link">&para;</a></h3>
 <p>显示当前牙盘/飞轮的索引号。例如1/7
 <br></p>
 <p><br></p>
-<h3 id="38"><strong>38. 齿比</strong><a class="headerlink" href="#38" title="Permanent link">&para;</a></h3>
+<h3 id="42"><strong>42. 齿比</strong><a class="headerlink" href="#42" title="Permanent link">&para;</a></h3>
 <p>显示当前牙盘除以飞轮齿数的传动比。例如：4.02
 <br></p>
 <p><br></p>
-<h3 id="39"><strong>39. 齿比图表</strong><a class="headerlink" href="#39" title="Permanent link">&para;</a></h3>
+<h3 id="43"><strong>43. 齿比图表</strong><a class="headerlink" href="#43" title="Permanent link">&para;</a></h3>
 <p>图形化显示齿比信息。
 <br></p>
 <hr />
-<hr />
 <h2 id="vi"><strong>VI 导航信息</strong><a class="headerlink" href="#vi" title="Permanent link">&para;</a></h2>
-<h3 id="40"><strong>40. 到目的地距离</strong><a class="headerlink" href="#40" title="Permanent link">&para;</a></h3>
+<h3 id="44"><strong>44. 到目的地距离</strong><a class="headerlink" href="#44" title="Permanent link">&para;</a></h3>
 <p>显示到目的地的剩余距离。
 <br></p>
 <p><br></p>
-<h3 id="41"><strong>41. 到目的地预计时间<sup>*</sup></strong><a class="headerlink" href="#41" title="Permanent link">&para;</a></h3>
+<h3 id="45"><strong>45. 到目的地预计时间<sup>*</sup></strong><a class="headerlink" href="#45" title="Permanent link">&para;</a></h3>
 <p>显示到达目的地的预计剩余时间。这是根据迄今为止的平均速度估算的，数字将在活动开始10秒后显示，以避免开始时的剧烈波动。</p>
 <p><span style="font-size: 0.7em; color: gray;">*Garmin官方未提供数据接口，因此计算的数据可能存在不准确或错误</span>
 <br></p>
 <p><br></p>
-<h3 id="42"><strong>42. 预计到达时间<sup>*</sup></strong><a class="headerlink" href="#42" title="Permanent link">&para;</a></h3>
+<h3 id="46"><strong>46. 预计到达时间<sup>*</sup></strong><a class="headerlink" href="#46" title="Permanent link">&para;</a></h3>
 <p>显示到达目的地的预计时间。这是根据迄今为止的平均速度估算的，数字将在活动开始10秒后显示，以避免开始时的剧烈波动。</p>
 <p><span style="font-size: 0.7em; color: gray;">*Garmin官方未提供数据接口，因此计算的数据可能存在不准确或错误</span>
 <br></p>
 <hr />
 <h2 id="vii"><strong>VII 数据分析</strong><a class="headerlink" href="#vii" title="Permanent link">&para;</a></h2>
-<h3 id="43"><strong>43. 实时左右平衡</strong><a class="headerlink" href="#43" title="Permanent link">&para;</a></h3>
+<h3 id="47"><strong>47. 实时左右平衡</strong><a class="headerlink" href="#47" title="Permanent link">&para;</a></h3>
 <p>显示当前左右功率平衡。以百分比显示，不含%符号，例如：52-48
 <br></p>
 <p><br></p>
-<h3 id="44-3"><strong>44. 3秒平均左右平衡<sup>*</sup></strong><a class="headerlink" href="#44-3" title="Permanent link">&para;</a></h3>
+<h3 id="48-3"><strong>48. 3秒平均左右平衡<sup>*</sup></strong><a class="headerlink" href="#48-3" title="Permanent link">&para;</a></h3>
 <p>显示3秒内的平均左右功率平衡比例。</p>
 <p><span style="font-size: 0.7em; color: gray;">*Garmin官方未提供数据接口，因此计算的数据可能存在不准确或错误</span>
 <br></p>
 <p><br></p>
-<h3 id="45"><strong>45. 功率区间直方图<sup>*</sup></strong><a class="headerlink" href="#45" title="Permanent link">&para;</a></h3>
+<h3 id="49"><strong>49. 功率区间直方图<sup>*</sup></strong><a class="headerlink" href="#49" title="Permanent link">&para;</a></h3>
 <p>显示不同功率区间的时间分布。</p>
 <div class="admonition warning">
 <p class="admonition-title">数据丢失风险</p>
@@ -1540,67 +1882,86 @@
 <p><span style="font-size: 0.7em; color: gray;">*Garmin官方未提供数据接口，因此计算的数据可能存在不准确或错误</span>
 <br></p>
 <p><br></p>
-<h3 id="46"><strong>46. 心率区间直方图<sup>*</sup></strong><a class="headerlink" href="#46" title="Permanent link">&para;</a></h3>
+<h3 id="50"><strong>50. 心率区间直方图<sup>*</sup></strong><a class="headerlink" href="#50" title="Permanent link">&para;</a></h3>
 <p>显示不同心率区间的时间分布。</p>
 <div class="admonition warning">
 <p class="admonition-title">数据丢失风险</p>
 <p>如果在活动期间"重新添加"MyGahoo字段，或在进入其他骑行模式后返回当前模式，此模块中的数据将被清除。（但是，Garmin本身记录的活动不会受到影响，只有MyGahoo会重新开始从零累积这些数据）。</p>
 </div>
 <p><span style="font-size: 0.7em; color: gray;">*Garmin官方未提供数据接口，因此计算的数据可能存在不准确或错误</span>
-<br>
 <br></p>
-<hr />
+<p><br></p>
+<h3 id="51"><strong>51. 踩踏效率</strong><a class="headerlink" href="#51" title="Permanent link">&para;</a></h3>
+<p>显示当前左右踏板的扭矩效率（Torque Effectiveness），以百分比显示。需要功率计支持此数据接口才能工作。</p>
+<ul>
+<li>格式：左侧% / 右侧%</li>
+<li>若功率计不支持分侧数据，则仅显示组合值</li>
+</ul>
+<p><br></p>
+<h3 id="52"><strong>52. 平顺度</strong><a class="headerlink" href="#52" title="Permanent link">&para;</a></h3>
+<p>显示当前左右踏板的踩踏平顺度（Pedal Smoothness），以百分比显示。需要功率计支持此数据接口才能工作。</p>
+<ul>
+<li>格式：左侧% / 右侧%</li>
+<li>若功率计仅支持组合数据（不区分左右），则仅显示组合值
+<br></li>
+</ul>
 <hr />
 <h2 id="viii"><strong>VIII 环境信息</strong><a class="headerlink" href="#viii" title="Permanent link">&para;</a></h2>
-<h3 id="47"><strong>47. 时钟</strong><a class="headerlink" href="#47" title="Permanent link">&para;</a></h3>
+<h3 id="53"><strong>53. 时钟</strong><a class="headerlink" href="#53" title="Permanent link">&para;</a></h3>
 <p>显示当前时间。
 <br></p>
 <p><br></p>
-<h3 id="48"><strong>48. 电池</strong><a class="headerlink" href="#48" title="Permanent link">&para;</a></h3>
+<h3 id="54"><strong>54. 电池</strong><a class="headerlink" href="#54" title="Permanent link">&para;</a></h3>
 <p>显示当前电池电量。以百分比显示。
 <br></p>
 <p><br></p>
-<h3 id="49"><strong>49. 温度（传感器）</strong><a class="headerlink" href="#49" title="Permanent link">&para;</a></h3>
+<h3 id="55"><strong>55. 温度（传感器）</strong><a class="headerlink" href="#55" title="Permanent link">&para;</a></h3>
 <p>显示当前温度，以摄氏度或华氏度显示。每5分钟更新一次。频率受Garmin限制，无法更高。
 <br></p>
 <p><br></p>
-<h3 id="50"><strong>50. 风<sup>*</sup></strong><a class="headerlink" href="#50" title="Permanent link">&para;</a></h3>
+<h3 id="56"><strong>56. 风<sup>*</sup></strong><a class="headerlink" href="#56" title="Permanent link">&para;</a></h3>
 <p>显示当前风速和相对/绝对风向。</p>
 <p><span style="font-size: 0.7em; color: gray;">*Garmin官方未提供数据接口，因此计算的数据可能存在不准确或错误</span>
 <br></p>
-<p><br></p>
-<h3 id="51-openweather"><strong>51. 温度（OpenWeather）<sup>*</sup></strong><a class="headerlink" href="#51-openweather" title="Permanent link">&para;</a></h3>
-<p>显示当前温度，以摄氏度或华氏度显示。数据来源为OpenWeather，因此需要配置有效的OpenWeather API才能启用数据。</p>
-<p><br></p>
-<h3 id="52-openweather"><strong>52. 体感温度（OpenWeather）<sup>*</sup></strong><a class="headerlink" href="#52-openweather" title="Permanent link">&para;</a></h3>
-<p>显示当前体感温度，以摄氏度或华氏度显示。数据来源为OpenWeather，因此需要配置有效的OpenWeather API才能启用数据。</p>
-<p><br></p>
-<h3 id="53-openweather"><strong>53. 湿度（OpenWeather）<sup>*</sup></strong><a class="headerlink" href="#53-openweather" title="Permanent link">&para;</a></h3>
-<p>显示当前相对湿度，以百分比显示。数据来源为OpenWeather，因此需要配置有效的OpenWeather API才能启用数据。</p>
-<p><br></p>
-<h4 id="_3">风速单位<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h4>
+<h4 id="_6">风速单位<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h4>
 <ul>
 <li>m/s：米/秒</li>
 <li>KPH：公里/小时</li>
 <li>MPH：英里/小时</li>
 <li>Beaufort scale：风力等级，0~12级</li>
 </ul>
-<h4 id="_4">风速等级<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h4>
+<h4 id="_7">风速等级<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h4>
 <p>风速等级由箭头数量指示，不同数量对应的风速如下图所示。当选择的风速单位不是m/s时，箭头数量仍将根据正确的风速而非显示的数字进行计算。
 <br>
 <img alt="wind speed" src="../../images/wd_speed.jpg" /></p>
-<h4 id="_5">绝对/相对风向<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h4>
+<h4 id="_8">绝对/相对风向<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h4>
 <ul>
 <li>绝对风向：天气预报中给出的风向，与骑行方向无关</li>
 <li>相对风向：当前骑行方向与风向的相对角度。例如，如果向西行驶，绝对风向从北向南，则相对风向从右向左。</li>
 </ul>
-<h4 id="_6">风向颜色<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h4>
+<h4 id="_9">风向颜色<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h4>
 <p>显示相对风向时，箭头根据风角度着色。红色表示逆风（相对风从左前45°到右前45°）；绿色表示顺风（相对风从左后45°到右后45°）；黑色表示侧风。
 <br>
 <img alt="wind direction" src="../../images/wd_dir.jpg" />
 <br></p>
-<h4 id="_7">配置<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h4>
+<h4 id="_10">配置<a class="headerlink" href="#_10" title="Permanent link">&para;</a></h4>
 <p>风模块需要在ConnectIQ应用中配置以获得最佳显示效果。详情请参考<a href="../weather/">天气配置</a>模块。</p>
+<p><br></p>
+<h3 id="57-openweather"><strong>57. 温度（OpenWeather）<sup>*</sup></strong><a class="headerlink" href="#57-openweather" title="Permanent link">&para;</a></h3>
+<p>显示当前温度，以摄氏度或华氏度显示。数据来源为OpenWeather，因此需要配置有效的OpenWeather API才能启用数据。</p>
+<p><br></p>
+<h3 id="58-openweather"><strong>58. 体感温度（OpenWeather）<sup>*</sup></strong><a class="headerlink" href="#58-openweather" title="Permanent link">&para;</a></h3>
+<p>显示当前体感温度，以摄氏度或华氏度显示。数据来源为OpenWeather，因此需要配置有效的OpenWeather API才能启用数据。</p>
+<p><br></p>
+<h3 id="59-openweather"><strong>59. 湿度（OpenWeather）<sup>*</sup></strong><a class="headerlink" href="#59-openweather" title="Permanent link">&para;</a></h3>
+<p>显示当前相对湿度，以百分比显示。数据来源为OpenWeather，因此需要配置有效的OpenWeather API才能启用数据。</p>
+<p><br></p>
+<h3 id="60"><strong>60. 日出时间</strong><a class="headerlink" href="#60" title="Permanent link">&para;</a></h3>
+<p>显示当天的日出时间。数据来源为Garmin内置天气服务，需要设备支持天气功能（530/830及更新型号）且已获取GPS定位。</p>
+<p><br></p>
+<h3 id="61"><strong>61. 日落时间</strong><a class="headerlink" href="#61" title="Permanent link">&para;</a></h3>
+<p>显示当天的日落时间。数据来源为Garmin内置天气服务，需要设备支持天气功能（530/830及更新型号）且已获取GPS定位。</p>
+<p><br></p>
 <hr />
 <h2 id="ix-led"><strong>IX 虚拟LED</strong><a class="headerlink" href="#ix-led" title="Permanent link">&para;</a></h2>
 <p>虚拟LED可以配置在屏幕边缘周围。用户可以使用不同位置的LED显示不同信息。
@@ -1645,17 +2006,17 @@
 </tr>
 </tbody>
 </table>
-<h3 id="_8">实时功率<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h3>
+<h3 id="_11">实时功率<a class="headerlink" href="#_11" title="Permanent link">&para;</a></h3>
 <p>虚拟LED显示每个区间的数量和颜色（下例中颜色样式设置为Garmin样式）
 <br>
 <img alt="power led" src="../../images/pw_led.jpg" /></p>
 <h3 id="3_1">3秒平均功率<a class="headerlink" href="#3_1" title="Permanent link">&para;</a></h3>
 <p>同上。</p>
-<h3 id="_9">心率区间<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h3>
+<h3 id="_12">心率区间<a class="headerlink" href="#_12" title="Permanent link">&para;</a></h3>
 <p>虚拟LED显示每个区间的数量和颜色（下例中颜色样式设置为Garmin样式）
 <br>
 <img alt="hr led" src="../../images/hr_led.jpg" /></p>
-<h3 id="_10">平均速度指示器<a class="headerlink" href="#_10" title="Permanent link">&para;</a></h3>
+<h3 id="_13">平均速度指示器<a class="headerlink" href="#_13" title="Permanent link">&para;</a></h3>
 <p>虚拟LED显示当前速度与平均速度的关系，红色表示落后（低于平均值），蓝色表示领先（高于平均值）。
 <br>
 <img alt="led avg" src="../../images/led_avg.jpg" />
@@ -1687,7 +2048,7 @@
 </tr>
 </tbody>
 </table>
-<h3 id="_11">平均功率指示器<a class="headerlink" href="#_11" title="Permanent link">&para;</a></h3>
+<h3 id="_14">平均功率指示器<a class="headerlink" href="#_14" title="Permanent link">&para;</a></h3>
 <p>虚拟LED显示当前功率与平均功率的关系，颜色含义与上述相同，但每个LED代表20%的领先或落后。表格以领先为例；落后遵循相同原理。</p>
 <table>
 <thead>
@@ -1715,7 +2076,7 @@
 </tr>
 </tbody>
 </table>
-<h3 id="_12">左右平衡指示器<a class="headerlink" href="#_12" title="Permanent link">&para;</a></h3>
+<h3 id="_15">左右平衡指示器<a class="headerlink" href="#_15" title="Permanent link">&para;</a></h3>
 <p>虚拟LED显示当前踩踏功率的左右平衡。每个LED代表一侧5%的偏移。表格以右偏踩踏为例；相反情况遵循相同原理。</p>
 <p>此外，如果接收到的左右平衡值为100-0或0-100，将显示错误状态。这种情况通常由于双侧功率计的一侧断开连接或首次踩踏时的瞬间力量而发生。</p>
 <table>
@@ -1750,6 +2111,366 @@
 </table>
 <h3 id="3_2">3秒左右平衡指示器<a class="headerlink" href="#3_2" title="Permanent link">&para;</a></h3>
 <p>同上。</p>
+<hr />
+<h2 id="x"><strong>X 配置说明</strong><a class="headerlink" href="#x" title="Permanent link">&para;</a></h2>
+<p>本章节按设置页的顺序，逐项说明每个设置的作用与影响范围。标题方框内的编号对应该项在设置页中的位置。</p>
+<p>影响范围中涉及的字段编号，请参阅前述各字段的说明。</p>
+<hr />
+<h3 id="activationcode">ActivationCode（激活码）<a class="headerlink" href="#activationcode" title="Permanent link">&para;</a></h3>
+<p>在设置页中输入激活码以解锁完整功能。</p>
+<p><strong>作用</strong>：</p>
+<ul>
+<li>输入您购买后获得的激活码，激活 MyGahoo Pro 全部功能</li>
+</ul>
+<p><strong>配置建议</strong>：</p>
+<ul>
+<li>激活码与设备绑定，每个设备需要独立的激活码</li>
+<li>如果在同一个设备上登录不同的账号，激活码不会改变</li>
+<li>如果更换设备，需要重新获取激活码</li>
+</ul>
+<hr />
+<h3 id="11-ftp">[1.1] FTP (瓦)<a class="headerlink" href="#11-ftp" title="Permanent link">&para;</a></h3>
+<p>FTP 是骑手可以长期维持的临界功率值，是计算多项训练指标的基础参数。</p>
+<p><strong>作用</strong>：</p>
+<ul>
+<li>设定骑手的功能性阈值功率，用于计算功率区间、功重比、NP、TSS、IF 等训练指标</li>
+</ul>
+<p><strong>影响范围</strong>：</p>
+<ul>
+<li>当前功率字段的区间颜色划分</li>
+<li>功重比字段的计算</li>
+<li>NP字段相关的 TSS 计算</li>
+<li>IF字段的计算</li>
+</ul>
+<p><strong>配置建议</strong>：</p>
+<ul>
+<li>建议使用 20 分钟实测功率或 CP（临界功率）作为输入值</li>
+<li>FTP 需要与 Garmin 个人资料中的体重配合使用来计算功重比</li>
+<li>修改 FTP 后，TSS、IF 等指标会基于已记录的 NP 数据重新计算</li>
+</ul>
+<hr />
+<h3 id="12-openweather-api">[1.2] OpenWeather API密钥（现在支持所有设备）<a class="headerlink" href="#12-openweather-api" title="Permanent link">&para;</a></h3>
+<p>用于连接 OpenWeather 服务，获取实时天气数据。</p>
+<p><strong>作用</strong>：</p>
+<ul>
+<li>输入 OpenWeather API 密钥，使应用能够获取在线天气数据</li>
+</ul>
+<p><strong>影响范围</strong>：</p>
+<ul>
+<li>空气温度字段</li>
+<li>体感温度字段</li>
+<li>湿度字段</li>
+</ul>
+<p><strong>配置建议</strong>：</p>
+<ul>
+<li>需要自行在 OpenWeather 官网注册并获取 API 密钥</li>
+<li>设备需要通过手机连接网络</li>
+<li>需要已获取 GPS 定位（室内可能无法获取天气数据）</li>
+</ul>
+<hr />
+<h3 id="13_1">[1.3] 虚拟页面翻页模式<a class="headerlink" href="#13_1" title="Permanent link">&para;</a></h3>
+<p>控制用户如何在已选择的布局中切换不同的数据块位置。</p>
+<p><strong>作用</strong>：</p>
+<ul>
+<li>设置是否启用虚拟翻页功能，以及使用按钮还是触摸操作</li>
+</ul>
+<p><strong>配置建议</strong>：</p>
+<ul>
+<li><strong>关闭</strong>：禁用虚拟翻页，触摸屏幕会唤起系统原生菜单</li>
+<li><strong>快速按钮模式</strong>：连续按动「上下上下」按钮组合（间隔 2 秒内）向后翻页，仅支持向后翻页</li>
+<li><strong>触摸模式</strong>：点击屏幕下半部分左侧向右翻页，右侧向左翻页，适用于触屏设备</li>
+<li><strong>触摸和快速按钮模式</strong>：同时启用触摸和按钮两种模式</li>
+</ul>
+<hr />
+<h3 id="14_1">[1.4] 布局<a class="headerlink" href="#14_1" title="Permanent link">&para;</a></h3>
+<p>选择屏幕上数据块的排列方式和数量。</p>
+<p><strong>作用</strong>：</p>
+<ul>
+<li>决定屏幕上显示的数据块数量和排列模板</li>
+</ul>
+<hr />
+<h3 id="15_1">[1.5] 语言<a class="headerlink" href="#15_1" title="Permanent link">&para;</a></h3>
+<p>选择 MyGahoo Pro 界面显示的语言。</p>
+<p><strong>作用</strong>：</p>
+<ul>
+<li>更改应用界面上数据标题使用的语言</li>
+</ul>
+<hr />
+<h3 id="21">[2.1] 计时器和时钟格式<a class="headerlink" href="#21" title="Permanent link">&para;</a></h3>
+<p>控制时间显示格式是否根据运动状态自动切换。</p>
+<p><strong>作用</strong>：</p>
+<ul>
+<li>决定时间显示格式，是始终显示「时:分:秒」，还是在「分:秒」和「时:分」格式中自动切换</li>
+</ul>
+<p><strong>配置建议</strong>：</p>
+<ul>
+<li>选择“始终显示「时:分:秒」”可能会导致某些布局下字体溢出。如果没有特殊需求建议选择自动切换。</li>
+</ul>
+<hr />
+<h3 id="22-24">[2.2] 启用24小时制<a class="headerlink" href="#22-24" title="Permanent link">&para;</a></h3>
+<p>控制时间显示使用 12 小时制还是 24 小时制。</p>
+<p><strong>作用</strong>：</p>
+<ul>
+<li>设置时钟显示的时间格式</li>
+</ul>
+<hr />
+<h3 id="231">[2.3.1] 平均速度指示器<a class="headerlink" href="#231" title="Permanent link">&para;</a></h3>
+<p>显示当前速度与平均速度的对比关系。</p>
+<p><strong>作用</strong>：</p>
+<ul>
+<li>在数据块上显示当前速度是高于还是低于平均速度</li>
+</ul>
+<p><strong>配置建议</strong>：</p>
+<ul>
+<li><strong>关闭</strong>：不显示对比</li>
+<li><strong>开启 - 箭头</strong>：在标题边上显示。向上箭头表示领先，向下箭头表示落后</li>
+<li><strong>开启 - 背景颜色</strong>：绿色表示领先，红色表示落后</li>
+<li>骑行开始后才显示，静止不动时不显示</li>
+</ul>
+<hr />
+<h3 id="232">[2.3.2] 平均功率指示器<a class="headerlink" href="#232" title="Permanent link">&para;</a></h3>
+<p>显示当前功率与平均功率的对比关系。</p>
+<p><strong>作用</strong>：</p>
+<ul>
+<li>在数据块上显示当前功率是高于还是低于平均功率</li>
+</ul>
+<p><strong>配置建议</strong>：</p>
+<ul>
+<li><strong>关闭</strong>：不显示对比</li>
+<li><strong>开启 - 箭头</strong>：在标题边上显示。向上箭头表示领先，向下箭头表示落后</li>
+<li>注意：此指示器仅支持箭头模式，不支持背景色模式</li>
+</ul>
+<hr />
+<h3 id="233">[2.3.3] 平均心率指示器<a class="headerlink" href="#233" title="Permanent link">&para;</a></h3>
+<p>显示当前心率与平均心率的对比关系。</p>
+<p><strong>作用</strong>：</p>
+<ul>
+<li>在数据块上显示当前心率是高于还是低于平均心率</li>
+</ul>
+<p><strong>配置建议</strong>：</p>
+<ul>
+<li><strong>关闭</strong>：不显示对比</li>
+<li><strong>开启 - 箭头</strong>：在标题边上显示。向上箭头表示领先，向下箭头表示落后</li>
+<li>注意：此指示器仅支持箭头模式，不支持背景色模式</li>
+</ul>
+<hr />
+<h3 id="234">[2.3.4] 平均踏频指示器<a class="headerlink" href="#234" title="Permanent link">&para;</a></h3>
+<p>显示当前踏频与平均踏频的对比关系。</p>
+<p><strong>作用</strong>：</p>
+<ul>
+<li>在数据块上显示当前踏频是高于还是低于平均踏频</li>
+</ul>
+<p><strong>配置建议</strong>：</p>
+<ul>
+<li><strong>关闭</strong>：不显示对比</li>
+<li><strong>开启 - 箭头</strong>：在标题边上显示。向上箭头表示领先，向下箭头表示落后</li>
+<li><strong>开启 - 背景颜色</strong>：绿色表示领先，红色表示落后</li>
+</ul>
+<hr />
+<h3 id="24_1">[2.4] 使用相对风向 (箭头根据移动方向改变)<a class="headerlink" href="#24_1" title="Permanent link">&para;</a></h3>
+<p>设置风向是相对于骑行方向还是地理实际方向。</p>
+<p><strong>作用</strong>：</p>
+<ul>
+<li>控制风向箭头的指向方式</li>
+</ul>
+<p><strong>配置建议</strong>：</p>
+<ul>
+<li><strong>开启</strong>：箭头随骑行方向变化，始终显示风从目前的哪个方向吹来。当你拐弯后，箭头会跟随变化。</li>
+<li><strong>关闭</strong>：显示地理上的实际风向，不随骑行方向改变。即箭头向下时表示当前是北风，向左时表示东方，依此类推。</li>
+</ul>
+<hr />
+<h3 id="25_1">[2.5] 风速单位<a class="headerlink" href="#25_1" title="Permanent link">&para;</a></h3>
+<p>设置风速显示的单位。</p>
+<p><strong>作用</strong>：</p>
+<ul>
+<li>控制风速数据的显示单位</li>
+</ul>
+<p><strong>配置建议</strong>：</p>
+<ul>
+<li><strong>米/秒</strong>：标准气象单位</li>
+<li><strong>公里/小时</strong>：常用骑行速度单位</li>
+<li><strong>英里/小时</strong>：英制单位</li>
+<li><strong>蒲福风级</strong>：0~12 级，由风速换算得出的风力等级</li>
+</ul>
+<hr />
+<h3 id="26_1">[2.6] 心率颜色风格<a class="headerlink" href="#26_1" title="Permanent link">&para;</a></h3>
+<p>设置心率区间的颜色方案。</p>
+<p><strong>作用</strong>：</p>
+<ul>
+<li>选择心率数据使用的区间颜色风格</li>
+</ul>
+<p><strong>影响范围</strong>：</p>
+<ul>
+<li>当前心率字段的背景色</li>
+<li>虚拟 LED 心率区间显示（当 LED 设置为心率时）</li>
+</ul>
+<hr />
+<h3 id="27_1">[2.7] 功率颜色风格<a class="headerlink" href="#27_1" title="Permanent link">&para;</a></h3>
+<p>设置功率区间的颜色方案。</p>
+<p><strong>作用</strong>：</p>
+<ul>
+<li>选择功率数据使用的区间颜色风格</li>
+</ul>
+<p><strong>影响范围</strong>：</p>
+<ul>
+<li>当前功率字段的背景色</li>
+<li>各平均功率字段的背景色</li>
+<li>虚拟 LED 功率区间显示（当 LED 设置为功率时）</li>
+</ul>
+<hr />
+<h3 id="28_1">[2.8] 背景颜色<a class="headerlink" href="#28_1" title="Permanent link">&para;</a></h3>
+<p>设置整个数据字段的背景主题。</p>
+<p><strong>作用</strong>：</p>
+<ul>
+<li>控制应用的整体背景颜色风格</li>
+</ul>
+<p><strong>配置建议</strong>：</p>
+<ul>
+<li><strong>跟随系统</strong>：自动跟随设备当前的日夜模式</li>
+<li><strong>始终白天</strong>：始终使用日间模式的白色背景</li>
+<li><strong>始终夜晚</strong>：始终使用夜间模式的黑色背景</li>
+</ul>
+<hr />
+<h3 id="29_1">[2.9] 在时间格式中显示前导零<a class="headerlink" href="#29_1" title="Permanent link">&para;</a></h3>
+<p>控制时间显示是否显示前导零。</p>
+<p><strong>作用</strong>：</p>
+<ul>
+<li>设置时间数字是否补零显示</li>
+</ul>
+<p><strong>配置建议</strong>：</p>
+<ul>
+<li><strong>开启</strong>：9:05 显示为「09:05」</li>
+<li><strong>关闭</strong>：9:05 显示为「9:05」</li>
+</ul>
+<hr />
+<h3 id="210-wbal-cp-w-w-j">[2.10] [W'Bal] CP (W) / W' (J) / 显示模式 / 算法<a class="headerlink" href="#210-wbal-cp-w-w-j" title="Permanent link">&para;</a></h3>
+<p>这一组设置共同控制 W'Balance 功能的计算和显示。</p>
+<h4 id="cp">CP（临界功率）<a class="headerlink" href="#cp" title="Permanent link">&para;</a></h4>
+<p>骑手可以长时间维持的功率上限，也是 W'Balance 消耗/恢复的判定阈值。</p>
+<p><strong>作用</strong>：</p>
+<ul>
+<li>W'Balance字段的消耗/恢复判定</li>
+<li>当功率高于 CP 时消耗 W'Balance，低于 CP 时恢复 W'Balance</li>
+</ul>
+<p><strong>配置建议</strong>：</p>
+<ul>
+<li>如果明确知道自己的CP则设置为CP，如果不知道则可以近似设置为FTP</li>
+</ul>
+<h4 id="wprimew">WPRIME（W'能量储备）<a class="headerlink" href="#wprimew" title="Permanent link">&para;</a></h4>
+<p>骑手可以在 CP 以上输出的总能量储备。</p>
+<p><strong>配置建议</strong>：</p>
+<ul>
+<li>默认值约为 10000 焦耳（10 千焦）</li>
+<li>有经验的骑手通常设置在 15000~20000 焦耳范围</li>
+</ul>
+<h4 id="_16">显示模式<a class="headerlink" href="#_16" title="Permanent link">&para;</a></h4>
+<p>设置 W'Balance 数据的显示方式。</p>
+<p><strong>作用</strong>：</p>
+<ul>
+<li>选择以百分比还是千焦耳显示，以及是否带颜色</li>
+</ul>
+<p><strong>配置建议</strong>：</p>
+<ul>
+<li><strong>百分比</strong>：显示剩余百分比，带颜色（绿色=恢复，红色=消耗）</li>
+<li><strong>千焦</strong>：显示剩余能量值，带颜色</li>
+<li><strong>百分比 (无颜色)</strong>：显示剩余百分比，无颜色</li>
+<li><strong>千焦 (无颜色)</strong>：显示剩余能量值，无颜色</li>
+</ul>
+<h4 id="_17">算法<a class="headerlink" href="#_17" title="Permanent link">&para;</a></h4>
+<p>选择 W'Balance 的计算模型。</p>
+<p><strong>配置建议</strong>：</p>
+<ul>
+<li><strong>积分算法</strong>：消耗和恢复都较慢、更平滑，适合耐力骑行</li>
+<li><strong>微分算法</strong>：消耗快、恢复也快，响应更及时，适合间歇训练</li>
+</ul>
+<hr />
+<h3 id="211">[2.11] 启用右上标题偏移 (避免雷达图标重叠)<a class="headerlink" href="#211" title="Permanent link">&para;</a></h3>
+<p>设置右上角标题是否向右偏移，避免与雷达图标重叠。</p>
+<p><strong>配置建议</strong>：</p>
+<ul>
+<li>仅在使用 Garmin 雷达功能时需要开启</li>
+<li>默认关闭即可</li>
+</ul>
+<hr />
+<h3 id="212-1x">[2.12] 变速图 - 1X单盘模式<a class="headerlink" href="#212-1x" title="Permanent link">&para;</a></h3>
+<p>设置齿比图是否显示为 1X 单盘模式。</p>
+<p><strong>配置建议</strong>：</p>
+<ul>
+<li><strong>开启后</strong>：齿比图将仅显示飞轮图表，而不显示牙盘图表</li>
+<li><strong>关闭后</strong>：默认同时显示飞轮和牙盘图表</li>
+</ul>
+<hr />
+<h3 id="31-34-led-led-led-led">[3.1-3.4] 左LED / 右LED / 上LED / 下LED<a class="headerlink" href="#31-34-led-led-led-led" title="Permanent link">&para;</a></h3>
+<p>虚拟 LED 可以配置在屏幕的四条边缘，用于显示不同类型的数据。</p>
+<p><strong>作用</strong>：</p>
+<ul>
+<li>在屏幕边缘显示功率/心率区间、平均指示器、左右平衡或状态栏</li>
+</ul>
+<p><strong>影响范围</strong>：</p>
+<ul>
+<li>功率区间 LED：影响当前功率、各平均功率字段的区间可视化</li>
+<li>心率区间 LED：影响当前心率字段的区间可视化</li>
+<li>平均指示器 LED：影响平均数据的领先/落后显示</li>
+<li>左右平衡 LED：影响左右平衡字段的可视化</li>
+<li>状态栏 LED：显示电池、GPS、蓝牙连接、时间等状态图标</li>
+</ul>
+<p><strong>配置说明</strong>：</p>
+<table>
+<thead>
+<tr>
+<th>位置</th>
+<th>可选择的内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>左侧 LED（3.1）</td>
+<td>关闭 / 3秒功率区间 / 功率区间 / 心率区间 / 平均速度指示器 / 平均功率指示器</td>
+</tr>
+<tr>
+<td>右侧 LED（3.2）</td>
+<td>关闭 / 3秒功率区间 / 功率区间 / 心率区间 / 平均速度指示器 / 平均功率指示器</td>
+</tr>
+<tr>
+<td>顶部 LED（3.3）</td>
+<td>关闭 / 状态栏 / 3秒功率区间 / 功率区间 / 心率区间 / 平均速度指示器 / 平均功率指示器 / 左右功率平衡 / 3秒左右平衡</td>
+</tr>
+<tr>
+<td>底部 LED（3.4）</td>
+<td>关闭 / 状态栏 / 3秒功率区间 / 功率区间 / 心率区间 / 平均速度指示器 / 平均功率指示器 / 左右功率平衡 / 3秒左右平衡</td>
+</tr>
+</tbody>
+</table>
+<p><strong>配置建议</strong>：</p>
+<ul>
+<li><strong>关闭</strong>：该边不显示 LED</li>
+<li><strong>状态栏</strong>：仅顶部和底部可用，显示电池图标、GPS 信号状态、手机连接状态、未读消息数量、当前时间</li>
+<li><strong>功率/心率区间</strong>：7 个 LED 显示各功率/心率区间的数量分布</li>
+<li><strong>平均指示器</strong>：蓝色表示领先，红色表示落后</li>
+<li><strong>左右平衡</strong>：顶部和底部 LED 专用，每个 LED 代表一侧 5% 的偏移</li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">左右平衡 LED 错误状态</p>
+<p>如果左右平衡值显示为 100-0 或 0-100，将显示错误状态。这通常是由于双侧功率计的一侧断开连接或首次踩踏时的瞬间力量导致的。</p>
+</div>
+<hr />
+<h3 id="_18">启用页面<a class="headerlink" href="#_18" title="Permanent link">&para;</a></h3>
+<p>控制是否启用第 2 页和第 3 页。</p>
+<p><strong>影响范围</strong>：</p>
+<ul>
+<li>页面切换功能是否可用</li>
+<li>单页模式下不显示页码</li>
+</ul>
+<p><strong>配置建议</strong>：</p>
+<ul>
+<li>第 1 页始终启用且不可关闭</li>
+<li>启用多页后，用户可以通过虚拟滚动或触摸操作切换页面</li>
+<li>每个页面可独立设置 MainBlock 和左右两侧的数据块类型</li>
+</ul>
+<div class="admonition info">
+<p class="admonition-title">页面与布局的关系</p>
+<p>多页面设置允许用户配置多组不同的数据块组合，每组使用相同的布局样式但选择不同的数据块显示。</p>
+</div>
 
 
 
@@ -1850,6 +2571,8 @@
       <script src="../../assets/javascripts/bundle.13a4f30d.min.js"></script>
       
         <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="../../javascripts/designer.js"></script>
       
     
   </body>
